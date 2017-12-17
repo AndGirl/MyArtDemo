@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ybj.tabvpfragmentdemo.MainActivity">
+
+    <!--app:tabMode="scrollable"设置tablayout模式：固定或者ViewPager-->
+    <!--app:tabIndicatorColor="@android:color/holo_green_light"设置选项卡的颜色-->
+    <!--app:tabSelectedTextColor="@android:color/holo_red_light"设置文本选中的颜色-->
+    <!--app:tabTextColor="@android:color/black"设置默认字体颜色-->
+    <!--canvas.drawRect(mIndicatorLeft, getHeight() - mSelectedIndicatorHeight,
+                        mIndicatorRight, getHeight(), mSelectedIndicatorPaint);由mIndicatorLeft和mIndicatorRight共同决定的-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        app:tabIndicatorColor="@android:color/holo_green_light"
+        app:tabSelectedTextColor="@android:color/holo_red_light"
+        app:tabMode="fixed"
+        app:tabTextColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+
+            android:text="ABC"/>
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+
+            android:text="ABCD"/>
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+
+            android:text="ABCDE"/>
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
