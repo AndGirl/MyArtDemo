@@ -8,11 +8,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MagicIndicator-master" />
+            <option value="$PROJECT_DIR$/activitylifecyclerdemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bitmapdemo" />
             <option value="$PROJECT_DIR$/copybitmapdemo" />
             <option value="$PROJECT_DIR$/draweraddnavigationdemo" />
             <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/magicindicator" />
             <option value="$PROJECT_DIR$/sample" />
             <option value="$PROJECT_DIR$/svgdemo" />
             <option value="$PROJECT_DIR$/tabvpfragmentdemo" />

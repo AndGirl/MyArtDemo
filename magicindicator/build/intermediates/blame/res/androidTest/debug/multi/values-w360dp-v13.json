@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "G:\\MyArtDemo\\magicindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\a3c8fbeb6103e693bdfe553fd0105a16170d4805\\output\\res\\values-w360dp-v13\\values-w360dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
+                }
+            }
+        ]
+    }
+]
