@@ -1,6 +1,6 @@
 package com.cniao5.svgdemo;
 
-import org.junit.Test;
+import org.junito.Test;
 
 import static org.junit.Assert.*;
 

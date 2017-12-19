@@ -1,1 +1,1 @@
-include ':app', ':bitmapdemo', ':sample', ':library', ':copybitmapdemo', ':svgdemo', ':draweraddnavigationdemo', ':tabvpfragmentdemo', ':magicindicator', ':MagicIndicator-master', ':activitylifecyclerdemo', ':mesvgdemo', ':android-pathview', ':android-pathview-master'
+include ':app', ':bitmapdemo', ':sample', ':library', ':copybitmapdemo', ':svgdemo', ':draweraddnavigationdemo', ':tabvpfragmentdemo', ':magicindicator', ':MagicIndicator-master', ':activitylifecyclerdemo', ':mesvgdemo', ':android-pathview', ':android-pathview-master', ':remoteviewsdemo'
