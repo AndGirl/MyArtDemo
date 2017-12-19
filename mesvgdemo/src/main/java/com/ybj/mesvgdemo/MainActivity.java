@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
 
         final PathView pathView = (PathView) findViewById(R.id.pathView);
 
+
 //        final Path path = new Path();
 //
 //        pathView.setPath(path);
