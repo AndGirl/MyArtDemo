@@ -1,8 +1,10 @@
 package com.ybj.mesvgdemo;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 import com.eftimoff.androipathview.PathView;
@@ -14,7 +16,7 @@ import com.eftimoff.androipathview.PathView;
  * http://oss.chengxingyao.cn/svg2android/index.html
  *
  */
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,14 @@ public class MainActivity extends Activity {
 
         text.setTypeface(iconfont);
 
+        text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
+            }
+        });
+        
 //        final Path path = new Path();
 //
 //        pathView.setPath(path);

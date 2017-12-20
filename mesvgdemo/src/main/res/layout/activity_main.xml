@@ -17,6 +17,7 @@
         android:id="@+id/text"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:textColor="@color/colorAccent"
         android:text="@string/icon"/>
 
 </RelativeLayout>
