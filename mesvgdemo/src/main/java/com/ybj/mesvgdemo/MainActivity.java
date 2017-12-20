@@ -1,8 +1,9 @@
 package com.ybj.mesvgdemo;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.View;
+import android.widget.TextView;
 
 import com.eftimoff.androipathview.PathView;
 
@@ -22,6 +23,11 @@ public class MainActivity extends Activity {
 
         final PathView pathView = (PathView) findViewById(R.id.pathView);
 
+        TextView text = (TextView)findViewById(R.id.text);
+
+        Typeface iconfont = Typeface.createFromAsset(getAssets(), "iconfont.ttf");
+
+        text.setTypeface(iconfont);
 
 //        final Path path = new Path();
 //
@@ -43,19 +49,19 @@ public class MainActivity extends Activity {
 //        });
 
         //开启图片
-        pathView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                pathView.getPathAnimator()
-                        .start();
-            }
-        });
-
-        //使用svg提供的默认图片
-        //pathView.useNaturalColors();
-
-        //执行完动画是否需要保持
-        pathView.setFillAfter(true);
+//        pathView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                pathView.getPathAnimator()
+//                        .start();
+//            }
+//        });
+//
+//        //使用svg提供的默认图片
+//        //pathView.useNaturalColors();
+//
+//        //执行完动画是否需要保持
+//        pathView.setFillAfter(true);
 
 
     }

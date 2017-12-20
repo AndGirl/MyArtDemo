@@ -12,12 +12,12 @@
         "source": "C:\\Users\\lenovo\\.android\\build-cache\\a3c8fbeb6103e693bdfe553fd0105a16170d4805\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "G:\\MyArtDemo\\MagicIndicator-master\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\a3c8fbeb6103e693bdfe553fd0105a16170d4805\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "G:\\MyArtDemo\\MagicIndicator-master\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
         "source": "C:\\Users\\lenovo\\.android\\build-cache\\a3c8fbeb6103e693bdfe553fd0105a16170d4805\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\MagicIndicator-master\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\a3c8fbeb6103e693bdfe553fd0105a16170d4805\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "G:\\MyArtDemo\\MagicIndicator-master\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
