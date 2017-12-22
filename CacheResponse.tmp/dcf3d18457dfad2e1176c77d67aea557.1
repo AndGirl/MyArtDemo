@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"844a840367","applicationID":"13323906","transactionName":"c1cMREAKXVRcRhpBVlxdFklCAB5RV1BQTQ==","queueTime":1,"applicationTime":6,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teletype for Atom</title>
+  <link rel="canonical" href="https://teletype.atom.io" />
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <meta property="og:url" content="https://teletype.atom.io" />
+  <meta property="og:site_name" content="teletype.atom.io" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Code together in real time in Atom" />
+  <meta property="og:description" content="Teletype for Atom lets developers share their workspace with team members and collaborate on code in real time." />
+  <meta property="og:image" content="https://blog.atom.io/img/posts/teletype/teletype.png" />
+
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/teletype-2bbdcdc205fccb4b1d456ef7bca3bb89.css" />
+  <script src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/teletype-96f4f2246418e3c352d8f9b524a1b2bc.js" media="all"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-35', 'atom.io');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+  <section class="section hero">
+  <div class="wrapper wrapper--full">
+    <header class="header">
+      <!-- Inline SVG so the icon can be styled with CSS -->
+      <svg class="logo" viewBox="0 0 116 106" aria-label="Atom">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(2.000000, 2.000000)">
+                <path stroke="currentColor" stroke-width="3.5" stroke-linecap="round" d="M76.189086,44.0856189 C89.2231104,70.8500357 91.9124709,96.0721711 82.0341519,101.11376 C71.8486126,106.314623 52.1597207,88.0926784 38.0575146,60.4151933 C23.9553084,32.7377081 20.7806971,6.08525653 30.9662365,0.885970525 C35.4012393,-1.37856533 41.6386021,0.799236909 48.4305372,6.26187771"></path>
+                <path stroke="currentColor" stroke-width="3.5" stroke-linecap="round" d="M11.7756915,62.476615 C4.17997299,58.5368926 -0.244183357,53.7922806 0.0104217322,48.8892012 C0.602928639,37.5171948 26.1514492,29.6016632 57.0733946,31.2067353 C87.9953399,32.8133764 112.582019,43.3334237 111.989512,54.7054302 C111.733335,59.6085096 106.83926,63.8683051 98.8757784,67"></path>
+                <path stroke="currentColor" stroke-width="3.5" stroke-linecap="round" d="M43.8264623,92.4624337 C35.5466486,98.4730696 28.1774106,100.668354 23.5681106,97.6598844 C14.0266558,91.4349207 19.916404,65.2743138 36.7236579,39.2271746 C53.5309117,13.1816113 74.8910444,-2.88667479 84.4324992,3.33986485 C88.8678339,6.23329102 89.9680476,13.4337617 88.1876447,22.9272253"></path>
+                <path fill="currentColor"                                             d="M64.8406718,49.5222731 C65.6570438,53.3004613 63.2558557,57.024333 59.4775391,57.8406772 C55.6992225,58.6570215 51.9752241,56.255915 51.1588521,52.4777269 C50.3440777,48.6995387 52.7436682,44.975667 56.5219849,44.1593228 C60.2987039,43.3429785 64.0227022,45.744085 64.8406718,49.5222731"></path>
+            </g>
+        </g>
+      </svg>
+    </header>
+  </div>
+
+  <div class="wrapper intro">
+    <h2>Collaborate in real time in Atom </h2>
+    <p><strong>Teletype<sup>(beta)</sup> for Atom</strong> lets developers share their workspace with team members and collaborate on code in real time.</p>
+    <p><a href="#getting-started">Get started</a></p>
+  </div>
+</section>
+
+<section id="demo" class="section">
+  <div class="wrapper wrapper--full wrapper--video">
+    <div class="video-container">
+      <video id="video" class="video" preload="auto" poster="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/real-time-video-poster-6bd8b5ec11826178d68803200baf3172.png">
+        <source src="videos/real-time.mp4" type="video/mp4">
+      </video>
+      <div id="video-hud" class="video-hud">
+        <button id="video-button" class="video-play-button mega-octicon octicon-playback-play" aria-label="Play video"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portals" class="section">
+  <div class="wrapper">
+    <h2>Code better, together</h2>
+    <p>Working on code together in real time is valuable for knowledge sharing and producing quality software. The <strong>Teletype</strong> package for Atom aspires to make it as easy for developers to code together as it is for them to code alone.</p>
+    <p>Teletype introduces the concept of <strong>real-time "portals"</strong> for sharing workspaces. When a host opens a portal, their active tab becomes a shared workspace. There, invited collaborators can join in and make edits in real time. As the host moves between files, collaborators follow along with the active tab automatically.</p>
+    <p class="is-centered"><img class="img" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/real-time-portals-fa6fa303e261b1679024081d6229c9f9.svg" alt="Real time portals" /></p>
+  </div>
+</section>
+
+<section id="privacy" class="section">
+  <div class="wrapper">
+    <h2>How code gets shared</h2>
+    <p>Each portal comes to life in two steps:</p>
+    <ol class="privacy-list">
+      <li>
+        <p class="privacy-img-wrapper"><img class="privacy-img" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/real-time-privacy-1-f833ab7ac2d262e38392900b38cf6bdc.svg" alt="Real time privacy 1" /></p>
+        <p>First you connect to our servers to see who is collaborating. 👋 &nbsp; Hi there.</p>
+      </li>
+      <li>
+        <p class="privacy-img-wrapper"><img class="privacy-img" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/real-time-privacy-2-129c06fde7550863a2ff2e0ccb802171.svg" alt="Real time privacy 2" /></p>
+        <p>After that, collaborators share code directly with each other (<strong>peer-to-peer</strong>).</p>
+      </li>
+    </ol>
+    <p>There's no centralized server to spy on your keystrokes, and Teletype uses <strong>WebRTC</strong> to encrypt all communication between collaborators. What happens in the portal stays in the portal.</p>
+  </div>
+</section>
+
+<section id="getting-started" class="section">
+  <div class="wrapper">
+    <h2>Getting started</h2>
+    <h4>Install Atom</h4>
+    <p>Download and install <a href="https://atom.io">Atom</a>. It's free, open source, and cross-platform. You can use it on Windows, macOS, or Linux.</p>
+    <h4>Install Teletype for Atom</h4>
+    <p>Install the <a href="https://atom.io/packages/teletype">teletype</a> package to start collaborating today. If you need help, take a look at <a href="http://flight-manual.atom.io/using-atom/sections/atom-packages/">how to install Atom packages</a>.</p>
+    <h4>Share a portal</h4>
+    <p>Click the <span class="octicon octicon-radio-tower" aria-label="Teletype"></span> icon in the Atom status bar, and flip the switch to start sharing a portal to your workspace. Then invite people to join your portal by sending them your portal ID.</p>
+    <h4>Join a portal</h4>
+    <p>Once someone has provided you with their portal ID, click the <span class="octicon octicon-radio-tower" aria-label="Teletype"></span> icon in the status bar, follow the link to join a portal, and enter the portal ID. The portal opens and all collaborators can edit together in real time.</p>
+  </div>
+</section>
+
+<footer id="feedback" class="section">
+  <div class="wrapper">
+    <h2>Feedback</h2>
+    <p>We welcome your <a href="https://discuss.atom.io">feedback</a> on this beta release. If you run into any problems, please <a href="https://github.com/atom/teletype/issues">open an issue</a> or take a look at the <a href="https://github.com/atom/teletype/blob/master/CONTRIBUTING.md">contribution guide</a> and start contributing.
+
+  </div>
+  <div class="wrapper love">
+    <a class="love" href="https://github.com">
+      <span class="octicon octicon-code" aria-label="Made"></span> with <span class="octicon octicon-heart" aria-label="love"></span> by <span class="octicon octicon-logo-github" aria-label="GitHub"></span>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>

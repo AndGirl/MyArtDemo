@@ -1,0 +1,28 @@
+http://marketplace.eclipse.org/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: Apache
+Etag: "1513915283-1"
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+Link: <http://marketplace.eclipse.org/>; rel="canonical",<http://marketplace.eclipse.org/>; rel="shortlink"
+Cache-Control: public, max-age=21600
+Last-Modified: Fri, 22 Dec 2017 04:01:23 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Content-Encoding: gzip
+X-NodeID: php-vm3
+Content-Type: text/html; charset=utf-8
+Content-Length: 17516
+Date: Fri, 22 Dec 2017 07:50:57 GMT
+X-Varnish: 467547081 467169070
+Age: 10069
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: CHRIS-HIT
+X-Cache-Hits: 195
+OkHttp-Sent-Millis: 1513929059792
+OkHttp-Received-Millis: 1513929060681

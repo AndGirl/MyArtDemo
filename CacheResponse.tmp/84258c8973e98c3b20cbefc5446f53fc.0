@@ -1,0 +1,28 @@
+http://square.github.io/crossfilter/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 12 Aug 2015 08:35:19 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 00:39:49 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 3796:2897B:39C9F53:3D680DD:5A3C51FC
+Content-Length: 5530
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:42 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18720-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513929043.513355,VS0,VE351
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 9b0582ea7b06af8d9026f7b02e6f403fe495eabb
+OkHttp-Sent-Millis: 1513929044996
+OkHttp-Received-Millis: 1513929045593

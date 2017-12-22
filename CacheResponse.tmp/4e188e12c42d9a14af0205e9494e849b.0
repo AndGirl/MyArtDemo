@@ -1,0 +1,24 @@
+http://square.github.com/cube
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: http://square.github.io/cube
+X-GitHub-Request-Id: 51D4:1DC76:2EC5555:31AAB67:5A3CB952
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:42 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18748-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929042.143902,VS0,VE112
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 0f94c4ab52d6e97e0d765555f5652c3c517d92bb
+OkHttp-Sent-Millis: 1513929044612
+OkHttp-Received-Millis: 1513929044973

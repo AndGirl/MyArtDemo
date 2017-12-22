@@ -1,0 +1,13 @@
+http://ie.microsoft.com/
+GET
+0
+HTTP/1.1 301 Moved Permanently
+8
+Content-Type: text/html; charset=UTF-8
+Location: http://windows.microsoft.com/ie
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 22 Dec 2017 07:52:20 GMT
+Content-Length: 154
+OkHttp-Sent-Millis: 1513929143654
+OkHttp-Received-Millis: 1513929143971

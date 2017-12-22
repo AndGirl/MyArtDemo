@@ -1,0 +1,9 @@
+http://www.github.com/
+GET
+0
+HTTP/1.1 301 Moved Permanently
+4
+Content-length: 0
+Location: https://www.github.com/
+OkHttp-Sent-Millis: 1513929134652
+OkHttp-Received-Millis: 1513929134912

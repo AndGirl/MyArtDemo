@@ -1,0 +1,28 @@
+http://square.github.io/otto/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 27 Oct 2015 02:48:06 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 05:47:21 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: FC0E:1DC76:2E73127:31540C7:5A3C9A11
+Content-Length: 4533
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:41 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18734-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929041.266762,VS0,VE121
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 3ed0a448d45175b76ecab8a875f8231a6f82fa98
+OkHttp-Sent-Millis: 1513929043748
+OkHttp-Received-Millis: 1513929044124

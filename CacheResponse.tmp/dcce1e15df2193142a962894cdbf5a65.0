@@ -1,0 +1,25 @@
+http://choosealicense.com/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+19
+Server: GitHub.com
+Content-Type: text/html
+Strict-Transport-Security: max-age=31557600
+Location: https://choosealicense.com/
+X-GitHub-Request-Id: E054:1383:34359AA:37B4292:5A3CB173
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:20 GMT
+Via: 1.1 varnish
+Age: 2112
+Connection: keep-alive
+X-Served-By: cache-hnd18732-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513929140.461752,VS0,VE0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 4e3bb35d517681a629dd39a4245c07326bea92dc
+OkHttp-Sent-Millis: 1513929142942
+OkHttp-Received-Millis: 1513929143202

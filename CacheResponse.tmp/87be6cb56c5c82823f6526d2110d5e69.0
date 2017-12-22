@@ -1,0 +1,24 @@
+http://help.github.com/articles/what-does-the-available-for-hire-checkbox-do/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/what-does-the-available-for-hire-checkbox-do/
+X-GitHub-Request-Id: F1E0:17FF6:27AD454:2A6DCEF:5A3CB8AF
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:48 GMT
+Via: 1.1 varnish
+Age: 109
+Connection: keep-alive
+X-Served-By: cache-hnd18748-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513928989.977983,VS0,VE0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: b9902e12a157f05255b3caec3c12a777b5e21ae7
+OkHttp-Sent-Millis: 1513928991458
+OkHttp-Received-Millis: 1513928991720

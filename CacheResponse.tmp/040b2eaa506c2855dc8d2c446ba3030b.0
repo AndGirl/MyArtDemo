@@ -1,0 +1,24 @@
+http://guides.github.com/overviews/flow/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://guides.github.com/overviews/flow/
+X-GitHub-Request-Id: FE3C:17FF6:27AF6A2:2A70152:5A3CB9BB
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:27 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18744-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929148.793471,VS0,VE114
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 9e5dbb2ac0698f8f8eb98353dacb178ab54a6d96
+OkHttp-Sent-Millis: 1513929150260
+OkHttp-Received-Millis: 1513929150622

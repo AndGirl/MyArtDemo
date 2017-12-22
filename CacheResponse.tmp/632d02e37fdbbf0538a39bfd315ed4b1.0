@@ -1,0 +1,24 @@
+http://help.github.com/articles/be-social/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/be-social/
+X-GitHub-Request-Id: 814A:17FF6:27AE2E6:2A6EC5B:5A3CB917
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:43 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18724-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928984.791645,VS0,VE117
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 90702392613c286df9fbc22340f558d63f6cdbb8
+OkHttp-Sent-Millis: 1513928986271
+OkHttp-Received-Millis: 1513928986622

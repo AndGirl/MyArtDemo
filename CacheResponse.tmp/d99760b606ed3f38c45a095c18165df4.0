@@ -1,0 +1,24 @@
+http://help.github.com/articles/upgrading-your-personal-account-s-billing-plan/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/upgrading-your-personal-account-s-billing-plan/
+X-GitHub-Request-Id: 1DCA:137A:F119BC:1017E01:5A3CB91E
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:50 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18724-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928991.642933,VS0,VE127
+Vary: Accept-Encoding
+X-Fastly-Request-ID: d0496fb6192b095e37956045bcfb8b0c0ca9258c
+OkHttp-Sent-Millis: 1513928993122
+OkHttp-Received-Millis: 1513928993489

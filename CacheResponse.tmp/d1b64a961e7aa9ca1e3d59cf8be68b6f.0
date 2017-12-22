@@ -1,0 +1,18 @@
+http://www.openmdm.org/
+GET
+0
+HTTP/1.1 301 Moved Permanently
+13
+Date: Fri, 22 Dec 2017 07:51:00 GMT
+Content-Type: text/html; charset=iso-8859-1
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d27dc30af43f44b131faceac1c2cdc9561513929060; expires=Sat, 22-Dec-18 07:51:00 GMT; path=/; domain=.openmdm.org; HttpOnly
+X-Content-Type-Options: nosniff
+Location: https://www.openmdm.org/
+Cache-Control: max-age=1209600
+Expires: Fri, 05 Jan 2018 07:51:00 GMT
+Server: cloudflare
+CF-RAY: 3d117e5500d56cc4-SJC
+OkHttp-Sent-Millis: 1513929063074
+OkHttp-Received-Millis: 1513929063485

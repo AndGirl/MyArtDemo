@@ -1,0 +1,28 @@
+http://githubconstellation.com/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 20 Dec 2017 01:00:16 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 05:45:53 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 9952:240AA:1114212:18F7F75:5A3C99B8
+Content-Length: 8448
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:40 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hhn1533-HHN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928981.804435,VS0,VE96
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 4d7c7ba00d704c49b6fb06d7ab7fb65b617cb386
+OkHttp-Sent-Millis: 1513928983212
+OkHttp-Received-Millis: 1513928983588

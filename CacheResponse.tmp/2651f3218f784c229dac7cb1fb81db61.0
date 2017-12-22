@@ -1,0 +1,23 @@
+http://wiki.eclipse.org/index.php?title=Jetty/Feature/NPN&action=history
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+17
+Date: Fri, 22 Dec 2017 07:51:05 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Content-language: en
+X-UA-Compatible: IE=Edge
+Vary: Accept-Encoding,Cookie
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: private, must-revalidate, max-age=0
+Last-Modified: Tue, 11 Apr 2017 18:54:36 GMT
+Content-Encoding: gzip
+X-NodeID: php-vm5
+Keep-Alive: timeout=15, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+OkHttp-Sent-Millis: 1513929067501
+OkHttp-Received-Millis: 1513929068952

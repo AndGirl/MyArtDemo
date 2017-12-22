@@ -1,0 +1,26 @@
+http://www.mozilla.org/firefox/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 MOVED PERMANENTLY
+20
+Date: Fri, 22 Dec 2017 07:52:20 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+Cache-Control: max-age=600
+Content-Security-Policy: script-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' 'unsafe-eval' *.optimizely.com optimizely.s3.amazonaws.com www.googletagmanager.com www.google-analytics.com tagmanager.google.com www.youtube.com s.ytimg.com; img-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com data: *.optimizely.com www.googletagmanager.com www.google-analytics.com *.tiles.mapbox.com api.mapbox.com creativecommons.org ad.doubleclick.net sp.analytics.yahoo.com; default-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com; frame-src *.optimizely.com www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; style-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline'; connect-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com *.optimizely.com www.googletagmanager.com www.google-analytics.com *.tiles.mapbox.com api.mapbox.com; child-src *.optimizely.com www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com
+ETag: "d41d8cd98f00b204e9800998ecf8427e"
+Expires: Fri, 22 Dec 2017 08:02:20 GMT
+Location: https://www.mozilla.org/firefox/
+X-Backend-Server: 237ae55f667b.bedrock-prod.us-west.moz.works
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-Robots-Tag: noodp
+x-xss-protection: 1; mode=block
+CF-Cache-Status: EXPIRED
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 3d11804940899b9f-SJC
+OkHttp-Sent-Millis: 1513929143116
+OkHttp-Received-Millis: 1513929143430

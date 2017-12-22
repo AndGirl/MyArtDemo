@@ -1,0 +1,28 @@
+http://blog.atom.io/2017/06/22/a-new-approach-to-text-rendering.html
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 12 Dec 2017 17:02:11 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:02:41 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: D19E:2897B:3AF6FEF:3EA717A:5A3CB9C9
+Content-Length: 7071
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:41 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18742-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929161.891419,VS0,VE479
+Vary: Accept-Encoding
+X-Fastly-Request-ID: c87ad44fae42888de2956d96dd8f835c3d878569
+OkHttp-Sent-Millis: 1513929163374
+OkHttp-Received-Millis: 1513929164136

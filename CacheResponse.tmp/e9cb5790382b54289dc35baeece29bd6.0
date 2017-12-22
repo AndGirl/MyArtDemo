@@ -1,0 +1,15 @@
+http://try.github.io/
+GET
+0
+HTTP/1.1 301 Moved Permanently
+10
+Connection: close
+Strict-Transport-Security: max-age=31536000
+Content-Type: text/html
+Location: https://try.github.io/
+Date: Fri, 22 Dec 2017 07:52:24 GMT
+X-Rack-Cache: miss
+Server: thin 1.6.2 codename Doc Brown
+Via: 1.1 vegur
+OkHttp-Sent-Millis: 1513929146774
+OkHttp-Received-Millis: 1513929147032

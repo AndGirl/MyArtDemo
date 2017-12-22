@@ -1,0 +1,24 @@
+http://guides.github.com/features/mastering-markdown/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://guides.github.com/features/mastering-markdown/
+X-GitHub-Request-Id: 097E:17FE6:C7052E:D53892:5A3CB971
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:14 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18745-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929074.280177,VS0,VE117
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 5fc1a849dbc6b04c61a94819668691c74513137c
+OkHttp-Sent-Millis: 1513929076759
+OkHttp-Received-Millis: 1513929081802

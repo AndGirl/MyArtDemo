@@ -1,0 +1,17 @@
+http://www.codeschool.com/
+GET
+0
+HTTP/1.1 301 Moved Permanently
+12
+Date: Fri, 22 Dec 2017 07:52:26 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=de5ded501a061bd02d544fb12096c6f6a1513929146; expires=Sat, 22-Dec-18 07:52:26 GMT; path=/; domain=.codeschool.com; HttpOnly
+Status: 301 Moved Permanently
+Location: https://www.codeschool.com/
+X-Powered-By: Phusion Passenger Enterprise 5.1.7
+Server: cloudflare-nginx
+CF-RAY: 3d11806cc37a9378-SJC
+OkHttp-Sent-Millis: 1513929148774
+OkHttp-Received-Millis: 1513929149061

@@ -1,0 +1,28 @@
+http://githubconstellation.com/berlin/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 20 Dec 2017 01:00:16 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:01:58 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 8CC0:20A93:9482A7:D46CA0:5A3CB99E
+Content-Length: 21230
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:58 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hhn1541-HHN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929119.758926,VS0,VE99
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 42392962cfe5118a1174aaf953cf65ab19708838
+OkHttp-Sent-Millis: 1513929121167
+OkHttp-Received-Millis: 1513929121572

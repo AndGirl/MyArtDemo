@@ -1,0 +1,24 @@
+http://help.github.com/articles/access-permissions-on-github/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/access-permissions-on-github/
+X-GitHub-Request-Id: 18EE:FE61:3970D6C:3C95EA0:5A3CB919
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:46 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18738-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928986.227077,VS0,VE112
+Vary: Accept-Encoding
+X-Fastly-Request-ID: a069ae04c8120947aed22188a13eef0c9ad067d3
+OkHttp-Sent-Millis: 1513928988705
+OkHttp-Received-Millis: 1513928989062

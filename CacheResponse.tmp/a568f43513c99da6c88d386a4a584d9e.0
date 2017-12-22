@@ -1,0 +1,24 @@
+http://help.github.com/articles/integrating-jira-with-your-personal-projects/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/integrating-jira-with-your-personal-projects/
+X-GitHub-Request-Id: 8474:17FFC:34ACE2F:3847DD8:5A3CB91C
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:49 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18724-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928989.186578,VS0,VE113
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 51a8463f150f92fa19943ac48dc29086b978ca50
+OkHttp-Sent-Millis: 1513928991666
+OkHttp-Received-Millis: 1513928992022

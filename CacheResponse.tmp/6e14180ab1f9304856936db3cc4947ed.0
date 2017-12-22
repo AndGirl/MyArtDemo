@@ -1,0 +1,24 @@
+http://services.github.com/on-demand/community/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://services.github.com/on-demand/community/
+X-GitHub-Request-Id: 1536:2897B:3AF68CF:3EA69D5:5A3CB99D
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:58 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18726-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929118.802269,VS0,VE346
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 91a4e741bd26e81dc4d5e72a578237f77814f973
+OkHttp-Sent-Millis: 1513929120283
+OkHttp-Received-Millis: 1513929120877

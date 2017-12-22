@@ -1,0 +1,15 @@
+http://www.emoji-cheat-sheet.com/
+GET
+0
+HTTP/1.1 301 Moved Permanently
+10
+Server: nginx
+Date: Fri, 22 Dec 2017 07:50:33 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 257
+Connection: keep-alive
+Keep-Alive: timeout=15
+Location: http://www.webpagefx.com/tools/emoji-cheat-sheet/
+ngpass_ngall: 1
+OkHttp-Sent-Millis: 1513929035733
+OkHttp-Received-Millis: 1513929036178

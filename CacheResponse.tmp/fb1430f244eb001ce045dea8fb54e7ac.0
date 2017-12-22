@@ -1,0 +1,24 @@
+http://brew.sh/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://brew.sh/
+X-GitHub-Request-Id: 5BAA:28978:32574DD:3596FFC:5A3CB237
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:43 GMT
+Via: 1.1 varnish
+Age: 1820
+Connection: keep-alive
+X-Served-By: cache-sjc3139-SJC
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513929043.308987,VS0,VE0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 4fea1ef1f3b1dd156182e27b981e57ee4e1ec4a9
+OkHttp-Sent-Millis: 1513929045708
+OkHttp-Received-Millis: 1513929045962

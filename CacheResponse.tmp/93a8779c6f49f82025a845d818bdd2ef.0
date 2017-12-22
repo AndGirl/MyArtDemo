@@ -1,0 +1,24 @@
+http://help.github.com/categories/bootcamp/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/categories/bootcamp/
+X-GitHub-Request-Id: 9800:1DC72:4AC117:5128A3:5A3CB0C1
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:43 GMT
+Via: 1.1 varnish
+Age: 2134
+Connection: keep-alive
+X-Served-By: cache-hnd18722-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513928984.938140,VS0,VE0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 43e7b6c86ebb100f85935cb8a13e352033638319
+OkHttp-Sent-Millis: 1513928986416
+OkHttp-Received-Millis: 1513928986690

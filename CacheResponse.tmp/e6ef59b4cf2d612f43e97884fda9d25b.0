@@ -1,0 +1,24 @@
+http://developer.github.com/v3/repos/statuses/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://developer.github.com/v3/repos/statuses/
+X-GitHub-Request-Id: CE22:24D30:344ED2A:38163D3:5A3CB935
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:24 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18735-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929024.186046,VS0,VE110
+Vary: Accept-Encoding
+X-Fastly-Request-ID: fddbbac4a6321e50e5e3ed6438b20c21f757f171
+OkHttp-Sent-Millis: 1513929026663
+OkHttp-Received-Millis: 1513929027045

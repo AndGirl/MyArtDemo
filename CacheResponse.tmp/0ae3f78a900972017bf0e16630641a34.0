@@ -1,0 +1,28 @@
+http://24pullrequests.exercism.io/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Fri, 09 Dec 2016 00:13:45 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:02:02 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: FE3C:17FF6:27AF458:2A6FEE2:5A3CB9A2
+Content-Length: 2485
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:02 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18735-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929123.785399,VS0,VE116
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 0fc6fb5b95dc6b7866355ad74c92d215f930a4f8
+OkHttp-Sent-Millis: 1513929125268
+OkHttp-Received-Millis: 1513929125641

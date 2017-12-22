@@ -1,0 +1,24 @@
+http://help.github.com/articles/github-terms-of-service/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/github-terms-of-service/
+X-GitHub-Request-Id: 36A4:1F36C:38E5204:3C36230:5A3CAE4E
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:25 GMT
+Via: 1.1 varnish
+Age: 2802
+Connection: keep-alive
+X-Served-By: cache-hnd18721-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513929025.175019,VS0,VE0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: db624bd1a310a2fd631903d2338206fd4ec93804
+OkHttp-Sent-Millis: 1513929027652
+OkHttp-Received-Millis: 1513929027894

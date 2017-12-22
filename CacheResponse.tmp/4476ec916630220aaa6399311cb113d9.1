@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"844a840367","applicationID":"13323906","transactionName":"c1cMREAKXVRcRhpFUlNTA1dXFh5LUVtC","queueTime":3,"applicationTime":22,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <title>teletype</title>
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-015085c63e13ed6795f0914afa9fa990.css" data-turbolinks-track="true" />
+  <script src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-22643a5d3387e35bc6ac15bd505346a0.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="/QUiWh4beVmUZ8FzfRCdTLtr0j+sYkbopa59j3bX9hyWmEv+eqly+QJg4UmKdq/L4K272EoBNKl5QOEhyPY4bQ==" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-35', 'atom.io');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta property="og:url" content="https://atom.io/packages/teletype" />
+<meta property="og:site_name" content="Atom" />
+<meta property="og:title" content="teletype" />
+<meta property="og:description" content="Share your workspace with team members and collaborate on code in real time" />
+<meta property="og:type" content="website" />
+<meta property="og:author" content='https://github.com/atom' />
+  <meta property="og:image" content="https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@AtomEditor" />
+<meta property="twitter:creator" content='https://github.com/atom' />
+<meta property="twitter:title" content="teletype" />
+<meta property="twitter:description" content="Share your workspace with team members and collaborate on code in real time" />
+  <meta property="twitter:image:src" content="https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif" />
+
+  <meta name="description" content="At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it." />
+
+
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="alternate" type="application/atom+xml" title="Atom Packages and Themes" href="https://atom.io/packages.atom" />
+</head>
+<body>
+  
+
+  <div class="footer-push">
+    <nav class="top-bar" aria-label="Primary">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1><a href="/" class="logo-small" title="Atom: A hackable text editor for the 21st Century"></a></h1></li>
+      <li><a class="is-selected" href="/packages">Packages</a></li>
+      <li><a class="" href="/themes">Themes</a></li>
+      <li><a class="" href="/docs">Documentation</a></li>
+      <li><a href="http://blog.atom.io">Blog</a></li>
+      <li><a href="http://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+    <div class="top-bar-right">
+        <a href="/login?last_url=%2Fpackages%2Fteletype">
+          <span class="octicon octicon-log-in"></span> Sign in
+        </a>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="js-pjax-container">
+      
+<div class="wrapper package-show content-push">
+
+
+  <div>
+    <div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/teletype">teletype</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Share your workspace with team members and collaborate on code in real time</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:collaboration" title="Keyword: #collaboration">#collaboration</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:collaborative-editing" title="Keyword: #collaborative-editing">#collaborative-editing</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:pair-programming" title="Keyword: #pair-programming">#pair-programming</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:real-time" title="Keyword: #real-time">#real-time</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/atom">
+          <img src="https://github.com/atom.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/atom" class="author">
+          atom
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="95,665 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">95,665</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/teletype/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star teletype"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/teletype/stargazers" aria-label="193 users starred teletype">
+    193
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+
+
+
+      <div class="package-meta">
+        <ul>
+          <li><a href="https://github.com/atom/teletype"><span class="octicon octicon-repo"></span> Repo</a></li>
+          <li><a href="https://github.com/atom/teletype/issues"><span class="octicon octicon-bug"></span> Bugs</a></li>
+          <li><a href="https://github.com/atom/teletype/releases"><span class="octicon octicon-versions"></span> Versions</a></li>
+          <li>
+              <a href="https://github.com/atom/teletype/blob/7f6c15ad048c6431555ac7f841c64c21b1fa622e/LICENSE.md"><span class="octicon octicon-law"></span> License</a>
+          </li>
+        </ul>
+
+        <a href="#flag-modal" class="js-show-flag show-flag"><span class="octicon octicon-circle-slash"></span> Flag as spam or malicious</a>
+      </div>
+  </div>
+
+
+    <div class="markdown-body readme">
+          <h1>
+<a href="#teletype-for-atom"></a>Teletype for Atom</h1>
+
+<p>An Atom package that lets developers share their workspace with team members and collaborate on code in real time.</p>
+
+<p>Learn more at <a href="https://teletype.atom.io">teletype.atom.io</a>.</p>
+
+<p><img src="https://i.github-camo.com/adc3202a16c58d99323771f9bea103467fcafb22/68747470733a2f2f757365722d696d616765732e67697468756275736572636f6e74656e742e636f6d2f323938382f33323735333136372d64373831626166302d633839392d313165372d386236342d3638336162383464336138632e676966" alt="demo" data-canonical-src="https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif"></p>
+
+<h2>
+<a href="#installation"></a>Installation</h2>
+
+<h3>
+<a href="#command-line"></a>Command Line</h3>
+
+<ol>
+<li>Install <a href="https://atom.io">Atom 1.22</a> or newer</li>
+<li>
+<p>In the terminal, install the package via apm:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="source shell"><span>apm install teletype</span></span></div></pre>
+
+</li>
+</ol>
+
+<h3>
+<a href="#gui"></a>GUI</h3>
+
+<ol>
+<li>Install <a href="https://atom.io">Atom 1.22</a> or newer</li>
+<li>Launch Atom</li>
+<li>Open Settings View using <kbd>Cmd+,</kbd> on macOS or <kbd>Ctrl+,</kbd> on other platforms</li>
+<li>Click the Install tab on the left side</li>
+<li>Enter <code>teletype</code> in the search box and press <kbd>Enter</kbd>
+</li>
+<li>Click the "Install" button that appears</li>
+</ol>
+
+<h2>
+<a href="#hacking"></a>Hacking</h2>
+
+<p>This package is powered by three main components:</p>
+
+<ul>
+<li>
+<a href="https://github.com/atom/teletype-crdt">teletype-crdt</a>: The string-wise sequence CRDT that enables peer-to-peer collaborative editing.</li>
+<li>
+<a href="https://github.com/atom/teletype-server">teletype-server</a>: The server-side application that facilitates peer discovery.</li>
+<li>
+<a href="https://github.com/atom/teletype-client">teletype-client</a>: The editor-agnostic library that manages the interaction with other clients.</li>
+</ul>
+
+<h3>
+<a href="#dependencies"></a>Dependencies</h3>
+
+<p>To run teletype tests locally, you'll first need to have:</p>
+
+<ul>
+<li>Atom 1.22 or later</li>
+<li>Node 7+</li>
+<li>PostgreSQL 9.x</li>
+</ul>
+
+<h3>
+<a href="#running-locally"></a>Running locally</h3>
+
+<ol>
+<li>
+<p>Clone and bootstrap</p>
+
+<pre><code>git clone https://github.com/atom/teletype.git
+cd teletype
+createdb teletype-test
+apm install
+</code></pre>
+</li>
+<li>
+<p>Run the tests</p>
+
+<pre><code>atom --test test
+</code></pre>
+</li>
+</ol>
+    </div>
+
+</div>
+
+<div id="flag-modal" style="display:none">
+  <h2>
+    I think this package is bad news.
+  </h2>
+
+  <p>
+    Good catch. Let us know what about this package looks wrong to you, and we'll
+    investigate right away.
+  </p>
+
+  <form action="/packages/teletype/flag" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Mh/ENsZL6eKl11iD6O0Jh+6XkGOojeYPtHkq3tlPPRNZgq2SovniQjPQeLkfizsAtVH5hE7ulE5ol7ZwZ27zYg==" />
+    <textarea rows="5" name="flag[message]" id="flag_message">
+</textarea>
+    <input type="submit" name="commit" value="Flag teletype" class="button primary flag-button" />
+</form></div>
+
+
+    </div>
+
+    <div class="footer-pad"></div>
+  </div>
+
+  <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="/releases">Releases</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

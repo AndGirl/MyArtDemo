@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"844a840367","applicationID":"13323906","transactionName":"c1cMREAKXVRcRhpFUlNTA1dXFh5LXFVHVls=","queueTime":1,"applicationTime":189,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <title>Search Packages</title>
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-015085c63e13ed6795f0914afa9fa990.css" data-turbolinks-track="true" />
+  <script src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-22643a5d3387e35bc6ac15bd505346a0.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="YH6tnQf3b4eEqtp8klYdjS6NvhDrwgeU+X7y2Rpsakmqq4zZAK3wconVcUl+Kk2pUZjQ2qy8XiKo2N3hs4bxjg==" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-35', 'atom.io');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta property="og:url" content="https://atom.io/" />
+<meta property="og:site_name" content="Atom" />
+<meta property="og:title" content="A hackable text editor for the 21st Century" />
+<meta property="og:description" content="At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it." />
+<meta property="og:type" content="website" />
+<meta property="og:author" content='https://www.facebook.com/GitHub' />
+  <meta property="og:image" content="http://og.github.com/atom-mark/atom-mark@1200x630.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@AtomEditor" />
+<meta property="twitter:creator" content='@github' />
+<meta property="twitter:title" content="Atom" />
+<meta property="twitter:description" content="A hackable text editor for the 21st Century" />
+  <meta property="twitter:image:src" content="http://og.github.com/atom-logo/atom-logo@1200x630.png" />
+  <meta property="twitter:image:width" content="1200" />
+  <meta property="twitter:image:height" content="630" />
+
+  <meta name="description" content="At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it." />
+
+
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="alternate" type="application/atom+xml" title="Atom Packages and Themes" href="https://atom.io/packages.atom" />
+</head>
+<body>
+  
+
+  <div class="footer-push">
+    <nav class="top-bar" aria-label="Primary">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1><a href="/" class="logo-small" title="Atom: A hackable text editor for the 21st Century"></a></h1></li>
+      <li><a class="is-selected" href="/packages">Packages</a></li>
+      <li><a class="" href="/themes">Themes</a></li>
+      <li><a class="" href="/docs">Documentation</a></li>
+      <li><a href="http://blog.atom.io">Blog</a></li>
+      <li><a href="http://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+    <div class="top-bar-right">
+        <a href="/login?last_url=%2Fpackages%2Fsearch">
+          <span class="octicon octicon-log-in"></span> Sign in
+        </a>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="js-pjax-container">
+      <div class="wrapper search-page content-push package-search">
+  <h2 class="center index-title">Search Atom packages.</h2>
+
+  <form class="search-form" action="/packages/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <input type="search" name="q" id="q" value="keyword:react" class="search-input" placeholder="Search Packages" />
+    <input type="submit" name="commit" value="Search" class="button search-button" />
+</form>
+  <div class="package-list">
+
+        <div>
+          <div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-storybook-snippets">react-storybook-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">React &amp; React Native Storybook Snippets for Atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-native" title="Keyword: #react-native">#react-native</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:storybook" title="Keyword: #storybook">#storybook</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-storybook" title="Keyword: #react-storybook">#react-storybook</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/simsim0709">
+          <img src="https://github.com/simsim0709.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/simsim0709" class="author">
+          simsim0709
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="202 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">202</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-storybook-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-storybook-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-storybook-snippets/stargazers" aria-label="0 users starred react-storybook-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/cupcode-snippets">cupcode-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Cupcode&#39;s Atom Snipplets Package</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/cupcodeteam">
+          <img src="https://github.com/cupcodeteam.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/cupcodeteam" class="author">
+          cupcodeteam
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="28 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">28</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/cupcode-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star cupcode-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/cupcode-snippets/stargazers" aria-label="0 users starred cupcode-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-builder">react-builder</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">A collection of tools for building React applications.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:builder" title="Keyword: #builder">#builder</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/jahredhope">
+          <img src="https://github.com/jahredhope.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/jahredhope" class="author">
+          jahredhope
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="345 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">345</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-builder/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-builder"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-builder/stargazers" aria-label="0 users starred react-builder">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-function-to-class">react-function-to-class</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Convert functions to React classes in a keystroke</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:refactor" title="Keyword: #refactor">#refactor</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/germtb">
+          <img src="https://github.com/germtb.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/germtb" class="author">
+          germtb
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="367 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">367</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-function-to-class/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-function-to-class"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-function-to-class/stargazers" aria-label="0 users starred react-function-to-class">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/re-re-re-react">re-re-re-react</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Make Atom an editing powerhouse for React.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:javascript" title="Keyword: #javascript">#javascript</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/mrpotatoes">
+          <img src="https://github.com/mrpotatoes.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/mrpotatoes" class="author">
+          mrpotatoes
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="774 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">774</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/re-re-re-react/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star re-re-re-react"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/re-re-re-react/stargazers" aria-label="3 users starred re-re-re-react">
+    3
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/atom-react-mf-snippets">atom-react-mf-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Atom Snippets for React and React Router</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react router" title="Keyword: #react router">#react router</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/MentallyFriendly">
+          <img src="https://github.com/MentallyFriendly.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/MentallyFriendly" class="author">
+          MentallyFriendly
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="225 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">225</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/atom-react-mf-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star atom-react-mf-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/atom-react-mf-snippets/stargazers" aria-label="3 users starred atom-react-mf-snippets">
+    3
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/atom-mario-snippets">atom-mario-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">react snippets for mario</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react native" title="Keyword: #react native">#react native</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:mario" title="Keyword: #mario">#mario</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/maybewaityou">
+          <img src="https://github.com/maybewaityou.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/maybewaityou" class="author">
+          maybewaityou
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="16 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">16</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/atom-mario-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star atom-mario-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/atom-mario-snippets/stargazers" aria-label="1 users starred atom-mario-snippets">
+    1
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-native-components">react-native-components</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">A new way of writing React Native Code.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-native" title="Keyword: #react-native">#react-native</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:atom-react-native" title="Keyword: #atom-react-native">#atom-react-native</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:components" title="Keyword: #components">#components</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-components" title="Keyword: #react-components">#react-components</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/Dssdiego">
+          <img src="https://github.com/Dssdiego.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/Dssdiego" class="author">
+          Dssdiego
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="2,078 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">2,078</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-native-components/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-native-components"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-native-components/stargazers" aria-label="4 users starred react-native-components">
+    4
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/lowerdev-snippets">lowerdev-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">react, react-router and javascript snippets for Atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-router" title="Keyword: #react-router">#react-router</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:javascript" title="Keyword: #javascript">#javascript</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/vgesteljasper">
+          <img src="https://github.com/vgesteljasper.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/vgesteljasper" class="author">
+          vgesteljasper
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="75 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">75</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/lowerdev-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star lowerdev-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/lowerdev-snippets/stargazers" aria-label="0 users starred lowerdev-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/atom-react-intl-snippets">atom-react-intl-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">React Intl (react-intl) snippets</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-intl" title="Keyword: #react-intl">#react-intl</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:babel" title="Keyword: #babel">#babel</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/p10ns11y">
+          <img src="https://github.com/p10ns11y.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/p10ns11y" class="author">
+          p10ns11y
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="228 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">228</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/atom-react-intl-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star atom-react-intl-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/atom-react-intl-snippets/stargazers" aria-label="1 users starred atom-react-intl-snippets">
+    1
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/modern-react-snippets">modern-react-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Modern ES6 Snippets for React</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react router" title="Keyword: #react router">#react router</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:flux" title="Keyword: #flux">#flux</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/Agnostics">
+          <img src="https://github.com/Agnostics.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/Agnostics" class="author">
+          Agnostics
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="615 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">615</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/modern-react-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star modern-react-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/modern-react-snippets/stargazers" aria-label="0 users starred modern-react-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-redux-react-native-snippets">react-redux-react-native-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Snippets for React and Redux for help developer to be faster.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:redux" title="Keyword: #redux">#redux</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-native" title="Keyword: #react-native">#react-native</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/EQuimper">
+          <img src="https://github.com/EQuimper.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/EQuimper" class="author">
+          EQuimper
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="2,146 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">2,146</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-redux-react-native-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-redux-react-native-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-redux-react-native-snippets/stargazers" aria-label="2 users starred react-redux-react-native-snippets">
+    2
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-native-redux-snippets-es6-es7-atom">react-native-redux-snippets-es6-es7-atom</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Snippets for React Native, React, Redux for Atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-native" title="Keyword: #react-native">#react-native</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:redux" title="Keyword: #redux">#redux</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/ryanSN">
+          <img src="https://github.com/ryanSN.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/ryanSN" class="author">
+          ryanSN
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="449 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">449</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-native-redux-snippets-es6-es7-atom/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-native-redux-snippets-es6-es7-atom"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-native-redux-snippets-es6-es7-atom/stargazers" aria-label="4 users starred react-native-redux-snippets-es6-es7-atom">
+    4
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-redux-es7-flow-snippets">react-redux-es7-flow-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Atom Snippets for React Redux ES7 Flow snippets</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react router" title="Keyword: #react router">#react router</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:flux" title="Keyword: #flux">#flux</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/Ortee">
+          <img src="https://github.com/Ortee.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/Ortee" class="author">
+          Ortee
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="60 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">60</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-redux-es7-flow-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-redux-es7-flow-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-redux-es7-flow-snippets/stargazers" aria-label="0 users starred react-redux-es7-flow-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/fz-atom-react-snippet">fz-atom-react-snippet</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">React ES6 snippets for atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:babel" title="Keyword: #babel">#babel</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/vimalceg">
+          <img src="https://github.com/vimalceg.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/vimalceg" class="author">
+          vimalceg
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="65 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">65</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/fz-atom-react-snippet/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star fz-atom-react-snippet"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/fz-atom-react-snippet/stargazers" aria-label="0 users starred fz-atom-react-snippet">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/enzyme-snippets">enzyme-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Enzyme snippets for Atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:enzyme" title="Keyword: #enzyme">#enzyme</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:test" title="Keyword: #test">#test</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/montogeek">
+          <img src="https://github.com/montogeek.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/montogeek" class="author">
+          montogeek
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="176 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">176</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/enzyme-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star enzyme-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/enzyme-snippets/stargazers" aria-label="1 users starred enzyme-snippets">
+    1
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/egghead-react-snippets">egghead-react-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">A port of Joe Maddalone&#39;s React snippets for Sublime Text</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/jonboiser">
+          <img src="https://github.com/jonboiser.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/jonboiser" class="author">
+          jonboiser
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="1,167 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">1,167</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/egghead-react-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star egghead-react-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/egghead-react-snippets/stargazers" aria-label="4 users starred egghead-react-snippets">
+    4
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/language-ts">language-ts</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Minimal TypeScript and TypeScript React grammars</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:typescript" title="Keyword: #typescript">#typescript</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:ts" title="Keyword: #ts">#ts</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/wingyplus">
+          <img src="https://github.com/wingyplus.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/wingyplus" class="author">
+          wingyplus
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="3,451 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">3,451</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/language-ts/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star language-ts"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/language-ts/stargazers" aria-label="2 users starred language-ts">
+    2
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/alrighty-snippets">alrighty-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">React ES6 snippets for Atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:babel" title="Keyword: #babel">#babel</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/alrighty">
+          <img src="https://github.com/alrighty.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/alrighty" class="author">
+          alrighty
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="434 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">434</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/alrighty-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star alrighty-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/alrighty-snippets/stargazers" aria-label="3 users starred alrighty-snippets">
+    3
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/bdd-react-snippets">bdd-react-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">BDD React snippets for TestBuffet</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:bdd" title="Keyword: #bdd">#bdd</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:mocha" title="Keyword: #mocha">#mocha</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/catalinmiron">
+          <img src="https://github.com/catalinmiron.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/catalinmiron" class="author">
+          catalinmiron
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="316 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">316</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/bdd-react-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star bdd-react-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/bdd-react-snippets/stargazers" aria-label="0 users starred bdd-react-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-developer-snippets">react-developer-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">React ES6 snippets for atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:babel" title="Keyword: #babel">#babel</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/rkotze">
+          <img src="https://github.com/rkotze.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/rkotze" class="author">
+          rkotze
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="130 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">130</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-developer-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-developer-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-developer-snippets/stargazers" aria-label="0 users starred react-developer-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/osd-atom-snippets">osd-atom-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Snippets for react and react-native used at Osedea</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:redux" title="Keyword: #redux">#redux</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es6" title="Keyword: #es6">#es6</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/Osedea">
+          <img src="https://github.com/Osedea.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/Osedea" class="author">
+          Osedea
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="112 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">112</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/osd-atom-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star osd-atom-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/osd-atom-snippets/stargazers" aria-label="0 users starred osd-atom-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/emmet-jsx-props">emmet-jsx-props</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Atom package to extend Emmet&#39;s JSX expansions to convert string props to js props</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:emmet" title="Keyword: #emmet">#emmet</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:jsx" title="Keyword: #jsx">#jsx</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:props" title="Keyword: #props">#props</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/iJigg">
+          <img src="https://github.com/iJigg.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/iJigg" class="author">
+          iJigg
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="3,021 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">3,021</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/emmet-jsx-props/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star emmet-jsx-props"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/emmet-jsx-props/stargazers" aria-label="4 users starred emmet-jsx-props">
+    4
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/puddletown-react-snippets">puddletown-react-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">A collection of React snippets from Puddletown Design</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:javascript" title="Keyword: #javascript">#javascript</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/PuddletownDesign">
+          <img src="https://github.com/PuddletownDesign.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/PuddletownDesign" class="author">
+          PuddletownDesign
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="38 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">38</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/puddletown-react-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star puddletown-react-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/puddletown-react-snippets/stargazers" aria-label="0 users starred puddletown-react-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/html-shorcuts-react">html-shorcuts-react</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">shortcuts html and snippets for react developer</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:html" title="Keyword: #html">#html</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:shortcuts" title="Keyword: #shortcuts">#shortcuts</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/fredybustos">
+          <img src="https://github.com/fredybustos.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/fredybustos" class="author">
+          fredybustos
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="2,393 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">2,393</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/html-shorcuts-react/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star html-shorcuts-react"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/html-shorcuts-react/stargazers" aria-label="1 users starred html-shorcuts-react">
+    1
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-native-snippets-horse">react-native-snippets-horse</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">A collection of React Native snippets for Sublime Text and Atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:native" title="Keyword: #native">#native</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/Shrugs">
+          <img src="https://github.com/Shrugs.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/Shrugs" class="author">
+          Shrugs
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="976 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">976</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-native-snippets-horse/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-native-snippets-horse"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-native-snippets-horse/stargazers" aria-label="1 users starred react-native-snippets-horse">
+    1
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-es7-snippets">react-es7-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">React ES7 snippets for atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:es7" title="Keyword: #es7">#es7</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:babel" title="Keyword: #babel">#babel</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/ngthorg">
+          <img src="https://github.com/ngthorg.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/ngthorg" class="author">
+          ngthorg
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="7,012 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">7,012</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-es7-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-es7-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-es7-snippets/stargazers" aria-label="10 users starred react-es7-snippets">
+    10
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/fancy-react">fancy-react</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Automation tools and code generation for React projects</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:code generation" title="Keyword: #code generation">#code generation</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/eddiesholl">
+          <img src="https://github.com/eddiesholl.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/eddiesholl" class="author">
+          eddiesholl
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="250 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">250</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/fancy-react/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star fancy-react"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/fancy-react/stargazers" aria-label="0 users starred fancy-react">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/react-native-snippets">react-native-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">React Native Snippets for Atom and Nuclide</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react-native" title="Keyword: #react-native">#react-native</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:nuclide" title="Keyword: #nuclide">#nuclide</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/aakashns">
+          <img src="https://github.com/aakashns.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/aakashns" class="author">
+          aakashns
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="19,190 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">19,190</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/react-native-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star react-native-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/react-native-snippets/stargazers" aria-label="14 users starred react-native-snippets">
+    14
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/ninghao-react-snippets">ninghao-react-snippets</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">React Snippets for Atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react" title="Keyword: #react">#react</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:react.js" title="Keyword: #react.js">#react.js</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:snippets" title="Keyword: #snippets">#snippets</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/ninghao">
+          <img src="https://github.com/ninghao.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/ninghao" class="author">
+          ninghao
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="0 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">0</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/ninghao-react-snippets/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star ninghao-react-snippets"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/ninghao-react-snippets/stargazers" aria-label="0 users starred ninghao-react-snippets">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+
+        </div>
+        <div class="pagination"><span class="previous_page disabled">&#8592; Previous</span> <em class="current">1</em> <a rel="next" href="/search?page=2&amp;q=keyword%3Areact&amp;utf8=%E2%9C%93">2</a> <a href="/search?page=3&amp;q=keyword%3Areact&amp;utf8=%E2%9C%93">3</a> <a class="next_page" rel="next" href="/search?page=2&amp;q=keyword%3Areact&amp;utf8=%E2%9C%93">Next &#8594;</a></div>
+
+  </div>
+</div>
+
+    </div>
+
+    <div class="footer-pad"></div>
+  </div>
+
+  <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="/releases">Releases</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+http://eepurl.com/cmsTmL
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 302 Moved Temporarily
+14
+Server: openresty
+Content-Type: text/html; charset=UTF-8
+X-UA-Compatible: IE=edge,chrome=1
+Location: http://github.us11.list-manage1.com/subscribe?u=9d7ced8c4bbd6c2f238673f0f&id=1165274184
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Content-Length: 20
+Cache-Control: max-age=300
+Expires: Fri, 22 Dec 2017 07:57:13 GMT
+Date: Fri, 22 Dec 2017 07:52:13 GMT
+Connection: keep-alive
+Set-Cookie: _AVESTA_ENVIRONMENT=prod; path=/
+OkHttp-Sent-Millis: 1513929135525
+OkHttp-Received-Millis: 1513929135863

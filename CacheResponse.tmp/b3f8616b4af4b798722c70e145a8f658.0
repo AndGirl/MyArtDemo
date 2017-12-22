@@ -1,0 +1,28 @@
+http://square.github.io/spoon/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Mon, 26 Oct 2015 19:34:39 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 07:18:43 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 6E62:24D30:3433C9D:37F99F8:5A3CAF7A
+Content-Length: 4792
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:41 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18744-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929041.347969,VS0,VE116
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 0bea293b499e49d35b7b3d0630f1f03ad4e4e74a
+OkHttp-Sent-Millis: 1513929043829
+OkHttp-Received-Millis: 1513929044193

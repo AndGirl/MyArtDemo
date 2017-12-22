@@ -1,0 +1,28 @@
+http://githubconstellation.com/stockholm/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 20 Dec 2017 01:00:16 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:01:58 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 27B8:731C:7CDD556:B4EEB96:5A3CB99E
+Content-Length: 18720
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:58 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hhn1551-HHN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929119.746735,VS0,VE100
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 2e0718d58f9f6b01c132057d6b62673fe5846dc2
+OkHttp-Sent-Millis: 1513929121142
+OkHttp-Received-Millis: 1513929121564

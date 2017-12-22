@@ -1,0 +1,24 @@
+http://help.github.com/articles/downgrading-an-app-for-your-personal-account/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/downgrading-an-app-for-your-personal-account/
+X-GitHub-Request-Id: 522E:1383:344B160:37CAFBB:5A3CB922
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:55 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18750-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928994.735785,VS0,VE1406
+Vary: Accept-Encoding
+X-Fastly-Request-ID: f31dbab7b764477c47f16500b1cd6a680aadfa1d
+OkHttp-Sent-Millis: 1513928996200
+OkHttp-Received-Millis: 1513928997856

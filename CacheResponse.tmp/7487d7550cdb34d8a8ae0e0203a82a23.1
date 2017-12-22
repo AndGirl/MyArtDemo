@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"844a840367","applicationID":"13323906","transactionName":"c1cMREAKXVRcRhpFUlNTA1dXFh5LUVtC","queueTime":2,"applicationTime":21,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <title>hydrogen</title>
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-015085c63e13ed6795f0914afa9fa990.css" data-turbolinks-track="true" />
+  <script src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-22643a5d3387e35bc6ac15bd505346a0.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="RBvkuCBMNctqxZCS89lRGT9j8pY1zjT/u/r57fuK9lgxr2KlMVEgOI0fvwJb5H2Tw1kGBcegits5gp/7fyuzKg==" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-35', 'atom.io');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta property="og:url" content="https://atom.io/packages/hydrogen" />
+<meta property="og:site_name" content="Atom" />
+<meta property="og:title" content="hydrogen" />
+<meta property="og:description" content="Run code interactively, inspect data, and plot. All the power of Jupyter kernels, inside your favorite text editor." />
+<meta property="og:type" content="website" />
+<meta property="og:author" content='https://github.com/nteract' />
+  <meta property="og:image" content="https://cdn.rawgit.com/nteract/hydrogen/17eda245/static/animate-logo.svg" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@AtomEditor" />
+<meta property="twitter:creator" content='https://github.com/nteract' />
+<meta property="twitter:title" content="hydrogen" />
+<meta property="twitter:description" content="Run code interactively, inspect data, and plot. All the power of Jupyter kernels, inside your favorite text editor." />
+  <meta property="twitter:image:src" content="https://cdn.rawgit.com/nteract/hydrogen/17eda245/static/animate-logo.svg" />
+
+  <meta name="description" content="At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it." />
+
+
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="alternate" type="application/atom+xml" title="Atom Packages and Themes" href="https://atom.io/packages.atom" />
+</head>
+<body>
+  
+
+  <div class="footer-push">
+    <nav class="top-bar" aria-label="Primary">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1><a href="/" class="logo-small" title="Atom: A hackable text editor for the 21st Century"></a></h1></li>
+      <li><a class="is-selected" href="/packages">Packages</a></li>
+      <li><a class="" href="/themes">Themes</a></li>
+      <li><a class="" href="/docs">Documentation</a></li>
+      <li><a href="http://blog.atom.io">Blog</a></li>
+      <li><a href="http://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+    <div class="top-bar-right">
+        <a href="/login?last_url=%2Fpackages%2Fhydrogen">
+          <span class="octicon octicon-log-in"></span> Sign in
+        </a>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="js-pjax-container">
+      
+<div class="wrapper package-show content-push">
+
+
+  <div>
+    <div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/hydrogen">hydrogen</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Run code interactively, inspect data, and plot. All the power of Jupyter kernels, inside your favorite text editor.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:execute" title="Keyword: #execute">#execute</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:run" title="Keyword: #run">#run</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:jupyter" title="Keyword: #jupyter">#jupyter</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:ipython" title="Keyword: #ipython">#ipython</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:julia" title="Keyword: #julia">#julia</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/nteract">
+          <img src="https://github.com/nteract.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/nteract" class="author">
+          nteract
+        </a>
+
+        <div class="meta-right">
+          <a class="linked-octicon" href="https://github.com/nteract/hydrogen/releases/tag/v2.2.0">
+            <span class="stat tooltipped tooltipped-n" aria-label="Latest version">
+              <span class="octicon octicon-versions"></span> <span class="value">2.2.0</span>
+            </span>
+          </a>
+          <span class="stat tooltipped tooltipped-n" aria-label="321,445 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">321,445</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/hydrogen/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star hydrogen"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/hydrogen/stargazers" aria-label="411 users starred hydrogen">
+    411
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+
+
+
+      <div class="package-meta">
+        <ul>
+          <li><a href="https://github.com/nteract/hydrogen"><span class="octicon octicon-repo"></span> Repo</a></li>
+          <li><a href="https://github.com/nteract/hydrogen/issues"><span class="octicon octicon-bug"></span> Bugs</a></li>
+          <li><a href="https://github.com/nteract/hydrogen/releases"><span class="octicon octicon-versions"></span> Versions</a></li>
+          <li>
+              <a href="https://github.com/nteract/hydrogen/blob/51d8cd6104225de0d68e61c51a3d6f18be1c5765/LICENSE.md"><span class="octicon octicon-law"></span> License</a>
+          </li>
+        </ul>
+
+        <a href="#flag-modal" class="js-show-flag show-flag"><span class="octicon octicon-circle-slash"></span> Flag as spam or malicious</a>
+      </div>
+  </div>
+
+
+    <div class="markdown-body readme">
+          <h1>
+<a href="#hydrogen-"></a>Hydrogen <img src="https://i.github-camo.com/9e74bd571d2566963428069319f0db831a0d2463/68747470733a2f2f63646e2e7261776769742e636f6d2f6e7465726163742f687964726f67656e2f31376564613234352f7374617469632f616e696d6174652d6c6f676f2e737667" alt="hydrogen animated logo" height="50px" align="right" data-canonical-src="https://cdn.rawgit.com/nteract/hydrogen/17eda245/static/animate-logo.svg">
+</h1>
+
+<p><a href="https://slackin-nteract.now.sh"><img src="https://i.github-camo.com/2b5d536f610e23a40e9f417b9e60f363570d5191/68747470733a2f2f736c61636b696e2d6e7465726163742e6e6f772e73682f62616467652e737667" alt="slack in" data-canonical-src="https://slackin-nteract.now.sh/badge.svg"></a>
+<a href="https://greenkeeper.io/"><img src="https://i.github-camo.com/bb5b4d06fc03eeca78567fae85643d8e995b0d33/68747470733a2f2f6261646765732e677265656e6b65657065722e696f2f6e7465726163742f687964726f67656e2e737667" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/nteract/hydrogen.svg"></a>
+<a href="https://travis-ci.org/nteract/hydrogen"><img src="https://i.github-camo.com/a3ede90c56850a7d7f6a17ca7ecebbc6bd142ebc/68747470733a2f2f7472617669732d63692e6f72672f6e7465726163742f687964726f67656e2e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://travis-ci.org/nteract/hydrogen.svg?branch=master"></a></p>
+
+<p>Hydrogen is an interactive coding environment that supports Python, R, JavaScript and <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels">other Jupyter kernels</a>.</p>
+
+<p>Checkout our <a href="https://nteract.gitbooks.io/hydrogen/">Documentation</a> and <a href="https://medium.com/nteract/hydrogen-interactive-computing-in-atom-89d291bcc4dd">Medium blog post</a> to see what you can do with Hydrogen.</p>
+
+<p><img src="https://i.github-camo.com/e17ac2bfffce4ede5cae57c3109ef7f53effc997/68747470733a2f2f636c6f75642e67697468756275736572636f6e74656e742e636f6d2f6173736574732f31333238353830382f32303336303838362f37653033653532342d616330332d313165362d393137362d3337363737663232363631392e676966" alt="hero" data-canonical-src="https://cloud.githubusercontent.com/assets/13285808/20360886/7e03e524-ac03-11e6-9176-37677f226619.gif"></p>
+
+<h2>
+<a href="#contents"></a>Contents</h2>
+
+<ol>
+<li><a href="#background">Background</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#plugins-for-hydrogen">Plugins for Hydrogen</a></li>
+<li><a href="#how-it-works">How it works</a></li>
+<li><a href="#why-hydrogen">Why "Hydrogen"?</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#changelog">Changelog</a></li>
+<li><a href="#license">License</a></li>
+</ol>
+
+<h2>
+<a href="#background"></a>Background</h2>
+
+<p>Hydrogen was inspired by Bret Victor's ideas about the power of instantaneous feedback and the design of <a href="http://lighttable.com/">Light Table</a>. Running code inline and in real time is a more natural way to develop. By bringing the interactive style of Light Table to the rock-solid usability of Atom, Hydrogen makes it easy to write code the way you want to.</p>
+
+<p>You also may be interested in our latest project – <a href="https://github.com/nteract/nteract">nteract</a> – a desktop application that wraps up the best of the web based Jupyter notebook.</p>
+
+<h2>
+<a href="#features"></a>Features</h2>
+
+<ul>
+<li>execute a line, selection, or block at a time</li>
+<li>rich media support for plots, images, and video</li>
+<li>watch expressions let you keep track of variables and re-run snippets after every change</li>
+<li>completions from the running kernel, just like autocomplete in the Chrome dev tools</li>
+<li>code can be inspected to show useful information provided by the running kernel</li>
+<li>one kernel per language (so you can run snippets from several files, all in the same namespace)</li>
+<li>interrupt or restart the kernel if anything goes wrong</li>
+<li>use a custom kernel connection (for example to run code inside Docker), read more in the "Custom kernel connection (inside Docker)" section</li>
+</ul>
+
+<h2>
+<a href="#documentation"></a><a href="https://nteract.gitbooks.io/hydrogen/">Documentation</a>
+</h2>
+
+<ul>
+<li><a href="https://nteract.gitbooks.io/hydrogen/docs/Installation.html">Installation</a></li>
+<li>
+<a href="https://nteract.gitbooks.io/hydrogen/docs/Usage/GettingStarted.html">Usage</a>
+
+<ul>
+<li><a href="https://nteract.gitbooks.io/hydrogen/docs/Usage/GettingStarted.html">Getting started</a></li>
+<li><a href="https://nteract.gitbooks.io/hydrogen/docs/Usage/Examples.html">Examples</a></li>
+<li><a href="https://nteract.gitbooks.io/hydrogen/docs/Usage/RemoteKernelConnection.html">Remote Kernels</a></li>
+</ul>
+</li>
+<li><a href="https://nteract.gitbooks.io/hydrogen/docs/Troubleshooting.html">Troubleshooting Guide</a></li>
+</ul>
+
+<h2>
+<a href="#plugins-for-hydrogen"></a>Plugins for Hydrogen</h2>
+
+<p>Hydrogen has support for plugins. Feel free to add your own to the list:</p>
+
+<ul>
+<li><a href="https://github.com/lgeiger/hydrogen-launcher">Hydrogen Launcher</a></li>
+</ul>
+
+<p>If you are interested in building a plugin take a look at our <a href="https://nteract.gitbooks.io/hydrogen/docs/PluginAPI.md">plugin API documentation</a>.</p>
+
+<h2>
+<a href="#how-it-works"></a>How it works</h2>
+
+<p>Hydrogen implements the <a href="http://jupyter-client.readthedocs.io/en/latest/messaging.html">messaging protocol</a> for <a href="https://jupyter.org/">Jupyter</a>. Jupyter (formerly IPython) uses ZeroMQ to connect a client (like Hydrogen) to a running kernel (like IJulia or iTorch). The client sends code to be executed to the kernel, which runs it and sends back results.</p>
+
+<h2>
+<a href="#why-hydrogen"></a>Why "Hydrogen"?</h2>
+
+<p>Hydrogen atoms make up 90% of Jupiter by volume.</p>
+
+<p>Plus, it was easy to make a logo.</p>
+
+<h2>
+<a href="#contributing"></a>Contributing</h2>
+
+<p>Thanks for taking the time to contribute. Take a look at our <a href="https://github.com/nteract/hydrogen/blob/master/CONTRIBUTING.md">Contributing Guide</a> to get started.</p>
+
+<h2>
+<a href="#changelog"></a>Changelog</h2>
+
+<p>Every release is documented on the <a href="https://github.com/nteract/hydrogen/releases">GitHub Releases page</a>.</p>
+
+<h2>
+<a href="#license"></a>License</h2>
+
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/nteract/hydrogen/blob/master/LICENSE.md">LICENSE.md</a> file for details</p>
+
+<p><strong><a href="#contents">⬆ back to top</a></strong></p>
+    </div>
+
+</div>
+
+<div id="flag-modal" style="display:none">
+  <h2>
+    I think this package is bad news.
+  </h2>
+
+  <p>
+    Good catch. Let us know what about this package looks wrong to you, and we'll
+    investigate right away.
+  </p>
+
+  <form action="/packages/hydrogen/flag" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NHyTfrbPZSifMChC4mqXuW+qidXfcyXh0O3YPGq8V6FByBVjp9Jw23jqB9JKV7szk5B9Ri0dm8VSlb4q7h0S0w==" />
+    <textarea rows="5" name="flag[message]" id="flag_message">
+</textarea>
+    <input type="submit" name="commit" value="Flag hydrogen" class="button primary flag-button" />
+</form></div>
+
+
+    </div>
+
+    <div class="footer-pad"></div>
+  </div>
+
+  <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="/releases">Releases</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

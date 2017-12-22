@@ -1,0 +1,28 @@
+http://mozillascience.github.io/working-open-workshop/contributing/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 19 Dec 2017 21:18:15 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:01:54 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 555C:24D25:27BBD29:2A966AA:5A3CB999
+Content-Length: 6298
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:54 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18732-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929115.508801,VS0,VE115
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 74b44364e76f30e74790c37920d9f2b12f898f16
+OkHttp-Sent-Millis: 1513929116973
+OkHttp-Received-Millis: 1513929117360

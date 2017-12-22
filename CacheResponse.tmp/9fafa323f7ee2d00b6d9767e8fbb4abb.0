@@ -1,0 +1,28 @@
+http://githubconstellation.com/amsterdam/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 20 Dec 2017 01:00:16 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:01:58 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 14A4:209B0:723A:1A1BB:5A3CB99D
+Content-Length: 19233
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:58 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hhn1533-HHN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929118.208006,VS0,VE99
+Vary: Accept-Encoding
+X-Fastly-Request-ID: bcaea29d38f874018646f1324ef6ea166e0609ee
+OkHttp-Sent-Millis: 1513929120609
+OkHttp-Received-Millis: 1513929121046

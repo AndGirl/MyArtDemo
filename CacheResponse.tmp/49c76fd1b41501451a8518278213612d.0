@@ -1,0 +1,24 @@
+http://help.github.com/articles/adding-information-to-your-personal-account-s-receipts/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/adding-information-to-your-personal-account-s-receipts/
+X-GitHub-Request-Id: 89BE:FE61:3970EA0:3C96000:5A3CB920
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:52 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18723-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928993.756938,VS0,VE119
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 8e8a9ea941bfdbeb150eb1816dbc2eb22b8c571a
+OkHttp-Sent-Millis: 1513928995237
+OkHttp-Received-Millis: 1513928995595

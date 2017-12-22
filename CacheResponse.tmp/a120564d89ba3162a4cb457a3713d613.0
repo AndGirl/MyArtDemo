@@ -1,0 +1,22 @@
+http://wiki.eclipse.org/Special:Categories
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+16
+Date: Fri, 22 Dec 2017 07:51:06 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Content-language: en
+X-UA-Compatible: IE=Edge
+Vary: Accept-Encoding,Cookie
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: private, must-revalidate, max-age=0
+Content-Encoding: gzip
+X-NodeID: php-vm5
+Content-Length: 6702
+Keep-Alive: timeout=15, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+OkHttp-Sent-Millis: 1513929068393
+OkHttp-Received-Millis: 1513929069593

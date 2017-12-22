@@ -55,6 +55,7 @@ public class PostExample {
         String json = postExample.bowlingJson("一两", "半斤");
         String response = postExample.post("http://www.roundsapp.com/post", json);
         System.out.println(response);
+
     }
 
 }

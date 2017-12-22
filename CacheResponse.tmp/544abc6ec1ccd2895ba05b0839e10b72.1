@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"844a840367","applicationID":"13323906","transactionName":"c1cMREAKXVRcRhpFUlNTA1dXFh5LXFVHVls=","queueTime":1,"applicationTime":123,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <title>Search Packages</title>
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-015085c63e13ed6795f0914afa9fa990.css" data-turbolinks-track="true" />
+  <script src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-22643a5d3387e35bc6ac15bd505346a0.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="SOun8VvXEV7B4Wn70YGuzTY8TB10Y7/UJ8w4uhp7VuyDuRCFJ+NlNJAubrlyeu8jktUUjeJBVwUGVUzW75A2qw==" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-35', 'atom.io');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta property="og:url" content="https://atom.io/" />
+<meta property="og:site_name" content="Atom" />
+<meta property="og:title" content="A hackable text editor for the 21st Century" />
+<meta property="og:description" content="At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it." />
+<meta property="og:type" content="website" />
+<meta property="og:author" content='https://www.facebook.com/GitHub' />
+  <meta property="og:image" content="http://og.github.com/atom-mark/atom-mark@1200x630.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@AtomEditor" />
+<meta property="twitter:creator" content='@github' />
+<meta property="twitter:title" content="Atom" />
+<meta property="twitter:description" content="A hackable text editor for the 21st Century" />
+  <meta property="twitter:image:src" content="http://og.github.com/atom-logo/atom-logo@1200x630.png" />
+  <meta property="twitter:image:width" content="1200" />
+  <meta property="twitter:image:height" content="630" />
+
+  <meta name="description" content="At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it." />
+
+
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="alternate" type="application/atom+xml" title="Atom Packages and Themes" href="https://atom.io/packages.atom" />
+</head>
+<body>
+  
+
+  <div class="footer-push">
+    <nav class="top-bar" aria-label="Primary">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1><a href="/" class="logo-small" title="Atom: A hackable text editor for the 21st Century"></a></h1></li>
+      <li><a class="is-selected" href="/packages">Packages</a></li>
+      <li><a class="" href="/themes">Themes</a></li>
+      <li><a class="" href="/docs">Documentation</a></li>
+      <li><a href="http://blog.atom.io">Blog</a></li>
+      <li><a href="http://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+    <div class="top-bar-right">
+        <a href="/login?last_url=%2Fpackages%2Fsearch">
+          <span class="octicon octicon-log-in"></span> Sign in
+        </a>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="js-pjax-container">
+      <div class="wrapper search-page content-push package-search">
+  <h2 class="center index-title">Search Atom packages.</h2>
+
+  <form class="search-form" action="/packages/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <input type="search" name="q" id="q" value="keyword:time" class="search-input" placeholder="Search Packages" />
+    <input type="submit" name="commit" value="Search" class="button search-button" />
+</form>
+  <div class="package-list">
+
+        <div>
+          <div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/payment-time">payment-time</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">A timer that shows how much you&#39;ve earned</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:timer" title="Keyword: #timer">#timer</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:payment time" title="Keyword: #payment time">#payment time</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/mcnickbronx">
+          <img src="https://github.com/mcnickbronx.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/mcnickbronx" class="author">
+          mcnickbronx
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="54 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">54</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/payment-time/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star payment-time"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/payment-time/stargazers" aria-label="0 users starred payment-time">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/timekeeper">timekeeper</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Timekeeper handles all of your time tracking needs from within Atom.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:timekeeper" title="Keyword: #timekeeper">#timekeeper</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time tracking" title="Keyword: #time tracking">#time tracking</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time tracker" title="Keyword: #time tracker">#time tracker</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time management" title="Keyword: #time management">#time management</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/skulled">
+          <img src="https://github.com/skulled.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/skulled" class="author">
+          skulled
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="319 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">319</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/timekeeper/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star timekeeper"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/timekeeper/stargazers" aria-label="4 users starred timekeeper">
+    4
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/epoch-times">epoch-times</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Convert selected text from epoch time to human time (and vice versa).</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:epoch" title="Keyword: #epoch">#epoch</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/joshrickard">
+          <img src="https://github.com/joshrickard.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/joshrickard" class="author">
+          joshrickard
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="193 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">193</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/epoch-times/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star epoch-times"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/epoch-times/stargazers" aria-label="2 users starred epoch-times">
+    2
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/reergymerej-clock">reergymerej-clock</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">displays a clock in the footer</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:clock" title="Keyword: #clock">#clock</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/reergymerej">
+          <img src="https://github.com/reergymerej.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/reergymerej" class="author">
+          reergymerej
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="38 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">38</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/reergymerej-clock/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star reergymerej-clock"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/reergymerej-clock/stargazers" aria-label="0 users starred reergymerej-clock">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/punchclock">punchclock</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Punchclock tracks time on projects, forked from Timekeeper.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:punchclock" title="Keyword: #punchclock">#punchclock</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:timekeeper" title="Keyword: #timekeeper">#timekeeper</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time tracking" title="Keyword: #time tracking">#time tracking</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time tracker" title="Keyword: #time tracker">#time tracker</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time management" title="Keyword: #time management">#time management</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/queenp">
+          <img src="https://github.com/queenp.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/queenp" class="author">
+          queenp
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="1,174 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">1,174</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/punchclock/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star punchclock"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/punchclock/stargazers" aria-label="9 users starred punchclock">
+    9
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/epoch-converter">epoch-converter</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Unix Epoch converter for Atom editor</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:epoch" title="Keyword: #epoch">#epoch</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:unix" title="Keyword: #unix">#unix</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/Melecio">
+          <img src="https://github.com/Melecio.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/Melecio" class="author">
+          Melecio
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="139 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">139</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/epoch-converter/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star epoch-converter"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/epoch-converter/stargazers" aria-label="2 users starred epoch-converter">
+    2
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/harvest-time-tracker">harvest-time-tracker</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Highly experimental: Track time with Harvest directly within Atom</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:harvest" title="Keyword: #harvest">#harvest</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time tracking" title="Keyword: #time tracking">#time tracking</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/tellenberger">
+          <img src="https://github.com/tellenberger.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/tellenberger" class="author">
+          tellenberger
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="47 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">47</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/harvest-time-tracker/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star harvest-time-tracker"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/harvest-time-tracker/stargazers" aria-label="0 users starred harvest-time-tracker">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/status-bar-clock">status-bar-clock</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Display the current time inside the status bar</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:clock" title="Keyword: #clock">#clock</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:statusbar" title="Keyword: #statusbar">#statusbar</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/wstucco">
+          <img src="https://github.com/wstucco.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/wstucco" class="author">
+          wstucco
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="1,432 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">1,432</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/status-bar-clock/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star status-bar-clock"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/status-bar-clock/stargazers" aria-label="11 users starred status-bar-clock">
+    11
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/clock">clock</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Display time in status bar</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:clock" title="Keyword: #clock">#clock</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:statusbar" title="Keyword: #statusbar">#statusbar</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/tong">
+          <img src="https://github.com/tong.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/tong" class="author">
+          tong
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="3,322 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">3,322</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/clock/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star clock"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/clock/stargazers" aria-label="5 users starred clock">
+    5
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/tomato-timer">tomato-timer</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">A productivity timer using the Pomodoro Technique.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:pomodoro" title="Keyword: #pomodoro">#pomodoro</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time management" title="Keyword: #time management">#time management</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:productivity" title="Keyword: #productivity">#productivity</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/timdang">
+          <img src="https://github.com/timdang.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/timdang" class="author">
+          timdang
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="435 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">435</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/tomato-timer/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star tomato-timer"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/tomato-timer/stargazers" aria-label="4 users starred tomato-timer">
+    4
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/insert-timestamp">insert-timestamp</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">This package will insert timestamp or date&amp;time to your cursor position</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:timestamp" title="Keyword: #timestamp">#timestamp</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:date" title="Keyword: #date">#date</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/alvinyangyang">
+          <img src="https://github.com/alvinyangyang.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/alvinyangyang" class="author">
+          alvinyangyang
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="1,612 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">1,612</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/insert-timestamp/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star insert-timestamp"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/insert-timestamp/stargazers" aria-label="7 users starred insert-timestamp">
+    7
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/scroll-through-time">scroll-through-time</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Two fingers scroll moves through time instead of space</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:scroll" title="Keyword: #scroll">#scroll</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:space" title="Keyword: #space">#space</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:xkcd" title="Keyword: #xkcd">#xkcd</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/mathieudutour">
+          <img src="https://github.com/mathieudutour.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/mathieudutour" class="author">
+          mathieudutour
+        </a>
+
+        <div class="meta-right">
+          <a class="linked-octicon" href="https://github.com/mathieudutour/scroll-through-time/releases/tag/v0.3.0">
+            <span class="stat tooltipped tooltipped-n" aria-label="Latest version">
+              <span class="octicon octicon-versions"></span> <span class="value">0.3.0</span>
+            </span>
+          </a>
+          <span class="stat tooltipped tooltipped-n" aria-label="14,601 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">14,601</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/scroll-through-time/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star scroll-through-time"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/scroll-through-time/stargazers" aria-label="71 users starred scroll-through-time">
+    71
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/ticker-clock">ticker-clock</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">A simple clock for the status bar</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:clock" title="Keyword: #clock">#clock</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:statusbar" title="Keyword: #statusbar">#statusbar</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/rpirritano">
+          <img src="https://github.com/rpirritano.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/rpirritano" class="author">
+          rpirritano
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="5 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">5</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/ticker-clock/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star ticker-clock"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/ticker-clock/stargazers" aria-label="1 users starred ticker-clock">
+    1
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/file-header">file-header</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Customize, add, update and cooperate your authoring information in header comment</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:author" title="Keyword: #author">#author</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:file header" title="Keyword: #file header">#file header</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:header comment" title="Keyword: #header comment">#header comment</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:modified time" title="Keyword: #modified time">#modified time</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:created time" title="Keyword: #created time">#created time</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/guiguan">
+          <img src="https://github.com/guiguan.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/guiguan" class="author">
+          guiguan
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="11,473 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">11,473</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/file-header/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star file-header"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/file-header/stargazers" aria-label="26 users starred file-header">
+    26
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/atom-clock">atom-clock</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Display a customizable clock in the status bar.</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:clock" title="Keyword: #clock">#clock</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:date" title="Keyword: #date">#date</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:statusbar" title="Keyword: #statusbar">#statusbar</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:momentjs" title="Keyword: #momentjs">#momentjs</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/b3by">
+          <img src="https://github.com/b3by.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/b3by" class="author">
+          b3by
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="310,943 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">310,943</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/atom-clock/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star atom-clock"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/atom-clock/stargazers" aria-label="301 users starred atom-clock">
+    301
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/git-time-machine">git-time-machine</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Visually interact with git commit history for a file</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:git" title="Keyword: #git">#git</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:git-history" title="Keyword: #git-history">#git-history</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:history" title="Keyword: #history">#history</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:time" title="Keyword: #time">#time</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:d3" title="Keyword: #d3">#d3</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/littlebee">
+          <img src="https://github.com/littlebee.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/littlebee" class="author">
+          littlebee
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="282,602 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">282,602</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/git-time-machine/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star git-time-machine"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/git-time-machine/stargazers" aria-label="933 users starred git-time-machine">
+    933
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/teletype">teletype</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Share your workspace with team members and collaborate on code in real time</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:collaboration" title="Keyword: #collaboration">#collaboration</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:collaborative-editing" title="Keyword: #collaborative-editing">#collaborative-editing</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:pair-programming" title="Keyword: #pair-programming">#pair-programming</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:real-time" title="Keyword: #real-time">#real-time</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/atom">
+          <img src="https://github.com/atom.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/atom" class="author">
+          atom
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="95,665 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">95,665</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/teletype/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star teletype"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/teletype/stargazers" aria-label="193 users starred teletype">
+    193
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+<div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/flexible-panels">flexible-panels</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">An Atom package that provides services to create customizable panels for Atoms Docks introduced with version 1.17</span>
+
+        <ul class="keywords">
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:console" title="Keyword: #console">#console</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:message-panel" title="Keyword: #message-panel">#message-panel</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:panel" title="Keyword: #panel">#panel</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:message" title="Keyword: #message">#message</a></li>
+              <li><a href="/packages/search?utf8=✓&amp;q=keyword:flexible" title="Keyword: #flexible">#flexible</a></li>
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/dmlux">
+          <img src="https://github.com/dmlux.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/dmlux" class="author">
+          dmlux
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="47 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">47</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/flexible-panels/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star flexible-panels"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/flexible-panels/stargazers" aria-label="0 users starred flexible-panels">
+    0
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+
+        </div>
+        
+
+  </div>
+</div>
+
+    </div>
+
+    <div class="footer-pad"></div>
+  </div>
+
+  <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="/releases">Releases</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

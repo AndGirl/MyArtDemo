@@ -1,0 +1,24 @@
+http://square.github.com/cubism/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: http://square.github.io/cubism/
+X-GitHub-Request-Id: 1458:137F:2A789BE:2D5E4F2:5A3CB952
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:42 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18744-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929042.144009,VS0,VE121
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 656d4439dd52e739434acd80b72d4ea412769011
+OkHttp-Sent-Millis: 1513929044612
+OkHttp-Received-Millis: 1513929044980

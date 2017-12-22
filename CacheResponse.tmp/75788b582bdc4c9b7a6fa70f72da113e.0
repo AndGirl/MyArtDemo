@@ -1,0 +1,28 @@
+http://githubconstellation.com/austin/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 20 Dec 2017 01:00:16 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:01:58 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 4214:2E9F5:6710F67:951DE2B:5A3CB99E
+Content-Length: 10831
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:58 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hhn1535-HHN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929119.762988,VS0,VE93
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 738dd4e410cf936ab8180aec1a9783d722d393b9
+OkHttp-Sent-Millis: 1513929121172
+OkHttp-Received-Millis: 1513929121577

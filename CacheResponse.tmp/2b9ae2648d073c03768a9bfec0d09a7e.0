@@ -1,0 +1,24 @@
+http://help.github.com/articles/paying-for-user-accounts/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/paying-for-user-accounts/
+X-GitHub-Request-Id: C788:2897B:3AF53AE:3EA5351:5A3CB91F
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:51 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18724-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928991.371792,VS0,VE346
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 6bdb1a43862d6c83fd4546145de6130b6f03c0d6
+OkHttp-Sent-Millis: 1513928993845
+OkHttp-Received-Millis: 1513928994433

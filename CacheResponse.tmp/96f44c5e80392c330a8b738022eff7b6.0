@@ -1,0 +1,24 @@
+http://help.github.com/categories/setting-up-and-managing-your-github-user-account/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/categories/setting-up-and-managing-your-github-user-account/
+X-GitHub-Request-Id: 5AE6:1383:344B02E:37CAE55:5A3CB91B
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:48 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18723-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928988.293877,VS0,VE118
+Vary: Accept-Encoding
+X-Fastly-Request-ID: d06f5f932b937dd470f3ed9a9e269581b162f875
+OkHttp-Sent-Millis: 1513928990774
+OkHttp-Received-Millis: 1513928991144

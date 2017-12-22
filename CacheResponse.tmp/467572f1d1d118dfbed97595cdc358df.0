@@ -1,0 +1,24 @@
+http://help.github.com/categories/setup/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/categories/setup/
+X-GitHub-Request-Id: DAE4:17FFC:34ACD79:3847D28:5A3CB918
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:44 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18722-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928984.275479,VS0,VE115
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 78ff03d0371a064dd0866cba4d95d0a3fa7a9291
+OkHttp-Sent-Millis: 1513928986756
+OkHttp-Received-Millis: 1513928987133

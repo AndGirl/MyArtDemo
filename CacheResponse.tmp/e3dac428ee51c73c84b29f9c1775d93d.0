@@ -1,0 +1,18 @@
+http://en.wikipedia.org/wiki/R_(programming_language)
+GET
+0
+HTTP/1.1 301 TLS Redirect
+13
+Date: Fri, 22 Dec 2017 07:52:54 GMT
+Server: Varnish
+X-Varnish: 636349385
+X-Cache: cp4031 int
+X-Cache-Status: int-front
+Set-Cookie: WMF-Last-Access=22-Dec-2017;Path=/;HttpOnly;secure;Expires=Tue, 23 Jan 2018 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=22-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue, 23 Jan 2018 00:00:00 GMT
+X-Client-IP: 171.214.139.39
+Location: https://en.wikipedia.org/wiki/R_(programming_language)
+Content-Length: 0
+Connection: keep-alive
+OkHttp-Sent-Millis: 1513929176821
+OkHttp-Received-Millis: 1513929177059

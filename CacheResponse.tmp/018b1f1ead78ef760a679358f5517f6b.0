@@ -1,0 +1,24 @@
+http://help.github.com/articles/how-does-upgrading-or-downgrading-affect-the-billing-process/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/how-does-upgrading-or-downgrading-affect-the-billing-process/
+X-GitHub-Request-Id: 3EFE:1F36C:3904DE2:3C57785:5A3CB91A
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:47 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18722-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928987.960267,VS0,VE116
+Vary: Accept-Encoding
+X-Fastly-Request-ID: c2734e0853eea9763c0a0feea8a41048f3ebe00b
+OkHttp-Sent-Millis: 1513928989440
+OkHttp-Received-Millis: 1513928989812

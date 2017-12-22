@@ -1,0 +1,24 @@
+http://help.github.com/articles/accessing-an-organization/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/accessing-an-organization/
+X-GitHub-Request-Id: 5FDE:1F36C:3904E83:3C5782A:5A3CB91E
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:50 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18724-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928990.205336,VS0,VE126
+Vary: Accept-Encoding
+X-Fastly-Request-ID: ea35109cd8b953d0284f64662166e266303278f2
+OkHttp-Sent-Millis: 1513928992684
+OkHttp-Received-Millis: 1513928993046

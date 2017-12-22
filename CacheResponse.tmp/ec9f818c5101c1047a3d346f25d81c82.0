@@ -1,0 +1,24 @@
+http://help.github.com/articles/switching-between-monthly-and-yearly-billing-for-your-personal-account/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/switching-between-monthly-and-yearly-billing-for-your-personal-account/
+X-GitHub-Request-Id: 3CB4:FE5D:2FB141C:32526E8:5A3CB91F
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:52 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18724-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928992.336743,VS0,VE114
+Vary: Accept-Encoding
+X-Fastly-Request-ID: cd50a619de9dbb9ade0544bb2aa9dd7e09ac8e45
+OkHttp-Sent-Millis: 1513928994817
+OkHttp-Received-Millis: 1513928995168

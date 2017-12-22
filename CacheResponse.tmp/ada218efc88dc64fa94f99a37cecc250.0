@@ -1,0 +1,24 @@
+http://jekyllrb.com/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://jekyllrb.com/
+X-GitHub-Request-Id: 6680:24D25:279ED48:2A77A9B:5A3CAD03
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:57 GMT
+Via: 1.1 varnish
+Age: 3226
+Connection: keep-alive
+X-Served-By: cache-sjc3137-SJC
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513929118.611568,VS0,VE0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 9ab139453772011f48bf8379adbbed1a14a49f14
+OkHttp-Sent-Millis: 1513929120027
+OkHttp-Received-Millis: 1513929120291

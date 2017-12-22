@@ -1,0 +1,27 @@
+http://blog.atom.io/page6
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+21
+Server: GitHub.com
+Content-Type: text/html
+Location: http://blog.atom.io/page6/
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:02:41 GMT
+Cache-Control: max-age=600
+X-GitHub-Request-Id: F0E0:1DC76:2EC6848:31ABF3E:5A3CB9C9
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:41 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18751-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929162.656308,VS0,VE115
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 9febff8336309ab0200b4288b2f3af79503e10c6
+OkHttp-Sent-Millis: 1513929164116
+OkHttp-Received-Millis: 1513929164500

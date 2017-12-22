@@ -1,0 +1,24 @@
+http://developer.github.com/v4/interface/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://developer.github.com/v4/interface/
+X-GitHub-Request-Id: 3E8C:2897B:3AF5AE7:3EA5A5F:5A3CB948
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:37 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18731-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929037.040819,VS0,VE349
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 6ff639f5558533729b9a271b83bbf56b2a389270
+OkHttp-Sent-Millis: 1513929039518
+OkHttp-Received-Millis: 1513929040102

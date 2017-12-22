@@ -1,0 +1,20 @@
+http://opensource.org/about
+GET
+0
+HTTP/1.1 301 Moved Permanently
+15
+Date: Mon, 18 Dec 2017 15:45:18 GMT
+Server: Apache/2.4.26
+X-Content-Type-Options: nosniff
+Location: https://opensource.org/about
+Cache-Control: max-age=1209600
+Expires: Mon, 01 Jan 2018 15:45:18 GMT
+Content-Length: 236
+Content-Type: text/html; charset=iso-8859-1
+Via: 1.1 varnish-v4, 1.1 varnish-v4
+X-Cache-Hits: 520
+X-Cache: HIT
+Age: 317222
+Connection: keep-alive
+OkHttp-Sent-Millis: 1513929143077
+OkHttp-Received-Millis: 1513929143566

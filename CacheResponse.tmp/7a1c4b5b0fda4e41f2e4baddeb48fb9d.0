@@ -1,0 +1,24 @@
+http://help.github.com/articles/about-topics/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/about-topics/
+X-GitHub-Request-Id: 9FAE:2897B:3AF52FB:3EA5281:5A3CB91B
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:47 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18751-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928988.555199,VS0,VE117
+Vary: Accept-Encoding
+X-Fastly-Request-ID: a1d65223a69c97e900df983b2c9ff85d258b2a73
+OkHttp-Sent-Millis: 1513928990036
+OkHttp-Received-Millis: 1513928990415

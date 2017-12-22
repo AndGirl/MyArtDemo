@@ -1,0 +1,24 @@
+http://help.github.com/articles/set-up-git/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/set-up-git/
+X-GitHub-Request-Id: 42D0:1DC76:2EC4E8F:31AA3F1:5A3CB915
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:43 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18751-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928984.585579,VS0,VE114
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 5cb227d998ec58ee53762a71e42a0c8ec73de2ee
+OkHttp-Sent-Millis: 1513928986063
+OkHttp-Received-Millis: 1513928986424

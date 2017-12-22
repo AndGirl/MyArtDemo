@@ -1,0 +1,20 @@
+http://contribute.jquery.org/style-guide/js/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+14
+Date: Fri, 22 Dec 2017 07:51:55 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dc4f1a06533880ec4b1e163ca924f19951513929115; expires=Sat, 22-Dec-18 07:51:55 GMT; path=/; domain=.jquery.org; HttpOnly
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.4.45-1~dotdeb+7.1
+X-Pingback: http://contribute.jquery.org/xmlrpc.php
+Link: <//contribute.jquery.org/wp-json/>; rel="https://api.w.org/"
+Server: cloudflare-nginx
+CF-RAY: 3d117faba3806c40-SJC
+Content-Encoding: gzip
+OkHttp-Sent-Millis: 1513929117895
+OkHttp-Received-Millis: 1513929118311

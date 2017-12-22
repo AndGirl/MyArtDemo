@@ -1,0 +1,27 @@
+http://githubconstellation.com/event-terms
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+21
+Server: GitHub.com
+Content-Type: text/html
+Location: http://githubconstellation.com/event-terms/
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:01:58 GMT
+Cache-Control: max-age=600
+X-GitHub-Request-Id: AC6C:1EFFF:5B58540:888CE20:5A3CB99D
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:59 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hhn1533-HHN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929119.951321,VS0,VE89
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 2c6570cafbdc5d249d0ba7583b584766faa397cd
+OkHttp-Sent-Millis: 1513929121360
+OkHttp-Received-Millis: 1513929122380

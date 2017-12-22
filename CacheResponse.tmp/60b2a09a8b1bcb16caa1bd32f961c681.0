@@ -1,0 +1,24 @@
+http://help.github.com/articles/removing-a-payment-method-associated-with-your-user-account/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/removing-a-payment-method-associated-with-your-user-account/
+X-GitHub-Request-Id: CC9C:1F36C:3904EF2:3C5789D:5A3CB920
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:52 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18724-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928992.262739,VS0,VE115
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 0cc84e625929eb8c0fdb20df7bfae9e6d507d273
+OkHttp-Sent-Millis: 1513928994741
+OkHttp-Received-Millis: 1513928995097

@@ -1,0 +1,24 @@
+http://help.github.com/articles/types-of-emails-github-sends/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/types-of-emails-github-sends/
+X-GitHub-Request-Id: EAC0:1DC72:4AE046:514A0B:5A3CB91D
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:49 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18745-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928989.405322,VS0,VE115
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 59c776d49926d49ea5ba39d9fc8bb9e209421d61
+OkHttp-Sent-Millis: 1513928991876
+OkHttp-Received-Millis: 1513928992233

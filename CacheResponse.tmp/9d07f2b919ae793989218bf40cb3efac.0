@@ -1,0 +1,24 @@
+http://help.github.com/articles/troubleshooting-a-declined-credit-card-charge/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/troubleshooting-a-declined-credit-card-charge/
+X-GitHub-Request-Id: 3CB4:FE5D:2FB1426:3252701:5A3CB920
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:52 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18744-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928992.492294,VS0,VE116
+Vary: Accept-Encoding
+X-Fastly-Request-ID: aed2a285c3b1a791456a9215afe59916e487afcb
+OkHttp-Sent-Millis: 1513928994973
+OkHttp-Received-Millis: 1513928995329

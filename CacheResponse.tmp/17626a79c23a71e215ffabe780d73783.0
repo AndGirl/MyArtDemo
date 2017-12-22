@@ -1,0 +1,28 @@
+http://flight-manual.atom.io/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Thu, 21 Dec 2017 04:47:59 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 01:31:03 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 83B4:1F371:3EEEF46:4293753:5A3C5EB9
+Content-Length: 2761
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:50 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18738-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513929171.544252,VS0,VE116
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 084f53a4698bc6c1747f9f0c751760cd5d1d39c3
+OkHttp-Sent-Millis: 1513929173027
+OkHttp-Received-Millis: 1513929173383

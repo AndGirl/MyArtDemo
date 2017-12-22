@@ -1,0 +1,24 @@
+http://help.github.com/articles/publicizing-or-hiding-organization-membership/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/publicizing-or-hiding-organization-membership/
+X-GitHub-Request-Id: 7566:1F371:4002375:43B5C2E:5A3CB91E
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:50 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18723-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928990.488383,VS0,VE128
+Vary: Accept-Encoding
+X-Fastly-Request-ID: b8e656affe10c2aab763c46fce00e2f3f7bfee24
+OkHttp-Sent-Millis: 1513928992968
+OkHttp-Received-Millis: 1513928993338

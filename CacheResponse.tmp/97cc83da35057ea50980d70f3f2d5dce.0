@@ -1,0 +1,28 @@
+http://writing.jan.io/2015/11/20/sustainable-open-source.html
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Mon, 18 Sep 2017 09:51:42 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:01:56 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 7A08:1F367:1762F7E:18B8D95:5A3CB99C
+Content-Length: 9718
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:51:56 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18723-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929116.178446,VS0,VE115
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 87e529458a385f0090c3ea310a06ca1052517a87
+OkHttp-Sent-Millis: 1513929118660
+OkHttp-Received-Millis: 1513929119021

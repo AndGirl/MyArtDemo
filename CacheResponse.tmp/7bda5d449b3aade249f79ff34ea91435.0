@@ -1,0 +1,28 @@
+http://esnext.github.io/es6-module-transpiler/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 22 Oct 2014 22:25:05 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:00:42 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: AA0E:28978:3267FD4:35A8C36:5A3CB950
+Content-Length: 1836
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:42 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18751-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929042.154493,VS0,VE340
+Vary: Accept-Encoding
+X-Fastly-Request-ID: c1469c9a48d494155f22a3a7ab5a066c60b13e7e
+OkHttp-Sent-Millis: 1513929044636
+OkHttp-Received-Millis: 1513929045239

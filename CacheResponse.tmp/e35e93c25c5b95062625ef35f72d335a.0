@@ -1,0 +1,28 @@
+http://square.github.io/moshi/1.x/moshi/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Sun, 05 Feb 2017 15:06:34 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:00:41 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 51D4:1DC76:2EC553A:31AAB4E:5A3CB951
+Content-Length: 1148
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:41 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18748-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929041.442054,VS0,VE114
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 4f4f77da55a8b17f07648a77a4458182c6b1fc6d
+OkHttp-Sent-Millis: 1513929043920
+OkHttp-Received-Millis: 1513929044285

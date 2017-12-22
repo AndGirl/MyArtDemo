@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"844a840367","applicationID":"13323906","transactionName":"c1cMREAKXVRcRhpFUlNTA1dXFh5LUVtC","queueTime":0,"applicationTime":19,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <title>file-icons</title>
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-015085c63e13ed6795f0914afa9fa990.css" data-turbolinks-track="true" />
+  <script src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-22643a5d3387e35bc6ac15bd505346a0.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="kXfgHMAB/9rtz9cLYR0TyCsPZg7x6zzf9VqBH3f+tpMNEx83lL2O6DXUG2WhO5d40w+QTyq4U1UDee6Hbml26Q==" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-35', 'atom.io');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta property="og:url" content="https://atom.io/packages/file-icons" />
+<meta property="og:site_name" content="Atom" />
+<meta property="og:title" content="file-icons" />
+<meta property="og:description" content="Assign file extension icons and colours for improved visual grepping" />
+<meta property="og:type" content="website" />
+<meta property="og:author" content='https://github.com/file-icons' />
+  <meta property="og:image" content="https://raw.githubusercontent.com/file-icons/atom/6714706f268e257100e03c9eb52819cb97ad570b/preview.png" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@AtomEditor" />
+<meta property="twitter:creator" content='https://github.com/file-icons' />
+<meta property="twitter:title" content="file-icons" />
+<meta property="twitter:description" content="Assign file extension icons and colours for improved visual grepping" />
+  <meta property="twitter:image:src" content="https://raw.githubusercontent.com/file-icons/atom/6714706f268e257100e03c9eb52819cb97ad570b/preview.png" />
+
+  <meta name="description" content="At GitHub, we’re building the text editor we’ve always wanted: hackable to the core, but approachable on the first day without ever touching a config file. We can’t wait to see what you build with it." />
+
+
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="alternate" type="application/atom+xml" title="Atom Packages and Themes" href="https://atom.io/packages.atom" />
+</head>
+<body>
+  
+
+  <div class="footer-push">
+    <nav class="top-bar" aria-label="Primary">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1><a href="/" class="logo-small" title="Atom: A hackable text editor for the 21st Century"></a></h1></li>
+      <li><a class="is-selected" href="/packages">Packages</a></li>
+      <li><a class="" href="/themes">Themes</a></li>
+      <li><a class="" href="/docs">Documentation</a></li>
+      <li><a href="http://blog.atom.io">Blog</a></li>
+      <li><a href="http://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+    <div class="top-bar-right">
+        <a href="/login?last_url=%2Fpackages%2Ffile-icons">
+          <span class="octicon octicon-log-in"></span> Sign in
+        </a>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="js-pjax-container">
+      
+<div class="wrapper package-show content-push">
+
+
+  <div>
+    <div class="grid-cell">
+  <div class="package-card card">
+
+      <div class="body css-truncate">
+        <h4 class="card-name">
+          <span class="css-truncate-target"><a href="/packages/file-icons">file-icons</a></span>
+        </h4>
+        <span class="css-truncate-target card-description">Assign file extension icons and colours for improved visual grepping</span>
+
+        <ul class="keywords">
+        </ul>
+
+      </div>
+
+    <div class="meta">
+
+        <a href="/users/file-icons">
+          <img src="https://github.com/file-icons.png" alt="" class="gravatar"/>
+        </a>
+        <a href="/users/file-icons" class="author">
+          file-icons
+        </a>
+
+        <div class="meta-right">
+          <span class="stat tooltipped tooltipped-n" aria-label="3,985,769 downloads">
+            <span class="octicon octicon-cloud-download"></span> <span class="value">3,985,769</span>
+          </span>
+
+        <span class="js-star-wrap">
+          <div class="star-box tooltipped tooltipped-nw" aria-label="You must be signed in to star packages">
+  <a
+   href="/packages/file-icons/star"
+   class="js-star-button star-button minibutton with-count disabled "
+   data-skip-pjax
+   aria-label="Star file-icons"
+   >
+    <span class="octicon octicon-star"></span>
+  </a>
+  <a class="social-count" href="/packages/file-icons/stargazers" aria-label="4814 users starred file-icons">
+    4814
+  </a>
+</div>
+
+        </span>
+      </div> <!-- meta-right -->
+    </div> <!-- meta -->
+  </div>
+</div>
+
+
+
+      <div class="package-meta">
+        <ul>
+          <li><a href="https://github.com/file-icons/atom"><span class="octicon octicon-repo"></span> Repo</a></li>
+          <li><a href="https://github.com/file-icons/atom/issues"><span class="octicon octicon-bug"></span> Bugs</a></li>
+          <li><a href="https://github.com/file-icons/atom/releases"><span class="octicon octicon-versions"></span> Versions</a></li>
+          <li>
+              <a href="https://github.com/file-icons/atom/blob/b046f8ddd0e52de0bff528750151f112893b55d0/LICENSE.md"><span class="octicon octicon-law"></span> License</a>
+          </li>
+        </ul>
+
+        <a href="#flag-modal" class="js-show-flag show-flag"><span class="octicon octicon-circle-slash"></span> Flag as spam or malicious</a>
+      </div>
+  </div>
+
+
+    <div class="markdown-body readme">
+          <h1>
+<a href="#file-icons"></a>File Icons</h1>
+
+<p>File-specific icons in Atom for improved visual grepping.</p>
+
+<p><img alt="Icon previews" width="850" src="https://i.github-camo.com/fb720dc73a9cf634fef9b11e87f0cd194284e3be/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f66696c652d69636f6e732f61746f6d2f363731343730366632363865323537313030653033633965623532383139636239376164353730622f707265766965772e706e67" data-canonical-src="https://raw.githubusercontent.com/file-icons/atom/6714706f268e257100e03c9eb52819cb97ad570b/preview.png"></p>
+
+<p>Supports the following core packages:</p>
+
+<ul>
+<li><a href="https://atom.io/packages/tree-view"><code>tree-view</code></a></li>
+<li><a href="https://atom.io/packages/tabs"><code>tabs</code></a></li>
+<li><a href="https://atom.io/packages/fuzzy-finder"><code>fuzzy-finder</code></a></li>
+<li><a href="https://atom.io/packages/find-and-replace"><code>find-and-replace</code></a></li>
+<li><a href="https://atom.io/packages/archive-view"><code>archive-view</code></a></li>
+</ul>
+
+<p>An API is offered for packages not listed above. See the <a href="https://github.com/file-icons/atom#integration-with-other-packages">integration steps</a> for more info.</p>
+
+<h2>
+<a href="#installation"></a>Installation</h2>
+
+<p>Open <strong>Settings</strong> → <strong>Install</strong> and search for <code>file-icons</code>.</p>
+
+<p>Alternatively, install through command-line:</p>
+
+<pre><code>apm install file-icons
+</code></pre>
+
+<h2>
+<a href="#customisation"></a>Customisation</h2>
+
+<p>Everything is handled using CSS classes. Use your <a href="https://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks">stylesheet</a> to change or tweak icons.</p>
+
+<p>Consult the package stylesheets to see what classes are used:</p>
+
+<ul>
+<li>
+<strong>Icons:</strong>   <a href="https://github.com/file-icons/atom/blob/v2.1.15/styles/icons.less"><code>styles/icons.less</code></a>
+</li>
+<li>
+<strong>Colours:</strong> <a href="https://github.com/file-icons/atom/blob/v2.1.15/styles/colours.less"><code>styles/colours.less</code></a>
+</li>
+<li>
+<strong>Fonts:</strong>   <a href="https://github.com/file-icons/atom/blob/v2.1.15/styles/fonts.less"><code>styles/fonts.less</code></a>
+</li>
+</ul>
+
+<h4>
+<a href="#icon-reference"></a>Icon reference</h4>
+
+<ul>
+<li>
+<a href="https://github.com/file-icons/source/blob/master/charmap.md"><strong>File-Icons</strong></a> </li>
+<li><a href="http://fontawesome.io/cheatsheet/"><strong>FontAwesome 4.7.0</strong></a></li>
+<li><a href="https://github.com/file-icons/MFixx/blob/master/charmap.md"><strong>Mfizz</strong></a></li>
+<li><a href="https://github.com/file-icons/DevOpicons/blob/master/charmap.md"><strong>Devicons</strong></a></li>
+</ul>
+
+<h3>
+<a href="#examples"></a>Examples</h3>
+
+<h4>
+<a href="#resize-an-icon"></a>Resize an icon</h4>
+
+<pre class="editor editor-colors"><div class="line"><span class="source css less"><span class="entity other attribute-name class css"><span>.html5-icon</span></span><span class="entity other attribute-name pseudo-element css"><span>:before</span></span><span class="meta brace curly less"><span>{</span></span></span></div><div class="line"><span class="source css less"><span>    </span><span class="support type property-name css"><span>font-size</span></span><span>: </span><span class="constant numeric css"><span>18</span></span><span class="keyword other unit css"><span>px</span></span><span>;</span></span></div><div class="line"><span class="source css less"><span class="meta brace curly less"><span>}</span></span></span></div><div class="line"><span class="source css less"><span> </span></span></div><div class="line"><span class="source css less"><span class="comment line double-slash less"><span class="punctuation definition comment less"><span>//</span></span><span> Resize in tab-pane only:</span><span> </span></span></span></div><div class="line"><span class="source css less"><span class="entity other attribute-name class css"><span>.tab</span></span><span> </span><span class="keyword operator less"><span>&gt;</span></span><span> </span><span class="entity other attribute-name class css"><span>.html5-icon</span></span><span class="entity other attribute-name pseudo-element css"><span>:before</span></span><span class="meta brace curly less"><span>{</span></span></span></div><div class="line"><span class="source css less"><span>    </span><span class="support type property-name css"><span>font-size</span></span><span>: </span><span class="constant numeric css"><span>18</span></span><span class="keyword other unit css"><span>px</span></span><span>;</span></span></div><div class="line"><span class="source css less"><span>    </span><span class="support type property-name css"><span>top</span></span><span>: </span><span class="constant numeric css"><span>3</span></span><span class="keyword other unit css"><span>px</span></span><span>;</span></span></div><div class="line"><span class="source css less"><span class="meta brace curly less"><span>}</span></span></span></div></pre>
+
+
+<h4>
+<a href="#choose-your-own-shades-of-orange"></a>Choose your own shades of orange</h4>
+
+<pre class="editor editor-colors"><div class="line"><span class="source css"><span class="meta selector css"><span class="entity other attribute-name class css"><span class="punctuation definition entity css"><span>.</span></span><span>dark-orange</span></span><span>   </span></span><span class="meta property-list css"><span class="punctuation section property-list begin css"><span>{</span></span><span> </span><span class="meta property-name css"><span class="support type property-name css"><span>color</span></span></span><span class="meta property-value css"><span class="punctuation separator key-value css"><span>:</span></span><span> </span><span class="constant other color rgb-value css"><span class="punctuation definition constant css"><span>#</span></span><span>6a1e05</span></span><span class="punctuation terminator rule css"><span>;</span></span></span><span> </span><span class="punctuation section property-list end css"><span>}</span></span></span></span></div><div class="line"><span class="source css"><span class="meta selector css"><span class="entity other attribute-name class css"><span class="punctuation definition entity css"><span>.</span></span><span>medium-orange</span></span><span> </span></span><span class="meta property-list css"><span class="punctuation section property-list begin css"><span>{</span></span><span> </span><span class="meta property-name css"><span class="support type property-name css"><span>color</span></span></span><span class="meta property-value css"><span class="punctuation separator key-value css"><span>:</span></span><span> </span><span class="constant other color rgb-value css"><span class="punctuation definition constant css"><span>#</span></span><span>b8743d</span></span><span class="punctuation terminator rule css"><span>;</span></span></span><span> </span><span class="punctuation section property-list end css"><span>}</span></span></span></span></div><div class="line"><span class="source css"><span class="meta selector css"><span class="entity other attribute-name class css"><span class="punctuation definition entity css"><span>.</span></span><span>light-orange</span></span><span>  </span></span><span class="meta property-list css"><span class="punctuation section property-list begin css"><span>{</span></span><span> </span><span class="meta property-name css"><span class="support type property-name css"><span>color</span></span></span><span class="meta property-value css"><span class="punctuation separator key-value css"><span>:</span></span><span> </span><span class="constant other color rgb-value css"><span class="punctuation definition constant css"><span>#</span></span><span>cf9b67</span></span><span class="punctuation terminator rule css"><span>;</span></span></span><span> </span><span class="punctuation section property-list end css"><span>}</span></span></span></span></div></pre>
+
+
+<h4>
+<a href="#bring-back-phps-blue-shield-icon"></a>Bring back PHP's blue-shield icon</h4>
+
+<pre class="editor editor-colors"><div class="line"><span class="source css"><span class="meta selector css"><span class="entity other attribute-name class css"><span class="punctuation definition entity css"><span>.</span></span><span>php-icon</span></span><span class="entity other attribute-name pseudo-element css"><span class="punctuation definition entity css"><span>:</span></span><span>before</span></span></span><span class="meta property-list css"><span class="punctuation section property-list begin css"><span>{</span></span></span></span></div><div class="line"><span class="source css"><span class="meta property-list css"><span>    </span><span class="meta property-name css"><span class="support type property-name css"><span>font-family</span></span></span><span class="meta property-value css"><span class="punctuation separator key-value css"><span>:</span></span><span> </span><span>MFizz</span><span class="punctuation terminator rule css"><span>;</span></span></span></span></span></div><div class="line"><span class="source css"><span class="meta property-list css"><span>    </span><span class="meta property-name css"><span class="support type property-name css"><span>content</span></span></span><span class="meta property-value css"><span class="punctuation separator key-value css"><span>:</span></span><span> </span><span class="string quoted double css"><span class="punctuation definition string begin css"><span>"</span></span><span class="constant character escape css"><span>\f</span></span><span>147</span><span class="punctuation definition string end css"><span>"</span></span></span><span class="punctuation terminator rule css"><span>;</span></span></span></span></span></div><div class="line"><span class="source css"><span class="meta property-list css"><span class="punctuation section property-list end css"><span>}</span></span></span></span></div></pre>
+
+
+<h4>
+<a href="#assign-icons-by-file-extension"></a>Assign icons by file extension</h4>
+
+<p>The following examples use <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">attribute selectors</a> to target specific pathnames:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="source css"><span class="meta selector css"><span class="entity other attribute-name class css"><span class="punctuation definition entity css"><span>.</span></span><span>icon</span></span><span class="meta attribute-selector css"><span class="punctuation definition entity css"><span>[</span></span><span class="entity other attribute-name attribute css"><span>data-name</span></span><span class="punctuation separator operator css"><span>$=</span></span><span class="string quoted double attribute-value css"><span class="punctuation definition string begin css"><span>"</span></span><span>.js</span><span class="punctuation definition string end css"><span>"</span></span></span><span>]</span></span><span class="entity other attribute-name pseudo-element css"><span class="punctuation definition entity css"><span>:</span></span><span>before</span></span></span><span class="meta property-list css"><span class="punctuation section property-list begin css"><span>{</span></span></span></span></div><div class="line"><span class="source css"><span class="meta property-list css"><span>    </span><span class="meta property-name css"><span class="support type property-name css"><span>font-family</span></span></span><span class="meta property-value css"><span class="punctuation separator key-value css"><span>:</span></span><span> </span><span>Devicons</span><span class="punctuation terminator rule css"><span>;</span></span></span></span></span></div><div class="line"><span class="source css"><span class="meta property-list css"><span>    </span><span class="meta property-name css"><span class="support type property-name css"><span>content</span></span></span><span class="meta property-value css"><span class="punctuation separator key-value css"><span>:</span></span><span> </span><span class="string quoted double css"><span class="punctuation definition string begin css"><span>"</span></span><span class="constant character escape css"><span>\E</span></span><span>64E</span><span class="punctuation definition string end css"><span>"</span></span></span><span class="punctuation terminator rule css"><span>;</span></span></span></span></span></div><div class="line"><span class="source css"><span class="meta property-list css"><span class="punctuation section property-list end css"><span>}</span></span></span></span></div></pre>
+
+
+<h4>
+<a href="#assign-icons-to-directories"></a>Assign icons to directories</h4>
+
+<pre class="editor editor-colors"><div class="line"><span class="source css less"><span class="entity other attribute-name class css"><span>.directory</span></span><span> </span><span class="keyword operator less"><span>&gt;</span></span><span> </span><span class="entity other attribute-name class css"><span>.header</span></span><span> </span><span class="keyword operator less"><span>&gt;</span></span><span> </span><span class="entity other attribute-name class css"><span>.icon</span></span><span class="meta brace curly less"><span>{</span></span></span></div><div class="line"><span class="source css less"><span>    </span><span class="keyword operator less"><span>&amp;</span></span><span class="meta attribute-selector css"><span class="punctuation definition entity css"><span>[</span></span><span class="entity other attribute-name attribute css"><span>data-path</span></span><span class="punctuation separator operator css"><span>$=</span></span><span class="string quoted double attribute-value css"><span class="punctuation definition string begin css"><span>"</span></span><span>.atom/packages</span><span class="punctuation definition string end css"><span>"</span></span></span><span>]</span></span><span class="entity other attribute-name pseudo-element css"><span>:before</span></span><span class="meta brace curly less"><span>{</span></span></span></div><div class="line"><span class="source css less"><span>        </span><span class="support type property-name css"><span>font-family</span></span><span>: </span><span class="string quoted double css"><span class="punctuation definition string begin css"><span>"</span></span><span>Octicons Regular</span><span class="punctuation definition string end css"><span>"</span></span></span><span>;</span></span></div><div class="line"><span class="source css less"><span>        </span><span class="support type property-name css"><span>content</span></span><span>: </span><span class="string quoted double css"><span class="punctuation definition string begin css"><span>"</span></span><span class="constant character escaped css"><span>\f</span></span><span>0c4</span><span class="punctuation definition string end css"><span>"</span></span></span><span>;</span></span></div><div class="line"><span class="source css less"><span>    </span><span class="meta brace curly less"><span>}</span></span></span></div><div class="line"><span class="source css less"><span class="meta brace curly less"><span>}</span></span></span></div></pre>
+
+
+<h2>
+<a href="#troubleshooting"></a>Troubleshooting</h2>
+
+<p><a name="error-after-installing"></a></p>
+
+<h4>
+<a href="#i-see-this-error-after-installing"></a>I see this error after installing:</h4>
+
+<blockquote>
+<p><em>"Cannot read property 'onDidChangeIcon' of undefined"</em></p>
+</blockquote>
+
+<p>A restart is needed to complete installation. Reload the window, or restart Atom.</p>
+
+<p>If this doesn't help, <a href="https://github.com/file-icons/atom/issues/new">please file an issue</a>.</p>
+
+<p><a name="npm-error-when-installing"></a></p>
+
+<h4>
+<a href="#installation-halts-with-an-npm-error"></a>Installation halts with an <code>npm</code> error:</h4>
+
+<blockquote>
+<p><em>npm ERR! cb() never called!</em></p>
+</blockquote>
+
+<p>There might be a corrupted download in your local cache.
+Delete <code>~/.atom/.apm</code>, then try again:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="text plain null-grammar"><span>rm -rf ~/.atom/.apm</span></span></div><div class="line"><span class="text plain null-grammar"><span>apm install --production file-icons</span></span></div></pre>
+
+
+<p><a name="an-icon-has-stopped-updating"></a></p>
+
+<h4>
+<a href="#an-icon-has-stopped-updating"></a>An icon has stopped updating:</h4>
+
+<p>It's probably a caching issue. Do the following:</p>
+
+<ol>
+<li>Open the command palette: <kbd>Cmd/Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+</li>
+<li>Run <code>file-icons:clear-cache</code>
+</li>
+<li>Reload the window, or restart Atom</li>
+</ol>
+
+<p><a name="the-tree-views-files-are-borked"></a></p>
+
+<h4>
+<a href="#the-tree-views-files-are-borked-and-look-like-this"></a>The tree-view's files are borked and <a href="https://cloud.githubusercontent.com/assets/714197/21516010/4b79a8a8-cd39-11e6-8394-1e3ab778af92.png">look like this</a>:</h4>
+
+<p>If you haven't restarted Atom since upgrading to <a href="https://github.com/file-icons/atom/releases/tag/v2.0.0">File-Icons v2</a>, do so now.</p>
+
+<p>If restarting doesn't help, your stylesheet probably needs updating. See below.</p>
+
+<p><a name="the-tree-view-keeps-opening-by-itself"></a></p>
+
+<h4>
+<a href="#the-tree-view-keeps-opening-by-itself-when-opening-a-project-window"></a>The tree-view keeps opening by itself when opening a project window:</h4>
+
+<ol>
+<li>Open the dev-tools: <strong>View</strong> → <strong>Developer</strong> → <strong>Toggle Developer Tools</strong>
+</li>
+<li>Click the <strong>Console</strong> tab</li>
+<li>Run the following line, then restart Atom:</li>
+</ol>
+
+<pre class="editor editor-colors"><div class="line"><span class="source js"><span>atom</span><span class="meta delimiter method period js"><span>.</span></span><span>config</span><span class="meta delimiter method period js"><span>.</span></span><span>set</span><span class="meta brace round js"><span>(</span></span><span class="string quoted double js"><span class="punctuation definition string begin js"><span>"</span></span><span>file-icons.revealTreeView</span><span class="punctuation definition string end js"><span>"</span></span></span><span class="meta delimiter object comma js"><span>, </span></span><span class="constant language boolean false js"><span>false</span></span><span class="meta brace round js"><span>)</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div></pre>
+
+
+<p><a name="my-stylesheet-has-errors-since-updating"></a></p>
+
+<h4>
+<a href="#my-stylesheet-has-errors-since-updating"></a>My stylesheet has errors since updating:</h4>
+
+<p>As of <a href="https://github.com/file-icons/atom/releases/tag/v2.0.0">v2.0</a>, classes are used for displaying icons instead of mixins. Delete lines like these from your stylesheet:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="text plain null-grammar"><span>-@import "packages/file-icons/styles/icons";</span></span></div><div class="line"><span class="text plain null-grammar"><span>-@import "packages/file-icons/styles/items";</span></span></div><div class="line"><span class="text plain null-grammar"><span>-@{pane-tab-selector},</span></span></div><div class="line"><span class="text plain null-grammar"><span>.icon-file-directory {</span></span></div><div class="line"><span class="text plain null-grammar"><span>    &amp;[data-name=".git"]:before {</span></span></div><div class="line"><span class="text plain null-grammar"><span>-       .git-icon;</span></span></div><div class="line"><span class="text plain null-grammar"><span>+       font-family: Devicons;</span></span></div><div class="line"><span class="text plain null-grammar"><span>+       content: "\E602";</span></span></div><div class="line"><span class="text plain null-grammar"><span>    }</span></span></div><div class="line"><span class="text plain null-grammar"><span>}</span></span></div></pre>
+
+
+<p>Instead of <code>@pane-tab…</code> variables, use <code>.tab &gt; .icon[data-path]</code>:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="text plain null-grammar"><span>-@pane-tab-selector,</span></span></div><div class="line"><span class="text plain null-grammar"><span>-@pane-tab-temp-selector,</span></span></div><div class="line"><span class="text plain null-grammar"><span>-@pane-tab-override {</span></span></div><div class="line"><span class="text plain null-grammar"><span>+.tab &gt; .icon {</span></span></div><div class="line"><span class="text plain null-grammar"><span>    &amp;[data-path$=".to.file"] {</span></span></div><div class="line"><span class="text plain null-grammar"><span> </span></span></div><div class="line"><span class="text plain null-grammar"><span>    }</span></span></div><div class="line"><span class="text plain null-grammar"><span>}</span></span></div></pre>
+
+
+<p>These CSS classes are no longer used, so delete them:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="text plain null-grammar"><span>-.file-icons-force-show-icons,</span></span></div><div class="line"><span class="text plain null-grammar"><span>-.file-icons-tab-pane-icon,</span></span></div><div class="line"><span class="text plain null-grammar"><span>-.file-icons-on-changes</span></span></div></pre>
+
+
+<h4>
+<a href="#its-something-else"></a>It's something else.</h4>
+
+<p>Please <a href="https://github.com/file-icons/atom/issues/new">file an issue</a>. Include screenshots if necessary.</p>
+
+<h2>
+<a href="#integration-with-other-packages"></a>Integration with other packages</h2>
+
+<p>If you're a package author, you can integrate File-Icons using Atom's services API.</p>
+
+<p>First, add this to your <code>package.json</code> file:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="source json"><span class="string quoted double json"><span class="punctuation definition string begin json"><span>"</span></span><span>consumedServices</span><span class="punctuation definition string end json"><span>"</span></span></span><span>: </span><span class="meta structure dictionary json"><span class="punctuation definition dictionary begin json"><span>{</span></span></span></span></div><div class="line"><span class="source json"><span class="meta structure dictionary json"><span>    </span><span class="string quoted double json"><span class="punctuation definition string begin json"><span>"</span></span><span>file-icons.element-icons</span><span class="punctuation definition string end json"><span>"</span></span></span><span class="meta structure dictionary value json"><span class="punctuation separator dictionary key-value json"><span>:</span></span><span> </span><span class="meta structure dictionary json"><span class="punctuation definition dictionary begin json"><span>{</span></span></span></span></span></span></div><div class="line"><span class="source json"><span class="meta structure dictionary json"><span class="meta structure dictionary value json"><span class="meta structure dictionary json"><span>        </span><span class="string quoted double json"><span class="punctuation definition string begin json"><span>"</span></span><span>versions</span><span class="punctuation definition string end json"><span>"</span></span></span><span class="meta structure dictionary value json"><span class="punctuation separator dictionary key-value json"><span>:</span></span><span> </span><span class="meta structure dictionary json"><span class="punctuation definition dictionary begin json"><span>{</span></span></span></span></span></span></span></span></div><div class="line"><span class="source json"><span class="meta structure dictionary json"><span class="meta structure dictionary value json"><span class="meta structure dictionary json"><span class="meta structure dictionary value json"><span class="meta structure dictionary json"><span>            </span><span class="string quoted double json"><span class="punctuation definition string begin json"><span>"</span></span><span>1.0.0</span><span class="punctuation definition string end json"><span>"</span></span></span><span class="meta structure dictionary value json"><span class="punctuation separator dictionary key-value json"><span>:</span></span><span> </span><span class="string quoted double json"><span class="punctuation definition string begin json"><span>"</span></span><span>consumeElementIcons</span><span class="punctuation definition string end json"><span>"</span></span></span></span></span></span></span></span></span></span></div><div class="line"><span class="source json"><span class="meta structure dictionary json"><span class="meta structure dictionary value json"><span class="meta structure dictionary json"><span class="meta structure dictionary value json"><span class="meta structure dictionary json"><span class="meta structure dictionary value json"><span>        </span></span><span class="punctuation definition dictionary end json"><span>}</span></span></span></span></span></span></span></span></div><div class="line"><span class="source json"><span class="meta structure dictionary json"><span class="meta structure dictionary value json"><span class="meta structure dictionary json"><span class="meta structure dictionary value json"><span>    </span></span><span class="punctuation definition dictionary end json"><span>}</span></span></span></span></span></span></div><div class="line"><span class="source json"><span class="meta structure dictionary json"><span class="punctuation definition dictionary end json"><span>}</span></span></span></span></div></pre>
+
+
+<p>Secondly, add a function named <code>consumeElementIcons</code> (or whatever you named it) to your package's main export:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="source js"><span class="storage modifier js"><span>let</span></span><span> addIconToElement</span><span class="punctuation terminator statement js"><span>;</span></span></span></div><div class="line"><span class="source js"><span class="meta function js"><span class="support class js"><span>module.exports</span></span><span>.</span><span class="entity name function js"><span>consumeElementIcons</span></span><span> </span><span class="keyword operator js"><span>=</span></span><span> </span><span class="storage type function js"><span>function</span></span><span class="punctuation definition parameters begin js"><span>(</span></span><span class="variable parameter function js"><span>func</span></span><span class="punctuation definition parameters end js"><span>)</span></span></span><span class="meta brace curly js"><span>{</span></span></span></div><div class="line"><span class="source js"><span>    addIconToElement </span><span class="keyword operator js"><span>=</span></span><span> func</span><span class="punctuation terminator statement js"><span>;</span></span></span></div><div class="line"><span class="source js"><span class="meta brace curly js"><span>}</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div></pre>
+
+
+<p>Then call the function it gets passed to display icons in the DOM:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="source js"><span class="storage modifier js"><span>let</span></span><span> fileIcon </span><span class="keyword operator js"><span>=</span></span><span> </span><span class="support class js"><span>document</span></span><span class="meta delimiter method period js"><span>.</span></span><span>querySelector</span><span class="meta brace round js"><span>(</span></span><span class="string quoted double js"><span class="punctuation definition string begin js"><span>"</span></span><span>li.file-entry &gt; span.icon</span><span class="punctuation definition string end js"><span>"</span></span></span><span class="meta brace round js"><span>)</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div><div class="line"><span class="source js"><span>addIconToElement</span><span class="meta brace round js"><span>(</span></span><span>fileIcon</span><span class="meta delimiter object comma js"><span>, </span></span><span class="string quoted double js"><span class="punctuation definition string begin js"><span>"</span></span><span>/path/to/file.txt</span><span class="punctuation definition string end js"><span>"</span></span></span><span class="meta brace round js"><span>)</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div></pre>
+
+
+<p>The returned value is a <a href="https://atom.io/docs/api/latest/Disposable"><code>Disposable</code></a> which clears the icon from memory once it's no longer needed:</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="source js"><span class="storage modifier js"><span>const</span></span><span> disposable </span><span class="keyword operator js"><span>=</span></span><span> addIconToElement</span><span class="meta brace round js"><span>(</span></span><span>fileIcon</span><span class="meta delimiter object comma js"><span>, </span></span><span class="string quoted double js"><span class="punctuation definition string begin js"><span>"</span></span><span>/path/to/file.txt</span><span class="punctuation definition string end js"><span>"</span></span></span><span class="meta brace round js"><span>)</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div><div class="line"><span class="source js"><span>fileIcon</span><span class="meta delimiter method period js"><span>.</span></span><span>onDestroy</span><span class="meta brace round js"><span>(</span><span>(</span><span>)</span></span><span> </span><span class="keyword operator js"><span>=</span><span>&gt;</span></span><span> disposable</span><span class="meta delimiter method period js"><span>.</span></span><span>dispose</span><span class="meta brace round js"><span>(</span><span>)</span><span>)</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div></pre>
+
+
+<p><strong>NOTE:</strong> Remember to remove any default icon-classes <em>before</em> calling the service handler!</p>
+
+<pre class="editor editor-colors"><div class="line"><span class="text plain null-grammar"><span> let fileIcon = document.querySelector("li.file-entry &gt; span.icon");</span></span></div><div class="line"><span class="text plain null-grammar"><span>+fileIcon.classList.remove("icon-file-text");</span></span></div><div class="line"><span class="text plain null-grammar"><span> const disposable = addIconToElement(fileIcon, "/path/to/file.txt");</span></span></div></pre>
+
+
+<h2>
+<a href="#acknowledgements"></a>Acknowledgements</h2>
+
+<p>Originally based on <a href="https://github.com/sommerper/filetype-color">sommerper/filetype-color</a>, but now sporting a shiny new file-icons
+API in <code>v2</code> thanks to <a href="https://github.com/Alhadis">Alhadis</a>! Also thanks to all the <a href="https://github.com/file-icons/atom/graphs/contributors">contributors</a>.</p>
+    </div>
+
+</div>
+
+<div id="flag-modal" style="display:none">
+  <h2>
+    I think this package is bad news.
+  </h2>
+
+  <p>
+    Good catch. Let us know what about this package looks wrong to you, and we'll
+    investigate right away.
+  </p>
+
+  <form action="/packages/file-icons/flag" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="g7YTv/KrAys/287fzY/EVzZeWehE9TUYS5vlr6fOVEIf0uyUphdyGefAArENqUDnzl6vqZ+mWpK9uIo3vlmUOA==" />
+    <textarea rows="5" name="flag[message]" id="flag_message">
+</textarea>
+    <input type="submit" name="commit" value="Flag file-icons" class="button primary flag-button" />
+</form></div>
+
+
+    </div>
+
+    <div class="footer-pad"></div>
+  </div>
+
+  <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="/releases">Releases</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

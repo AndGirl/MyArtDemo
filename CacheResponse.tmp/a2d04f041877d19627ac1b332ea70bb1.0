@@ -1,0 +1,28 @@
+http://blog.atom.io/2017/08/08/atom-1-19.html
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 12 Dec 2017 17:02:11 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:02:40 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 7DC0:1DC7A:398E50B:3D1CDD9:5A3CB9C8
+Content-Length: 3983
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:40 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18733-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929161.752231,VS0,VE112
+Vary: Accept-Encoding
+X-Fastly-Request-ID: b0c1fe3a406345dc358e10aa977860ceaf13afb6
+OkHttp-Sent-Millis: 1513929163234
+OkHttp-Received-Millis: 1513929163590

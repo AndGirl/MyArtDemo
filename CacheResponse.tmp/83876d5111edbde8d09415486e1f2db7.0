@@ -1,0 +1,28 @@
+http://square.github.io/cube/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Mon, 06 May 2013 22:01:10 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 03:37:08 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 8FE0:24D30:33AE6AC:376B30B:5A3C7B8C
+Content-Length: 3431
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:43 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18740-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513929043.119880,VS0,VE118
+Vary: Accept-Encoding
+X-Fastly-Request-ID: ed0634fdbfb325c79725ecb23fc7aa71e597ef33
+OkHttp-Sent-Millis: 1513929045593
+OkHttp-Received-Millis: 1513929045962

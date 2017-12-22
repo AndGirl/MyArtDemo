@@ -1,0 +1,24 @@
+http://guides.github.com/introduction/flow/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://guides.github.com/introduction/flow/
+X-GitHub-Request-Id: 2D12:24D30:34501BF:3817BEB:5A3CB9B7
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:23 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18733-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929143.387420,VS0,VE116
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 9b000a4cc8cb19dd6332d07c9b5965bf68075d04
+OkHttp-Sent-Millis: 1513929145866
+OkHttp-Received-Millis: 1513929146229

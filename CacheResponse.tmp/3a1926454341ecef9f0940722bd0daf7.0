@@ -1,0 +1,28 @@
+http://square.github.io/sqlbrite/0.x/sqlbrite/index.html
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 29 Nov 2017 18:59:59 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:00:41 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 5C06:137F:2A789B2:2D5E4DF:5A3CB951
+Content-Length: 1105
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:41 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18720-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929042.627719,VS0,VE346
+Vary: Accept-Encoding
+X-Fastly-Request-ID: ccb46446175ba38c3024501a193058acea3ae2f6
+OkHttp-Sent-Millis: 1513929044107
+OkHttp-Received-Millis: 1513929044692

@@ -1,0 +1,24 @@
+http://developer.github.com/enterprise/2.10/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://developer.github.com/enterprise/2.10/
+X-GitHub-Request-Id: EA40:1F367:1762A2B:18B87EF:5A3CB94B
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:35 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18725-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929036.715900,VS0,VE115
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 807fe015f5680c5c4d06b796964ccce97c247095
+OkHttp-Sent-Millis: 1513929038195
+OkHttp-Received-Millis: 1513929038551

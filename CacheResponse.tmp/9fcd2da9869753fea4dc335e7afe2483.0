@@ -1,0 +1,19 @@
+http://amazic.com/our-portfolio/github/
+GET
+2
+Accept-Encoding: gzip
+User-Agent: okhttp/3.9.1
+HTTP/1.1 200 OK
+12
+Date: Fri, 22 Dec 2017 07:52:52 GMT
+Server: Apache/2
+Link: <http://amazic.com/wp-json/>; rel="https://api.w.org/", <http://amazic.com/?p=166>; rel=shortlink
+Upgrade: h2,h2c
+Connection: Upgrade, Keep-Alive
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 8461
+Keep-Alive: timeout=2, max=100
+Content-Type: text/html; charset=UTF-8
+OkHttp-Sent-Millis: 1513929175182
+OkHttp-Received-Millis: 1513929176571

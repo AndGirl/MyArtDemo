@@ -1,0 +1,24 @@
+http://help.github.com/articles/best-practices-for-leaving-your-company/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/best-practices-for-leaving-your-company/
+X-GitHub-Request-Id: C788:2897B:3AF533B:3EA52D1:5A3CB91C
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:49 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18723-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928989.706099,VS0,VE346
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 7e4f6466c22d8ee39b8005709eab937d95630879
+OkHttp-Sent-Millis: 1513928991184
+OkHttp-Received-Millis: 1513928991786

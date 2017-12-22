@@ -1,0 +1,14 @@
+http://www.apple.com/safari/
+GET
+0
+HTTP/1.1 301 Moved Permanently
+9
+Server: GHost
+Content-Length: 0
+Location: https://www.apple.com/safari/
+Cache-Control: max-age=0
+Expires: Fri, 22 Dec 2017 07:52:20 GMT
+Date: Fri, 22 Dec 2017 07:52:20 GMT
+Connection: keep-alive
+OkHttp-Sent-Millis: 1513929143067
+OkHttp-Received-Millis: 1513929143078

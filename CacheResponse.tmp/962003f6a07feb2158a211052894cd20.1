@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+      <meta name="google-site-verification" content="Zkz-4-7DH8kEHMP8bYMX6aCY-8p_f-rI_poBzSWKrFc" />
+    
+    <title>github/git-lfs - Installation | packagecloud</title>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="SGxkKbeOQVf9iFNvQmcaBDXvV0MvEKDvvcVgrX6ZPv7VVoIvSjN2j31+skPQxxSorzaoVUuPshU/yDFj4bgdjA==" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-affc11671480d616aa1aebb839fee602eccd7d4b0425d88c1aa32e06353d3016.ico" />
+
+    <link rel="stylesheet" media="all" href="/assets/layouts/application-3883eb75950e6e86a85eac5cdb849793378eede637d886d0534fe5d3fa84f783.css" />
+
+    
+
+    <style type="text/css" media="screen">
+      /* We need this to block out the FOUC from loading the angular app at the */
+      /* bottom the document. More here https://docs.angularjs.org/api/ng/directive/ngCloak */
+      [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body id="" class=" logged-out" ng-app="packagecloud">
+
+    <nav class="navigation fixed sidenav">
+  <div class="navigation-wrapper">
+    <a class="logo" href="/" title="Home">
+      <span class="glyphicon glyphicon-cloud"></span>
+      <span class="glyphicon glyphicon-cloud small"></span>
+    </a>
+    <ul class="icons">
+    <li class="more "><a href="javascript:;"><span class="glyphicon glyphicon-list-alt"></span><div class="sub-text">Docs</div></a>
+      <ul class="submenu">
+        <li><a href="/docs">General Docs</a></li>
+        <li><a href="/docs/api">API Docs</a></li>
+        <li><a target="parent" href="http://www.rubydoc.info/gems/package_cloud/">CLI Docs</a></li>
+        <li><a href="/docs/security">Security Information</a></li>
+      </ul>
+    </li>
+    <li><a href="mailto:support@packagecloud.io"><span class="glyphicon glyphicon-bullhorn"></span><div class="sub-text">Help</div></a></li>
+    </ul>
+  </div>
+</nav>
+
+      <div id="contextual-sidebar" class="sidebar-container" contextual-sidebar>
+    <div class="sidebar-button-container">
+      <button class="btn primary"
+              ng-click="toggleMenu(model.opened)">
+        <span class="glyphicon"
+              ng-class="{'glyphicon-remove-circle': model.opened, 'glyphicon-list': !model.opened}"></span>
+      </button>
+    </div>
+    <div class="avatar-container">
+  <a href="/github">
+  <img class="avatar" width="136px" height="136px" src="https://gravatar.com/avatar/270fdfa5edabbbc840dcfac18967c83e.png?s=272&amp;d=retro" alt="270fdfa5edabbbc840dcfac18967c83e" />
+</a>  <div class="user-name">
+    <a href="/github">github</a>
+  </div>
+</div>
+
+    <a class="btn primary" href="/github/git-lfs">
+<div class="repo-name-with-icon">
+  <span class="glyphicon glyphicon-globe" title="Public"></span>
+  <span class="repo-name">
+    git-lfs
+  </span>
+</div>
+</a><nav class="repo-page-sidebar">
+  <ul class="sidenav">
+    <li><a href="/github/git-lfs"><span class="glyphicon glyphicon-file"></span>Packages</a></li>
+    <li class="active"><a href="/github/git-lfs/install"><span class="glyphicon glyphicon-download"></span>Installation</a></li>
+    <li class=><a href="/app/github/git-lfs/search"><span class="glyphicon glyphicon-search"></span>Search</a></li>
+    <li><a href="/github/git-lfs/mirror"><span class="glyphicon glyphicon-duplicate"></span>Mirroring</a></li>
+    <li><a href="/app/github/git-lfs/gpg"><span class="glyphicon glyphicon-lock"></span>GPG</a></li>
+    <li class=><a href="/app/github/git-lfs/stats"><span class="glyphicon glyphicon-stats"></span>Stats</a></li>
+  </ul>
+</nav>
+
+  </div>
+
+
+    <main class="main-content">
+      <div class="top-nav">
+  <ul class="logged-out-links">
+    <li><a class="btn primary" href="/users/new">Sign up</a></li>
+    <li><a class="btn primary outline" href="/session/new">Login</a></li>
+  </ul>
+</div>
+
+      
+        
+<article class="show-repo" ng-controller="PackageListCtrl" ng-init="init()">
+  <section class="repo-page">
+    <div class="page-content">
+      
+<script type="text/javascript">
+  window.packageInstallInfo = {};
+  window.packageInstallInfo['master_tokens'] = [{"id":3281,"repository_id":1665,"name":"default","value":"635a05a33a571cf2ebf879854584033901dab4497a64f5fb","created_at":"2015-08-06T16:00:40.000Z","updated_at":"2015-08-06T16:00:40.000Z"}];
+  window.packageInstallInfo['current_master_token'] = "635a05a33a571cf2ebf879854584033901dab4497a64f5fb";
+
+  window.repoPageApp = {};
+  repoPageApp.config = {
+    repo           : "github/git-lfs",
+    authToken      : ""
+  }
+
+</script>
+
+<div id="install-tab" class="install-tab" ng-controller="InstructionsTabCtrl" ng-init="init('#bash')">
+  <header class="repo-page-header fixed">
+    <h1>Installation instructions</h1>
+    <div class="select-installation-types">
+      <label for="current-instruction">Choose an install method:</label>
+      <div class="select-options">
+        <select id="current-instruction" ng-model="insType" ng-change="updateInstruction()" class="minimal">
+          <option value="bash">Bash Scripts</option>
+          <option value="manual">Manual Installation</option>
+          <option value="chef">Chef</option>
+          <option value="puppet">Puppet</option>
+          <option value="bundler">Bundler</option>
+          <option value="virtualenv">Virtualenv</option>
+          <option value="maven">Maven</option>
+          <option value="lein">Leiningen</option>
+          <option value="sbt">SBT</option>
+        </select>
+      </div>
+    </div>
+  </header>
+  
+      <div class="callout-container" signup-callout>
+    <div class="text-container">
+      <div class="dismiss-container">
+        <button class="btn info outline dismiss">dismiss</button>
+      </div>
+      <div class="callout-text">
+        <h3>Start using packagecloud in minutes</h3>
+        <p>Join thousands of developers using packagecloud to distribute software securely, consistently, and affordably.</p>
+      </div>
+      <div class="button-container">
+        <div class="callout-button">
+          <a class="btn primary" href="/users/new">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bash-tab" class="tab-content" ng-cloak>
+    <h3>Bash Scripts</h3>
+    <div class="vertical-tabs-container">
+      <div class="vertical-tabs">
+        <a href="#bash-deb" class="js-vertical-tab vertical-tab is-active" rel="tab1">deb</a>
+        <a href="#bash-rpm" class="js-vertical-tab vertical-tab" rel="tab2">rpm</a>
+        <a href="#bash-python" class="js-vertical-tab vertical-tab" rel="tab3">python</a>
+        <a href="#bash-gem" class="js-vertical-tab vertical-tab" rel="tab4">gem</a>
+      </div>
+
+      <div class="vertical-tab-content-container">
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading is-active" rel="tab1">deb</a>
+        <div id="tab1" class="js-vertical-tab-content vertical-tab-content">
+          <div class="type">
+  <h3>
+    deb
+  </h3>
+  <div class="quick">
+    <div class="links">
+      <div class="heading">quick install</div>
+      <div class="copy-button-container">
+        <a class="btn primary outline js-clipboard"
+           data-script-type="sudo-bash"
+           ng-click="flashScriptContainer($event)"
+           data-clipboard-text="curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash"
+           href="">copy</a>
+      </div>
+    </div>
+    <pre class="sudo-bash-script">curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash</pre>
+  </div>
+  <div class="script">
+    <div class="links">
+      <div class="heading">full script.deb.sh</div>
+    </div>
+
+    <pre class="install-script">
+      <div class="loading ellipsis-loading"><span>.</span><span>.</span><span>.</span></div>
+      <!-- script loaded by angular install-script service -->
+    </pre>
+  </div>
+</div>
+
+        </div>
+
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab2">rpm</a>
+        <div id="tab2" class="js-vertical-tab-content vertical-tab-content">
+          <div class="type">
+  <h3>
+    rpm
+  </h3>
+  <div class="quick">
+    <div class="links">
+      <div class="heading">quick install</div>
+      <div class="copy-button-container">
+        <a class="btn primary outline js-clipboard"
+           data-script-type="sudo-bash"
+           ng-click="flashScriptContainer($event)"
+           data-clipboard-text="curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | sudo bash"
+           href="">copy</a>
+      </div>
+    </div>
+    <pre class="sudo-bash-script">curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | sudo bash</pre>
+  </div>
+  <div class="script">
+    <div class="links">
+      <div class="heading">full script.rpm.sh</div>
+    </div>
+
+    <pre class="install-script">
+      <div class="loading ellipsis-loading"><span>.</span><span>.</span><span>.</span></div>
+      <!-- script loaded by angular install-script service -->
+    </pre>
+  </div>
+</div>
+
+        </div>
+
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab3">pip</a>
+        <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
+          <div class="type">
+  <h3>
+    python
+  </h3>
+  <div class="callout-container tool-callout" signup-callout>
+    <div class="text-container">
+      <div class="callout-text">
+        <h3>Are you using virtualenv?</h3>
+      </div>
+      <div class="button-container">
+        <div class="callout-button">
+          <a class="btn primary" ng_click="inlineUpdate(&#39;#virtualenv&#39;)" href="#virtualenv">Read our virtualenv instructions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="quick">
+    <div class="links">
+      <div class="heading">quick install</div>
+      <div class="copy-button-container">
+        <a class="btn primary outline js-clipboard"
+           data-script-type="sudo-bash"
+           ng-click="flashScriptContainer($event)"
+           data-clipboard-text="curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.python.sh | bash"
+           href="">copy</a>
+      </div>
+    </div>
+    <pre class="sudo-bash-script">curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.python.sh | bash</pre>
+  </div>
+  <div class="script">
+    <div class="links">
+      <div class="heading">full script.python.sh</div>
+    </div>
+
+    <pre class="install-script">
+      <div class="loading ellipsis-loading"><span>.</span><span>.</span><span>.</span></div>
+      <!-- script loaded by angular install-script service -->
+    </pre>
+  </div>
+</div>
+
+        </div>
+
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab4">gem</a>
+        <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
+          <div class="type">
+  <h3>
+    gem
+  </h3>
+  <div class="callout-container tool-callout" signup-callout>
+    <div class="text-container">
+      <div class="callout-text">
+        <h3>Are you using Bundler?</h3>
+      </div>
+      <div class="button-container">
+        <div class="callout-button">
+          <a class="btn primary" ng_click="inlineUpdate(&#39;#bundler&#39;)" href="#bundler">Read our Bundler instructions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="quick">
+    <div class="links">
+      <div class="heading">quick install</div>
+      <div class="copy-button-container">
+        <a class="btn primary outline js-clipboard"
+           data-script-type="sudo-bash"
+           ng-click="flashScriptContainer($event)"
+           data-clipboard-text="curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.gem.sh | bash"
+           href="">copy</a>
+      </div>
+    </div>
+    <pre class="sudo-bash-script">curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.gem.sh | bash</pre>
+  </div>
+  <div class="script">
+    <div class="links">
+      <div class="heading">full script.gem.sh</div>
+    </div>
+
+    <pre class="install-script">
+      <div class="loading ellipsis-loading"><span>.</span><span>.</span><span>.</span></div>
+      <!-- script loaded by angular install-script service -->
+    </pre>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="manual-tab" class="tab-content" ng-cloak>
+    <h3>Manual Installation</h3>
+    <p>
+      If you'd prefer to install your repo on your system manually, follow the instructions below. If you feel something is missing or just want more info, don't hesitate to <a href="mailto:support@packagecloud.io">get in touch</a>.
+    </p>
+    <div class="vertical-tabs-container">
+      <div class="vertical-tabs">
+        <a href="#manual-deb" class="js-vertical-tab vertical-tab is-active" rel="tab5">deb</a>
+        <a href="#manual-rpm" class="js-vertical-tab vertical-tab" rel="tab6">rpm</a>
+        <a href="#manual-zypper" class="js-vertical-tab vertical-tab" rel="tab7">zypper</a>
+        <a href="#manual-gem" class="js-vertical-tab vertical-tab" rel="tab8">rubygems</a>
+        <a href="#manual-python" class="js-vertical-tab vertical-tab" rel="tab9">python</a>
+      </div>
+      <div class="vertical-tab-content-container">
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading is-active" rel="tab5">deb</a>
+        <div id="tab5" class="js-vertical-tab-content vertical-tab-content">
+          <h2>deb<a name="deb"></a></h2>
+
+<p>Ensure the required tools (curl and gpg) are installed before proceeding:</p>
+
+<pre>sudo apt-get install curl gnupg</pre>
+
+<p>In order to install a deb repo, first you need to install the GPG key that used to <a href="/docs#gpg">sign repository metadata</a>. You do that using a utility called <a href="http://man.he.net/man8/apt-key"><tt>apt-key</tt></a>.</p>
+
+
+  <pre>curl -L https://packagecloud.io/github/git-lfs/gpgkey | sudo apt-key add -</pre>
+
+
+<p>Refresh your package cache by running</p>
+
+<pre>sudo apt-get update</pre>
+
+<p>If you are running Debian, install <tt>debian-archive-keyring</tt> so that official Debian repositories will be verified (Ubuntu users can skip this)</p>
+
+<pre>sudo apt-get install debian-archive-keyring</pre>
+
+<p>Install a package called <tt>apt-transport-https</tt> to make it possible for <tt>apt</tt> to fetch packages over <tt>https</tt>.</p>
+
+<pre>sudo apt-get install -y apt-transport-https</pre>
+
+
+  <p>Create a file named <code>/etc/apt/sources.list.d/github_git-lfs.list</code> that contains the repository configuration below.</p>
+
+  <p>Make sure to replace <span class="callout nowrap">ubuntu</span> and <span class="callout nowrap">trusty</span> in the config below with your <a href="https://packagecloud.io/docs#os_distro_version">Linux distribution and version</a>:</p>
+
+  <pre>deb https://packagecloud.io/github/git-lfs/<span class="callout nowrap">ubuntu</span>/ <span class="callout nowrap">trusty</span> main
+deb-src https://packagecloud.io/github/git-lfs/<span class="callout nowrap">ubuntu</span>/ <span class="callout nowrap">trusty</span> main</pre>
+
+
+<p>Valid options for <tt>os</tt> and <tt>dist</tt> parameters can be found <a href="https://packagecloud.io/docs#os_distro_version">in our support OS list in the docs</a>.</p>
+
+<p>Run:</p>
+
+<pre>sudo apt-get update</pre>
+
+<p>to update your local APT cache.</p>
+
+<p>You can now install packages from your repository.</p>
+
+        </div>
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab6">rpm</a>
+        <div id="tab6" class="js-vertical-tab-content vertical-tab-content">
+          <h2>rpm<a name="rpm"></a></h2>
+
+<p>Install <tt>pygpgme</tt>, a package which allows <tt>yum</tt> to handle <a href="https://www.gnupg.org/">gpg</a> signatures, and a package called <tt>yum-utils</tt> which contains the tools you need for installing source RPMs.</p>
+
+<pre>sudo yum install pygpgme yum-utils</pre>
+
+<p>You may need to install the <a href="https://fedoraproject.org/wiki/EPEL">EPEL repository</a> for your system to install these packages. If you do not install <tt>pygpgme</tt>, GPG verification will not work.</p>
+
+  <p>Create a file named <code>/etc/yum.repos.d/github_git-lfs.repo</code> that contains the repository configuration below.</p>
+  <p>Make sure to replace <span class="callout nowrap">el</span> and <span class="callout nowrap">6</span> in the config below with your <a href="https://packagecloud.io/docs#os_distro_version">Linux distribution and version</a>:</p>
+  <pre>
+[github_git-lfs]
+name=github_git-lfs
+baseurl=https://packagecloud.io/github/git-lfs/<span class="callout nowrap">el</span>/<span class="callout nowrap">6</span>/$basearch
+repo_gpgcheck=1
+gpgcheck=0
+enabled=1
+gpgkey=https://packagecloud.io/github/git-lfs/gpgkey
+sslverify=1
+sslcacert=/etc/pki/tls/certs/ca-bundle.crt
+metadata_expire=300
+
+[github_git-lfs-source]
+name=github_git-lfs-source
+baseurl=https://packagecloud.io/github/git-lfs/<span class="callout nowrap">el</span>/<span class="callout nowrap">6</span>/SRPMS
+repo_gpgcheck=1
+gpgcheck=0
+enabled=1
+gpgkey=https://packagecloud.io/github/git-lfs/gpgkey
+sslverify=1
+sslcacert=/etc/pki/tls/certs/ca-bundle.crt
+metadata_expire=300</pre>
+
+<p>Valid options for <tt>os</tt> and <tt>dist</tt> parameters can be found <a href="https://packagecloud.io/docs#os_distro_version">in our supported OS list in the docs</a>.</p>
+
+<p>Update your local yum cache by running</p>
+
+<pre>sudo yum -q makecache -y --disablerepo='*' --enablerepo='github_git-lfs'</pre>
+
+<p>You can now install packages from your repository.</p>
+
+        </div>
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab7">zypper</a>
+        <div id="tab7" class="js-vertical-tab-content vertical-tab-content">
+          <h2>zypper<a name="zypper"></a></h2>
+
+
+  <p>Create a file named <code>/etc/zypp/repos.d/github_git-lfs.repo</code> that contains the repository configuration below.</p>
+
+  <p>Make sure to replace <span class="callout nowrap">el</span> and <span class="callout nowrap">6</span> in the config below with your <a href="https://packagecloud.io/docs#os_distro_version">Linux distribution and version</a>:</p>
+
+  <pre>
+[github_git-lfs]
+name=github_git-lfs
+baseurl=https://packagecloud.io/github/git-lfs/<span class="callout nowrap">opensuse</span>/<span class="callout nowrap">13.2</span>/$basearch
+enabled=1
+repo_gpgcheck=1
+pkg_gpgcheck=0
+gpgkey=https://packagecloud.io/github/git-lfs/gpgkey
+autorefresh=1
+type=rpm-md
+
+[github_git-lfs-source]
+name=github_git-lfs-source
+baseurl=https://packagecloud.io/github/git-lfs/<span class="callout nowrap">el</span>/<span class="callout nowrap">6</span>/SRPMS
+enabled=1
+repo_gpgcheck=1
+pkg_gpgcheck=0
+gpgkey=https://packagecloud.io/github/git-lfs/gpgkey
+autorefresh=1
+type=rpm-md</pre>
+
+
+<p>Valid options for <tt>os</tt> and <tt>dist</tt> parameters can be found <a href="https://packagecloud.io/docs#os_distro_version">in our supported OS list in the docs</a>.</p>
+
+<p>Update your local zypper cache by running</p>
+
+<pre>zypper --gpg-auto-import-keys refresh github_git-lfs</pre>
+
+<p>You can now install packages from your repository.</p>
+
+
+        </div>
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab8">rubygems</a>
+        <div id="tab8" class="js-vertical-tab-content vertical-tab-content">
+          <h2>rubygems<a name="rubygems"></a></h2>
+
+  <h3>Add the repository as a source</h3>
+
+  <p>To install gems from this repository, you'll need to add the repository as a source.</p>
+
+  <pre>gem source --add https://packagecloud.io/github/git-lfs/</pre>
+
+<h2>Using Bundler?</h2>
+
+<h3>Add the repository to your Gemfile</h3>
+
+
+  <p>To install gems from this repository, you'll need to add it as a source to your Gemfile.</p>
+
+
+<h4>Bundler 1.7.0 and above</h4>
+
+<p>In newer bundler versions, you can scope specific gems to a source, like so:</p>
+
+
+  <pre>
+# Gemfile
+
+# Note: It's recommended you add the official https://rubygems.org source, unless your
+#       packagecloud repository can meet all of the dependency requirements in the Gemfile.
+
+source "https://rubygems.org"
+source "https://packagecloud.io/github/git-lfs" do
+  gem "my-gem"
+  gem "another-gem"
+end</pre>
+
+
+<h4>Legacy versions of Bundler</h4>
+
+<p>Older versions of Bundler have several bugs around scoping gems to a single source using blocks, so you'll have to add the source globally at the top of the Gemfile.</p>
+
+
+  <pre class="pre-regular-source">
+# Gemfile
+
+source "https://rubygems.org"
+source "https://packagecloud.io/github/git-lfs"</pre>
+
+
+        </div>
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab9">python</a>
+        <div id="tab9" class="js-vertical-tab-content vertical-tab-content">
+          <h2>python<a name="python"></a></h2>
+
+<p>To install python packages from this repository, you'll need to add the repository as a source to pip.</p>
+
+
+  <h3>Add the repository to pip</h3>
+
+  <p>Add the repository to the <code>[global]</code> section in your <code>~/.pip/pip.conf</code></p>
+
+  <pre>
+[global]
+extra-index-url=https://packagecloud.io/github/git-lfs/pypi/simple</pre>
+
+<p><i>Note: if you would like pip to use <b>only</b> this repository as a source, replace <code>extra-index-url</code> with <code>index-url</code></i></p>
+
+<h3>VirtualEnv / requirements.txt</h3>
+
+<h3>Add the repository to your VirtualEnv</h3>
+
+<p>Ensure you are running the latest version of pip inside your virtualenv:</p>
+<pre>my_virtualenv/bin/pip install --upgrade pip</pre>
+
+  <p>Add this to the bottom of your <code>requirements.txt</code></p>
+  <pre>--extra-index-url=https://packagecloud.io/github/git-lfs/pypi/simple</pre>
+<p>
+  <i>Note: if you would like pip to use <b>only</b> this repository as a source, replace <code>extra-index-url</code> with <code>index-url</code></i>
+</p>
+
+
+        </div>
+      </div>
+    </div>
+    <p>If you're looking for further clarification on anything, don't hesitate to <a href="mailto:support@packagecloud.io">get in touch</a>!</p>        
+  </div>
+  <div id="chef-tab" class="tab-content" ng-cloak>
+    <h3>Chef Cookbook</h3>
+    <p>
+  If you use <a href="http://www.getchef.com/">chef</a> to manage your infrastructure, you're in luck! We maintain a cookbook that makes it really easy to get up and running.
+</p>
+
+<p>
+  Using <a href="http://berkshelf.com/">Berkshelf</a> to manage your cookbooks? Depend on our cookbook like this:
+</p>
+
+<pre>cookbook "packagecloud"</pre>
+
+<p>If you're managing your cookbooks some other way, you can get our cookbook from <a href="https://supermarket.chef.io/cookbooks/packagecloud">supermarket.chef.io</a> or <a href="https://github.com/computology/packagecloud-cookbook">github</a>.</p>
+
+<p>Once you have our cookbook installed, all you have to do to install this repo is add the following block to one of your recipes:</p>
+
+<pre>
+packagecloud_repo "github/git-lfs" do
+  type "deb" # or "rpm" or "gem"
+end</pre>
+
+<p>
+  The LWRP in our cookbook will determine what OS/Version you're on and setup the repository correctly for that particular node. It will also contact our installation API to issue a <a href="/docs#read_tokens">read token</a>, and make sure our <a href="/docs#gpg">gpg key</a> gets installed if necessary.
+</p>
+
+  </div>
+  <div id="puppet-tab" class="tab-content" ng-cloak>
+    <h3>Puppet Module</h3>
+    <p>
+  If you use <a href="http://puppetlabs.com/">puppet</a> to manage your infrastructure, you're in luck! We maintain a module that makes it really easy to get up and running.
+</p>
+
+<p>You can get our module on <a href="https://forge.puppetlabs.com/computology/packagecloud">Puppet Forge</a> or on <a href="https://github.com/computology/computology-packagecloud/">GitHub</a>.</p>
+
+<p>To get this repo installed, you just need to add the following to one of your manifests:</p>
+<pre>
+include packagecloud
+
+packagecloud::repo { "github/git-lfs":
+  type => 'rpm',  # or "deb" or "gem"
+}</pre>
+<p>
+  The module will determine what OS/Version you're on and setup the repository correctly for that particular node. It will also contact our installation API to issue a <a href="/docs#read_tokens">read token</a>, and make sure our <a href="/docs#gpg">gpg key</a> gets installed if necessary.
+</p>
+
+  </div>
+  <div id="bundler-tab" class="tab-content" ng-cloak>
+    <h3>Using Bundler and packagecloud</h3>
+    <h3>Add the repository to your Gemfile</h3>
+
+
+  <p>To install gems from this repository, you'll need to add it as a source to your Gemfile.</p>
+
+
+<h4>Bundler 1.7.0 and above</h4>
+
+<p>In newer bundler versions, you can scope specific gems to a source, like so:</p>
+
+
+  <pre>
+# Gemfile
+
+# Note: It's recommended you add the official https://rubygems.org source, unless your
+#       packagecloud repository can meet all of the dependency requirements in the Gemfile.
+
+source "https://rubygems.org"
+source "https://packagecloud.io/github/git-lfs" do
+  gem "my-gem"
+  gem "another-gem"
+end</pre>
+
+
+<h4>Legacy versions of Bundler</h4>
+
+<p>Older versions of Bundler have several bugs around scoping gems to a single source using blocks, so you'll have to add the source globally at the top of the Gemfile.</p>
+
+
+  <pre class="pre-regular-source">
+# Gemfile
+
+source "https://rubygems.org"
+source "https://packagecloud.io/github/git-lfs"</pre>
+
+  </div>
+  <div id="virtualenv-tab" class="tab-content" ng-cloak>
+    <h3>Using VirtualEnv and packagecloud</h3>
+    <h3>Add the repository to your VirtualEnv</h3>
+
+<p>Ensure you are running the latest version of pip inside your virtualenv:</p>
+<pre>my_virtualenv/bin/pip install --upgrade pip</pre>
+
+  <p>Add this to the bottom of your <code>requirements.txt</code></p>
+  <pre>--extra-index-url=https://packagecloud.io/github/git-lfs/pypi/simple</pre>
+<p>
+  <i>Note: if you would like pip to use <b>only</b> this repository as a source, replace <code>extra-index-url</code> with <code>index-url</code></i>
+</p>
+
+  </div>
+  <div id="maven-tab" class="tab-content" ng-cloak>
+    <h3>Using Maven with Packagecloud</h3>
+    <h3>Add the repository to Maven</h3>
+
+  <p>Add this to the <code>dependencyManagement</code> section of your <code>pom.xml</code></p>
+  <pre id="maven-instructions">
+&lt;repositories&gt;
+  &lt;repository&gt;
+    &lt;id&gt;github-git-lfs&lt;/id&gt;
+    &lt;url&gt;https://packagecloud.io/github/git-lfs/maven2&lt;/url&gt;
+    &lt;releases&gt;
+      &lt;enabled&gt;true&lt;/enabled&gt;
+    &lt;/releases&gt;
+    &lt;snapshots&gt;
+      &lt;enabled&gt;true&lt;/enabled&gt;
+    &lt;/snapshots&gt;
+  &lt;/repository&gt;
+&lt;/repositories&gt;
+</pre>
+
+
+  </div>
+  <div id="lein-tab" class="tab-content" ng-cloak>
+    <h3>Using Leiningen with Packagecloud</h3>
+    <h3>Add the repository to Leiningen</h3>
+
+  <p>Add this entry to the top-level of your <code>project.clj</code> file</p>
+  <pre id="lein-instructions">
+:repositories [[&quot;snapshots&quot; &quot;https://packagecloud.io/github/git-lfs/maven2&quot;]
+               [&quot;releases&quot; &quot;https://packagecloud.io/github/git-lfs/maven2&quot;]]
+</pre>
+
+
+  </div>
+  <div id="sbt-tab" class="tab-content" ng-cloak>
+    <h3>Using SBT with Packagecloud</h3>
+    <h3>Add the repository to SBT</h3>
+
+<p>For SNAPSHOT support (needs SBT 0.13.8 or above), create or append the following to a <code>project/maven.sbt</code> file in your project:</p>
+<pre id="add-resolver">addMavenResolverPlugin</pre>
+<div class="button-container">
+  <button class="btn primary outline copy-btn js-clipboard" data-clipboard-target="#add-resolver" ng-click="flashScriptContainer($event)">copy</button>
+</div>
+  <p>Then, add this entry anywhere in your <code>build.sbt</code> file:</p>
+  <pre id="sbt-instructions">
+resolvers += &quot;github-git-lfs&quot; at &quot;https://packagecloud.io/github/git-lfs/maven2&quot;
+</pre>
+
+
+  </div>
+</div>
+
+    </div>
+  </section>
+</article>
+
+
+    </main>
+    
+    <script type="text/javascript">
+var PackageCloud = {
+  publishable_stripe_key: 'pk_live_XFXh9vEw0BpmMZb13wMgNAXI',
+  google_maps_api_token: 'AIzaSyAto9Q-px7dsCYjNRoH-hNgunyY1zR6Zzk'
+};
+</script>
+
+    <script type="text/javascript">
+var AirbrakeConfig = {
+  project_id: '115046',
+  api_key: '',
+  environment: 'production'
+};
+</script>
+
+    <script>
+var _prum = [['id', '54337afaabe53d0e375edb96'],
+['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+  var s = document.getElementsByTagName('script')[0]
+  , p = document.createElement('script');
+  p.async = 'async';
+  p.src = '//rum-static.pingdom.net/prum.min.js';
+  s.parentNode.insertBefore(p, s);
+})();
+</script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49973003-1', 'packagecloud.io');
+  ga('send', 'pageview');
+
+</script>
+
+    
+    <script src="/assets/layouts/application-6d3d0a24c2f691d47bb62d2223c1caf47407263ab956522df6c8f4f7f0547872.js"></script>
+    <!-- Only load the billing history js on the billing 
+         history page and only after jquery ($) has loaded -->
+    
+  </body>
+</html>

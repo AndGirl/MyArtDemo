@@ -1,0 +1,24 @@
+http://help.github.com/articles/which-remote-url-should-i-use/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/which-remote-url-should-i-use/
+X-GitHub-Request-Id: 3AB0:1F36C:39002F5:3C528E5:5A3CB78B
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:38 GMT
+Via: 1.1 varnish
+Age: 391
+Connection: keep-alive
+X-Served-By: cache-hnd18737-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513928979.729851,VS0,VE0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 97075a6e80728b3197e92677090c4477cf11a56e
+OkHttp-Sent-Millis: 1513928981209
+OkHttp-Received-Millis: 1513928981451

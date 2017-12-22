@@ -1,0 +1,28 @@
+http://square.github.io/okhttp/2.x/okhttp/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 05 Sep 2017 20:13:27 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 05:59:20 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 37E0:1F36C:38B0DEB:3BFF44A:5A3C9CE0
+Content-Length: 1191
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:37 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18732-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928978.709765,VS0,VE114
+Vary: Accept-Encoding
+X-Fastly-Request-ID: b121c6b0780333bbc4a674456410edb4e44df914
+OkHttp-Sent-Millis: 1513928980191
+OkHttp-Received-Millis: 1513928980558

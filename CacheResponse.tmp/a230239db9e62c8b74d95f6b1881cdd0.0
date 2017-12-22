@@ -1,0 +1,17 @@
+http://polarsys.org/
+GET
+0
+HTTP/1.1 301 Moved Permanently
+12
+Date: Fri, 22 Dec 2017 07:50:59 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Location: http://www.polarsys.org/
+Cache-Control: max-age=1209600
+Expires: Fri, 05 Jan 2018 07:50:59 GMT
+Content-Length: 232
+Keep-Alive: timeout=4, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+OkHttp-Sent-Millis: 1513929062202
+OkHttp-Received-Millis: 1513929062684

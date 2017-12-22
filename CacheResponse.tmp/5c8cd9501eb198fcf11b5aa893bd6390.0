@@ -1,0 +1,28 @@
+http://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Sun, 20 Aug 2017 00:06:52 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 06:47:40 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 632A:1383:341B293:3798380:5A3CA834
+Content-Length: 6309
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:27 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-sjc3625-SJC
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929147.301957,VS0,VE25
+Vary: Accept-Encoding
+X-Fastly-Request-ID: fc041f04f5ec4e7bb0e97a1e80861c8e0c977fd8
+OkHttp-Sent-Millis: 1513929149732
+OkHttp-Received-Millis: 1513929150001

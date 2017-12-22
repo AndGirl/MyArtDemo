@@ -1,0 +1,24 @@
+http://help.github.com/articles/switching-payment-methods-for-your-personal-account/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/switching-payment-methods-for-your-personal-account/
+X-GitHub-Request-Id: 41A6:24D25:27BAB46:2A953B5:5A3CB91E
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:51 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18744-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928991.371917,VS0,VE116
+Vary: Accept-Encoding
+X-Fastly-Request-ID: d59b1f821efeac2af5ad79fe43f53aff1478c33f
+OkHttp-Sent-Millis: 1513928993845
+OkHttp-Received-Millis: 1513928994217

@@ -1,0 +1,28 @@
+http://blog.atom.io/2017/11/15/code-together-in-real-time-with-teletype-for-atom.html
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 12 Dec 2017 17:02:11 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:02:40 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: D17C:FE5D:2FB2913:3253D0B:5A3CB9C8
+Content-Length: 5276
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:40 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18733-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929160.268006,VS0,VE113
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 51ff47e1552eb24cc1739d4febe5fc83b2049720
+OkHttp-Sent-Millis: 1513929162747
+OkHttp-Received-Millis: 1513929163108

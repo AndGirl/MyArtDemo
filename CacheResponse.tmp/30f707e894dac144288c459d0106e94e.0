@@ -1,0 +1,24 @@
+http://help.github.com/articles/dealing-with-line-endings/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/dealing-with-line-endings/
+X-GitHub-Request-Id: CC9C:1F36C:3904DA6:3C57749:5A3CB919
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:45 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18723-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928986.722218,VS0,VE115
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 44e7270e582301eb5eae472642048a0bac2411f6
+OkHttp-Sent-Millis: 1513928988202
+OkHttp-Received-Millis: 1513928988584

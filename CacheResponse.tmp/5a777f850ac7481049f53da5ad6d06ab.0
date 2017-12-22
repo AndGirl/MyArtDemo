@@ -1,0 +1,28 @@
+http://blog.atom.io/2017/09/12/announcing-atom-ide.html
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 12 Dec 2017 17:02:11 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 08:02:40 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 69F6:1F371:4004495:43B7EF6:5A3CB9C8
+Content-Length: 5052
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:52:40 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18751-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513929161.864071,VS0,VE116
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 589435b28dc400909a1f5a0cf0cdadc71ba44e16
+OkHttp-Sent-Millis: 1513929163346
+OkHttp-Received-Millis: 1513929163714

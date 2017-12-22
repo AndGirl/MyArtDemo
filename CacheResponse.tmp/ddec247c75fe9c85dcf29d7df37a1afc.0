@@ -1,0 +1,24 @@
+http://help.github.com/articles/permission-levels-for-a-user-account-repository/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 301 Moved Permanently
+18
+Server: GitHub.com
+Content-Type: text/html
+Location: https://help.github.com/articles/permission-levels-for-a-user-account-repository/
+X-GitHub-Request-Id: E57E:2896F:FD15EB:10D2C07:5A3CB91C
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:49:49 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18742-HND
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1513928989.904940,VS0,VE360
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 42b558491fd92ac77113416679c1a7d25a851239
+OkHttp-Sent-Millis: 1513928991383
+OkHttp-Received-Millis: 1513928991974

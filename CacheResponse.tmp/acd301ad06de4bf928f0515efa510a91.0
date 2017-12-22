@@ -1,0 +1,28 @@
+http://facebook.github.io/graphql/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+22
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Thu, 21 Dec 2017 23:09:39 GMT
+Access-Control-Allow-Origin: *
+Expires: Fri, 22 Dec 2017 01:30:36 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-GitHub-Request-Id: 67BE:1F36C:380584B:3B4A61A:5A3C5DE2
+Content-Length: 181
+Accept-Ranges: bytes
+Date: Fri, 22 Dec 2017 07:50:35 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-hnd18732-HND
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1513929036.514326,VS0,VE130
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 67604789ed6bd4eeaedc28add0704e566c5df147
+OkHttp-Sent-Millis: 1513929037994
+OkHttp-Received-Millis: 1513929038382

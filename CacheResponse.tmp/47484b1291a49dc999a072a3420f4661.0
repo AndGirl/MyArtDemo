@@ -1,0 +1,22 @@
+http://www.w3.org/TR/cors/
+GET
+1
+Accept-Encoding: gzip
+HTTP/1.1 200 OK
+16
+Date: Fri, 22 Dec 2017 07:50:56 GMT
+Content-Location: Overview.html
+Last-Modified: Mon, 02 Oct 2017 11:17:05 GMT
+ETag: "18d49-55a8e83b3ae40-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding,upgrade-insecure-requests
+Content-Encoding: gzip
+Cache-Control: max-age=31536000
+Expires: Sat, 22 Dec 2018 07:50:56 GMT
+P3P: policyref="http://www.w3.org/2014/08/p3p.xml"
+Link: <https://www.w3.org/TR/cors/>;rel="canonical", <https://timetravel.mementoweb.org/w3c/timegate/http://www.w3.org/TR/cors/>;rel="timegate"
+Access-Control-Allow-Origin: *
+Content-Length: 21969
+Content-Type: text/html; charset=utf-8
+OkHttp-Sent-Millis: 1513929058768
+OkHttp-Received-Millis: 1513929059187
