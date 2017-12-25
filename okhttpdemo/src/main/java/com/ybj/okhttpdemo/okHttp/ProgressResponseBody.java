@@ -21,7 +21,7 @@ public class ProgressResponseBody extends ResponseBody {
     private final ProgerssListener progressListener;
     private BufferedSource bufferedSource;
 
-    ProgressResponseBody(ResponseBody responseBody, ProgerssListener progressListener) {
+    public ProgressResponseBody(ResponseBody responseBody, ProgerssListener progressListener) {
         this.responseBody = responseBody;
         this.progressListener = progressListener;
     }
