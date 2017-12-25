@@ -26,6 +26,14 @@ import okhttp3.Response;
  * 日志拦截器
  */
 
+/**
+ * Interceptors
+ * 拦截器是一种强大的机制。它能见识，重写。重定向
+ * chain.rpoceed(request)：是每个拦截器实现的方法。
+ * 拦截器分为：应用拦截器addInterceptor和网络拦截器addNetworkInterceptor
+ *
+ */
+
 public final class LoggingInterceptors {
   private static final Logger logger = Logger.getLogger(LoggingInterceptors.class.getName());
   private final OkHttpClient client = new OkHttpClient.Builder()

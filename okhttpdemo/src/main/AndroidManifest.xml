@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".okHttpElpmoy.NewMainActivity">
+
+        </activity>
+        <activity android:name=".okHttpElpmoy.UserInformationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
