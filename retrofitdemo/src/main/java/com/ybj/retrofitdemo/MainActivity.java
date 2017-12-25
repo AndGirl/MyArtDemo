@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         postRetrofit();
 
+
+
     }
 
     private void postRetrofit() {
@@ -54,6 +56,19 @@ public class MainActivity extends AppCompatActivity {
                         Log.e("TAG", "失败");
                     }
                 });
+
+        uart.editUser(1,"uart").enqueue(new Callback<BaseResult>() {
+            @Override
+            public void onResponse(Call<BaseResult> call, Response<BaseResult> response) {
+                Log.e("TAG", "陈宫" + response.body().getMessage().toString());
+            }
+
+            @Override
+            public void onFailure(Call<BaseResult> call, Throwable t) {
+                Log.e("TAG", "失败");
+            }
+        });
+
     }
 
     private void getRetrofit() {
@@ -65,6 +80,15 @@ public class MainActivity extends AppCompatActivity {
         Uart uart = retrofit.create(Uart.class);
 
         Call<List<UartBean>> girl = uart.getUserInfo("AndGirl","desc");
+
+//        简单使用逻辑
+//        Map<String,String> map = new HashMap<>();
+//
+//        map.put("id","1");
+//        map.put("name","cniao5");
+//
+//        Call<User> userCall = uart.getUserInfoWithMap(map);
+
 
         girl.enqueue(new Callback<List<UartBean>>() {
             @Override
