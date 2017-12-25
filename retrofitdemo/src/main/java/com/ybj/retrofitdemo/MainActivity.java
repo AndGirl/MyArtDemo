@@ -2,6 +2,7 @@ package com.ybj.retrofitdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.Toast;
 
 import java.util.List;
@@ -23,6 +24,39 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /**
+         * @QueryMap Map<String, String> options
+         * 这片文章不知道被转载过多少次
+         * https://juejin.im/entry/58aac9710ce463006b13914d
+         */
+        //getRetrofit();
+
+        postRetrofit();
+
+    }
+
+    private void postRetrofit() {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://192.168.1.189:5000/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+
+        Uart uart = retrofit.create(Uart.class);
+        uart.login(new UartParam("uart","123456"))
+                .enqueue(new Callback<BaseResult>() {
+                    @Override
+                    public void onResponse(Call<BaseResult> call, Response<BaseResult> response) {
+                        Log.e("TAG", "成功" + response.body().getMessage().toString());
+                    }
+
+                    @Override
+                    public void onFailure(Call<BaseResult> call, Throwable t) {
+                        Log.e("TAG", "失败");
+                    }
+                });
+    }
+
+    private void getRetrofit() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://api.github.com/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -30,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         Uart uart = retrofit.create(Uart.class);
 
-        Call<List<UartBean>> girl = uart.getUserInfo("AndGirl");
+        Call<List<UartBean>> girl = uart.getUserInfo("AndGirl","desc");
 
         girl.enqueue(new Callback<List<UartBean>>() {
             @Override
@@ -45,6 +79,5 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "2222", Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 }

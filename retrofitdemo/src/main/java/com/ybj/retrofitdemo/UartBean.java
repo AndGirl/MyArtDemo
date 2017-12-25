@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class UartBean {
-
+    
 
     /**
      * archive_url : https://api.github.com/repos/AndGirl/android-art-res/{archive_format}{/ref}
