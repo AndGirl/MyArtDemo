@@ -2,6 +2,8 @@ package com.ybj.daggerdemo.user;
 
 import android.util.Log;
 
+import javax.inject.Inject;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 
@@ -11,14 +13,21 @@ import okhttp3.OkHttpClient;
 
 public class ApiService {
 
-
-
     public static final MediaType JSON
             = MediaType.parse("application/json; charset=utf-8");
 
     OkHttpClient mOkHttpClient;
 
-    public ApiService() {
+    //第二种方法
+//    @Inject
+//    public ApiService() {
+//        Log.e("TAG", "构造器");
+//    }
+
+    @Inject
+    public ApiService(String url){
+        Log.e("TAG", "带参数的ApiService");
+
     }
 
     public ApiService(OkHttpClient okHttpClient){

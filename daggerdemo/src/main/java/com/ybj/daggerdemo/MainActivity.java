@@ -3,8 +3,9 @@ package com.ybj.daggerdemo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.ybj.daggerdemo.user.ApiService;
 import com.ybj.daggerdemo.user.DaggerUserComponet;
+import com.ybj.daggerdemo.user.UserManager;
+import com.ybj.daggerdemo.user.UserModule;
 
 import javax.inject.Inject;
 
@@ -25,8 +26,12 @@ import javax.inject.Inject;
  */
 
 public class MainActivity extends AppCompatActivity {
+//    @Inject
+//    ApiService mApiService;
+
+
     @Inject
-    ApiService mApiService;
+    UserManager mUserManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,9 +39,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //使用Dagger(需要rebuild)
-        DaggerUserComponet.create().inject(this);
+        //DaggerUserComponet.create().inject(this);
 
-        mApiService.register();
+        //不需要传参
+        //DaggerUserComponet.create().inject(this);
+        //需要传参
+        DaggerUserComponet.builder().userModule(new UserModule(this)).build().inject(this);
+        mUserManager.register();
+//        mApiService.register();
+//        mUserManager.register();
 
     }
 }
