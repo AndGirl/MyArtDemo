@@ -5,35 +5,37 @@ import java.util.Random;
 
 /**
  * Created by 杨阳洋 on 2018/1/24.
- * 冒泡排序：相邻两个数据做对比
- * 如果有n个数据需要（n > 2）比较次数：(n * (n - 1)) / 2
- * 比较轮数：n - 1轮
+ * 选择排序:每一轮选出最轻量级的数据
+ * 比较次数和轮数同冒泡排序
+ *
  */
 
-public class BubbleSort {
+public class SelectSort {
 
     public static void main(String [] args){
-        int[] array = createArray(100);
+        int[] array = createArray(10);
 
         System.out.println("排序前");
         System.out.println(Arrays.toString(array));
 
-        bubbleSort(array);
+        selectSort(array);
 
         System.out.println("排序后");
         System.out.println(Arrays.toString(array));
     }
 
-    private static void bubbleSort(int [] arg){
-        for (int i = 0 ; i < arg.length - 1 ;i ++){
-            for (int j = 0 ; j < arg.length - 1 - i;j ++ ){
-                if(arg[j] > arg[j + 1]) {
+    private static void selectSort(int [] arg){
+
+        for (int i = 0 ; i < arg.length -1 ; i ++){
+            for (int j = i + 1 ; j < arg.length ; j ++){
+                if(arg[i] > arg[j]) {
                     int temp = arg[j];
-                    arg[j] = arg[j + 1];
-                    arg[j + 1] = temp;
+                    arg[j] = arg[i];
+                    arg[i] = temp;
                 }
             }
         }
+
     }
 
     private static int[] createArray(int length){
