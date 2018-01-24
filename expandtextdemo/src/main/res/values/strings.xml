@@ -33,4 +33,7 @@
     <string name="title_demo1">In ScrollView</string>
     <string name="title_demo2">In ListView</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
