@@ -1,15 +1,20 @@
 package com.ybj.expandtextdemo;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.BaseTransientBottomBar;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.Toast;
 
 /**
@@ -43,6 +48,14 @@ import android.widget.Toast;
  我查阅了网上资料说是只能适用于recyclerView和nestScrollView。我决定去看原因
  http://blog.csdn.net/xyz_lmn/article/details/48055919
 
+ （重点补充）
+  CoordinatorLayout之所以能够协调Children View之间的交互行为，主要就是依赖于NestedScrolling这个东邪，
+ 这里涉及到两个接口类NestedScrollingParent和NestedScrollingChild。CoordinatorLayout实现了前者，而
+ CoordinatorLayout的Children核心之一，滑动性控件，实现了后者，所以才能够做出交互行为。
+
+ RecyclerView实现的功能
+ public class RecyclerView extends ViewGroup implements ScrollingView, NestedScrollingChild
+
  *
  */
 
@@ -58,6 +71,20 @@ public class CoordinatorLayoutDemo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coordinator_layout_demo);
+
+        AppBarLayout appBarLayout = (AppBarLayout)findViewById(R.id.appbar);
+
+        /**
+         * 滑动编译监听改变
+         */
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                Log.e("TAG", "滑动改变了");
+                int totalScrollRange = appBarLayout.getTotalScrollRange();
+                Log.e("TAG", "滑动的最大偏移量" + totalScrollRange);
+            }
+        });
 
         findViewById(R.id.fab)
                 .setOnClickListener(new View.OnClickListener() {
@@ -82,6 +109,16 @@ public class CoordinatorLayoutDemo extends AppCompatActivity {
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
         tabLayout.setupWithViewPager(mViewPager);
+
+        //API Level21及更高版本，为了支持NestedScrolling，所有控件的基类对外新增了一个方法
+        //setNestedScrollingEnabled(boolean enabled)，所以，我们可以对ListView
+        //稍作处理，就能在Android L及以上版本的系统中使用了。
+        ListView listView = new ListView(this);
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
+            listView.setNestedScrollingEnabled(true);
+            //或者
+            ViewCompat.setNestedScrollingEnabled(listView,true);
+        }
 
 //        listView.setAdapter(new ArrayAdapter<String>(this,
 //                android.R.layout.simple_list_item_1, mListStr));
