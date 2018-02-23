@@ -20,12 +20,12 @@
 
     <ImageView
         android:id="@+id/image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="@android:color/white"
         app:ico_color="@android:color/holo_red_light"
         app:ico_icon="gmd_keyboard_arrow_right"
-        app:ico_size="48dp"
-        android:layout_width="48dp"
-        android:layout_height="48dp"/>
+        app:ico_size="48dp"/>
 
 
 </LinearLayout>

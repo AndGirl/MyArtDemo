@@ -1,4 +1,4 @@
-package com.cniao5.cniao5dagger2;
+package com.ybj.daggerdemo;
 
 /**
  * Created by Ivan on 2016/12/7.
