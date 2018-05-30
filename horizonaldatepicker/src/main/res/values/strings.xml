@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HorizonalDatePicker</string>
+    <item type="id" name="tag_first"/>
+</resources>
