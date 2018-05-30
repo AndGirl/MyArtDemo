@@ -9,6 +9,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 
@@ -56,22 +57,56 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         adapter = new MyRecyclerAdapter(this,list);
         rl.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         rl.setAdapter(adapter);
+
+        long l = System.currentTimeMillis();
+        TimeUtils.getTime(l,TimeUtils.MONTH_DATE_FORMAT_DATE);
+
+        Calendar instance = Calendar.getInstance();
+        int i = instance.get(Calendar.YEAR);
+        int month = instance.get(Calendar.MONTH) + 1;
+        int day = instance.get(Calendar.DAY_OF_MONTH) + 1;
+        long l1 = MyTimeUtils.string2Millis("2018-01-01" , MyTimeUtils.DATE_FORMAT_DATE);
+
     }
 
     @Override
     public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
         switch (checkedId) {
             case  R.id.radio_day:
-
+                list.clear();
+                for (int i = 0 ;i < 30 ; i ++){
+                    list.add("位置 ; " + i);
+                }
+                adapter.setList(list);
+                adapter.getClickList().clear();
+                adapter.notifyDataSetChanged();
                 break;
             case R.id.radio_month:
-
+                list.clear();
+                for (int i = 30 ;i < 60 ; i ++){
+                    list.add("位置 ; " + i);
+                }
+                adapter.setList(list);
+                adapter.getClickList().clear();
+                adapter.notifyDataSetChanged();
                 break;
             case R.id.radio_year:
-
+                list.clear();
+                for (int i = 60 ;i < 90 ; i ++){
+                    list.add("位置 ; " + i);
+                }
+                adapter.setList(list);
+                adapter.getClickList().clear();
+                adapter.notifyDataSetChanged();
                 break;
             case R.id.radio_total:
-
+                list.clear();
+                for (int i = 90 ;i < 120 ; i ++){
+                    list.add("位置 ; " + i);
+                }
+                adapter.setList(list);
+                adapter.getClickList().clear();
+                adapter.notifyDataSetChanged();
                 break;
         }
     }

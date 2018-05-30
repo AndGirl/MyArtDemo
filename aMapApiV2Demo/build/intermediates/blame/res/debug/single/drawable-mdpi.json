@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\arrow.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-mdpi\\arrow.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\start.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-mdpi\\start.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\man.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-mdpi\\man.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\end.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-mdpi\\end.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\custom_info_bubble.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-mdpi\\custom_info_bubble.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\car.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-mdpi\\car.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bus.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-mdpi\\bus.png"
+    }
+]

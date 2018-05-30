@@ -8,7 +8,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AMapLocationDemo" />
+            <option value="$PROJECT_DIR$/Android-PickerView-master" />
+            <option value="$PROJECT_DIR$/Cniao5Play" />
             <option value="$PROJECT_DIR$/MagicIndicator-master" />
+            <option value="$PROJECT_DIR$/aMapApiV2Demo" />
             <option value="$PROJECT_DIR$/activitylifecyclerdemo" />
             <option value="$PROJECT_DIR$/android-pathview" />
             <option value="$PROJECT_DIR$/android-pathview-master" />
@@ -17,26 +21,34 @@
             <option value="$PROJECT_DIR$/appmvp" />
             <option value="$PROJECT_DIR$/arithmeticdemo" />
             <option value="$PROJECT_DIR$/bitmapdemo" />
+            <option value="$PROJECT_DIR$/coordinatorlayoutdemo" />
             <option value="$PROJECT_DIR$/copybitmapdemo" />
             <option value="$PROJECT_DIR$/daggerdemo" />
             <option value="$PROJECT_DIR$/draweraddnavigationdemo" />
             <option value="$PROJECT_DIR$/expandtextdemo" />
             <option value="$PROJECT_DIR$/guidedemo" />
+            <option value="$PROJECT_DIR$/horizonaldatepicker" />
+            <option value="$PROJECT_DIR$/javademo" />
             <option value="$PROJECT_DIR$/lib-zxing" />
             <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/magicindicator" />
+            <option value="$PROJECT_DIR$/materialdesign" />
             <option value="$PROJECT_DIR$/mesvgdemo" />
             <option value="$PROJECT_DIR$/mvpdemo" />
             <option value="$PROJECT_DIR$/mydagger2demo" />
             <option value="$PROJECT_DIR$/okhttpdemo" />
+            <option value="$PROJECT_DIR$/phoneDemo" />
+            <option value="$PROJECT_DIR$/pickerview" />
             <option value="$PROJECT_DIR$/progressdialogdemo" />
             <option value="$PROJECT_DIR$/recyclerviewdemo-master" />
             <option value="$PROJECT_DIR$/remoteviewsdemo" />
             <option value="$PROJECT_DIR$/retrofitdemo" />
+            <option value="$PROJECT_DIR$/rxdownload3" />
             <option value="$PROJECT_DIR$/sample" />
             <option value="$PROJECT_DIR$/singleinstancedemo" />
             <option value="$PROJECT_DIR$/svgdemo" />
             <option value="$PROJECT_DIR$/tabvpfragmentdemo" />
+            <option value="$PROJECT_DIR$/wheelview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

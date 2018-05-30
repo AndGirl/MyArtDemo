@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\geocoder_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\geocoder_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\routesearch_list_poi.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\routesearch_list_poi.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\poi_result_list.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\poi_result_list.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\circle_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\circle_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\empty.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\empty.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\polyline_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\polyline_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\busline_item.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\busline_item.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\tileoverlay_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\tileoverlay_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\route_inputs.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\route_inputs.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\arc_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\arc_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\busline_dialog.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\busline_dialog.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\groundoverlay_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\groundoverlay_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\marker.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\marker.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\layers_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\layers_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\poikeywordsearch_uri.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\poikeywordsearch_uri.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\navsearch_list_poi.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\navsearch_list_poi.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\offlinemap_child.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\offlinemap_child.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\polygon_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\polygon_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\custom_info_window.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\custom_info_window.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\location.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\location.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\locationmodesource_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\locationmodesource_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\poiaroundsearch_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\poiaroundsearch_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\ui_settings_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\ui_settings_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\expandablelistviewselector.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\expandablelistviewselector.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\screenshot_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\screenshot_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\route_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\route_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\offlinemap_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\offlinemap_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\offlinemap_group.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\offlinemap_group.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\locationsource_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\locationsource_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\camera_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\camera_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\marker_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\marker_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\opengl_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\opengl_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\basicmap_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\basicmap_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\locationnetwork_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\locationnetwork_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\events_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\events_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\feature.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\feature.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\busline_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\busline_activity.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\custom_info_contents.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\custom_info_contents.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\layout\\poikeywordsearch_activity.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\layout\\poikeywordsearch_activity.xml"
+    }
+]

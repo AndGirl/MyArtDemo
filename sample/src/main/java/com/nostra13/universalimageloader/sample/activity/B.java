@@ -5,4 +5,16 @@ package com.nostra13.universalimageloader.sample.activity;
  */
 
 public class B extends A {
+
+    private String aaa;
+
+    public String getAaa() {
+        return aaa;
+    }
+
+    protected void setAaa(String aaa) {
+        aaa = qq;
+        getAaa();
+        this.aaa = aaa;
+    }
 }

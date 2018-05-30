@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\start.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-xhdpi\\start.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\end.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-xhdpi\\end.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bus.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-xhdpi\\bus.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\man.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-xhdpi\\man.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\car.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-xhdpi\\car.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

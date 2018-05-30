@@ -86,5 +86,12 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
 
     private OnTextView onTextView;
 
+    public ArrayList<Integer> getClickList() {
+        return mClickList;
+    }
+
+    public void setList(ArrayList<String> list) {
+        this.list = list;
+    }
 
 }

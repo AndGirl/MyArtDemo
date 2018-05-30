@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_driving_on.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_driving_on.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_transit_off.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_transit_off.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\prev.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\prev.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_nav_drag_down_pressed.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_nav_drag_down_pressed.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_default_small.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_default_small.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_route_next.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_route_next.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\next.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\next.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_walk_off.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_walk_off.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_walk_focused.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_walk_focused.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\text_search_selected.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\text_search_selected.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_map_poi.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_map_poi.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_transit_on.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_transit_on.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_transit.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_transit.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\text_search_default.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\text_search_default.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_poi_search_normal.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_poi_search_normal.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_walk.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_walk.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_nav_drag_down_normal.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_nav_drag_down_normal.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_nav_drag_down.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_nav_drag_down.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_default_small_normal.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_default_small_normal.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_default_small_pressed.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_default_small_pressed.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\left_back.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\left_back.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_walk_on.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_walk_on.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\next_disable.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\next_disable.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_driving_off.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_driving_off.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_default_small_normal_disable.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_default_small_normal_disable.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\text_search_pressed.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\text_search_pressed.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\text_search.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\text_search.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_transit_focused.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_transit_focused.9.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\prev_disable.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\prev_disable.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\point.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\point.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_route_pre.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\btn_route_pre.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_driving.xml",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_driving.xml"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\groundoverlay.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\groundoverlay.png"
+    },
+    {
+        "merged": "G:\\MyArtDemo\\aMapApiV2Demo\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_driving_focused.9.png",
+        "source": "G:\\MyArtDemo\\aMapApiV2Demo\\src\\main\\res\\drawable\\mode_driving_focused.9.png"
+    }
+]
