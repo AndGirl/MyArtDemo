@@ -4,12 +4,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import java.util.ArrayList;
-import java.util.Calendar;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 
@@ -58,14 +59,23 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         rl.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         rl.setAdapter(adapter);
 
-        long l = System.currentTimeMillis();
-        TimeUtils.getTime(l,TimeUtils.MONTH_DATE_FORMAT_DATE);
+        GetDateList getDateList = new GetDateList();
+        List<Long> year =
+                getDateList.getYear();
 
-        Calendar instance = Calendar.getInstance();
-        int i = instance.get(Calendar.YEAR);
-        int month = instance.get(Calendar.MONTH) + 1;
-        int day = instance.get(Calendar.DAY_OF_MONTH) + 1;
-        long l1 = MyTimeUtils.string2Millis("2018-01-01" , MyTimeUtils.DATE_FORMAT_DATE);
+        ArrayList<Long> month = getDateList.getMonth(year.get(6));
+        for (int i = 0 ; i < month.size() ; i ++){
+            Log.e("TAG", "当前月份 ： =======" + MyTimeUtils.millis2String(month.get(i),TimeUtils.DATE_FORMAT_DATE));
+        }
+
+//        long l = System.currentTimeMillis();
+//        TimeUtils.getTime(l,TimeUtils.MONTH_DATE_FORMAT_DATE);
+//
+//        Calendar instance = Calendar.getInstance();
+//        int i = instance.get(Calendar.YEAR);
+//        int month = instance.get(Calendar.MONTH) + 1;
+//        int day = instance.get(Calendar.DAY_OF_MONTH) + 1;
+//        long l1 = MyTimeUtils.string2Millis("2018-01-01" , MyTimeUtils.DATE_FORMAT_DATE);
 
     }
 

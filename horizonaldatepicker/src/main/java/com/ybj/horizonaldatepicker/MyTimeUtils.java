@@ -10,9 +10,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by 杨阳洋 on 2018/5/30.
- */
 
 public class MyTimeUtils {
     @SuppressLint("SimpleDateFormat")
