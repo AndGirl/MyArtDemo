@@ -16,7 +16,7 @@ public class MyTimeUtils {
     private static final DateFormat DEFAULT_FORMAT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     public static final DateFormat DATE_FORMAT_DATE    = new SimpleDateFormat("yyyy-MM-dd");
     public static final DateFormat MONTH_DATE_FORMAT_DATE    = new SimpleDateFormat("yyyy-MM");
-    public static final DateFormat YEAR_DATE_FORMAT_DATE    = new SimpleDateFormat("yyyy");
+    public static final SimpleDateFormat YEAR_DATE_FORMAT_DATE    = new SimpleDateFormat("yyyy");
 
     private MyTimeUtils() {
         throw new UnsupportedOperationException("u can't instantiate me...");
