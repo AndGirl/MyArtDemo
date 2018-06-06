@@ -19,7 +19,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
 
     private Context context;
     private View preView;
-    private ArrayList<String> list;
+    private ArrayList<Long> list;
     private ArrayList<Integer> mClickList = new ArrayList();
 
     /**
@@ -36,7 +36,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
      */
     private boolean isFirst;
 
-    public MyRecyclerAdapter(Context context, ArrayList<String> list, int type, boolean isFirst) {
+    public MyRecyclerAdapter(Context context, ArrayList<Long> list, int type, boolean isFirst) {
         this.context = context;
         this.list = list;
         this.type = type;
@@ -50,8 +50,20 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-        String currentTime = "";
-        holder.tv.setText(list.get(position));
+        switch (type) {
+            case 0:
+                dateFormatYyyymmdd = (SimpleDateFormat) MyTimeUtils.DATE_FORMAT_DATE;
+                break;
+            case 1:
+                dateFormatYyyymmdd = (SimpleDateFormat) MyTimeUtils.MONTH_DATE_FORMAT_DATE;
+                break;
+            case 2:
+            case 3:
+                dateFormatYyyymmdd = MyTimeUtils.YEAR_DATE_FORMAT_DATE;
+                break;
+        }
+
+        holder.tv.setText(MyTimeUtils.millis2String(list.get(position), dateFormatYyyymmdd));
         holder.tv.setTag(position);
         holder.tv.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,9 +76,6 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
                     holder.tv.setTextColor(context.getResources().getColor(android.R.color.holo_orange_dark));
                 } else {
                     if (!mClickList.contains(holder.tv.getTag())) {
-                        if(mClickList.size() > 0) {
-                            mClickList.remove(0);
-                        }
                         mClickList.add(position);
                     }
                     holder.tv.setTextColor(context.getResources().getColor(android.R.color.holo_orange_dark));
@@ -77,25 +86,13 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
             }
         });
 
-        if(type == 0) {//yyyy-MM-DD
-            currentTime = SPUtils.getInstance().getString("year") + "-" +
-                    SPUtils.getInstance().getString("month") + "-" +
-                    SPUtils.getInstance().getString("day");
-        }else if(type == 1) {//yyyy-MM
-            currentTime = SPUtils.getInstance().getString("year") + "-" +
-                    SPUtils.getInstance().getString("month");
-        }else if(type == 2 || type == 3) {//yyyy
-            currentTime = SPUtils.getInstance().getString("year");
-        }
-
-
         if (isFirst) {
-            if (holder.tv.getText().equals(currentTime)) {
+            if (holder.tv.getText().equals(MyTimeUtils.millis2String(SPUtils.getInstance().getLong("latestTime"),dateFormatYyyymmdd))) {
                 holder.tv.setTextColor(context.getResources().getColor(android.R.color.holo_orange_dark));
             } else {
                 holder.tv.setTextColor(context.getResources().getColor(android.R.color.black));
             }
-        }else if (mClickList.contains(position) || holder.tv.getText().equals(currentTime)) {
+        }else if (mClickList.contains(position) || holder.tv.getText().equals(MyTimeUtils.millis2String(SPUtils.getInstance().getLong("latestTime"),dateFormatYyyymmdd))) {
             holder.tv.setTextColor(context.getResources().getColor(android.R.color.holo_orange_dark));
         } else {
             holder.tv.setTextColor(context.getResources().getColor(android.R.color.black));
@@ -122,7 +119,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
         return mClickList;
     }
 
-    public void setList(ArrayList<String> list) {
+    public void setList(ArrayList<Long> list) {
         this.list = list;
     }
 
